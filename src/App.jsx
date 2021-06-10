@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Navigation from './layouts/Navigation';
 import Footer from './layouts/Footer';
+import Winerys from './pages/Winerys';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
         <section>
           <Route exact path="/">
             <Home />
+            <Winerys />
+          </Route>
+          <Route path="/winery">
+            <Winerys />
           </Route>
         </section>
         <Footer />
