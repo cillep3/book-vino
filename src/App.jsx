@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Navigation from './layouts/Navigation';
 import Footer from './layouts/Footer';
 import Winerys from './pages/Winerys';
+import AdminWinery from "./pages/AdminWinery";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
             <Winerys />
           </Route>
           <Route path="/winery">
-            <Winerys />
+            <Route />
+          </Route>
+          <Route path="/adminWinery">
+            <AdminWinery />
           </Route>
         </section>
         <Footer />
