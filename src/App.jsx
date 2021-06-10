@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Navigation from './layouts/Navigation';
 import Footer from './layouts/Footer';
 import Winerys from './pages/Winerys';
+import CreateWinery from './pages/CreateWinery'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/winery">
             <Winerys />
+          </Route>
+          <Route path="/createWinery">
+            <CreateWinery />
           </Route>
         </section>
         <Footer />
