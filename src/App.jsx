@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Navigation from './layouts/Navigation';
 import Footer from './layouts/Footer';
+import Winerys from './pages/Winerys';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <section>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/winerys">
+            <Winerys />
           </Route>
         </section>
         <Footer />
