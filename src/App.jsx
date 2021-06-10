@@ -15,6 +15,7 @@ function App() {
         <section>
           <Route exact path="/">
             <Home />
+            <Winerys />
           </Route>
           <Route path="/winery">
             <Winerys />

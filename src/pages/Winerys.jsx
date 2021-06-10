@@ -28,6 +28,7 @@ const Winerys = () => {
                 {winerys.map(w => 
                     <div key={w._id}>
                         <h1>{w.name}</h1>
+                        <h1>{w.country}</h1>
                     </div>
             )}
                 </>
