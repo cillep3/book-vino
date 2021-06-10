@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 
 // Apikald
-import { createWinery, deleteWinery } from '../helpers/apikald'
+import { getAllWineries, deleteWinery } from '../helpers/apikald'
 
 const AdminWinery = () => {
 
@@ -14,7 +14,7 @@ const AdminWinery = () => {
 
     // UseEffect (til at kalde api'et når componentet er loadet)
     useEffect(() => {
-        createWinery().then(data => {
+        getAllWineries().then(data => {
             console.log(data);
             setWinery(data);
             setFejl(); // Tøm fejlbesked, hvis der har været en fejl og fejlen nu er blevet løst.

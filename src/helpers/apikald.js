@@ -27,7 +27,7 @@ export const getAllWineries = () => {
 }
 
 // GET - Get winery by id
-export const getDataById = (wineryId) => {
+export const getWineryById = (wineryId) => {
 
     // GET http://localhost:5001/winery/60a769c555a0b748f0658a0a
     let response = axios.get(api.baseUrl + "winery/" + wineryId).then((res) => {
