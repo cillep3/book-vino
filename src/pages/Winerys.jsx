@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { getData } from "../helpers/apikald";
+import { getAllWineries } from "../helpers/apikald";
 
 const Winerys = () => {
   const [winerys, setWinerys] = useState();
   const [error, setError] = useState();
 
   useEffect(() => {
-    getData()
+    getAllWineries()
       .then((data) => {
         console.log(data);
         setWinerys(data);
