@@ -25,11 +25,11 @@ const Winerys = () => {
         <div className="allWinerys">
             {winerys && (
                 <>
-                {winerys.map((w) => {
+                {winerys.map(w => 
                     <div key={w._id}>
                         <h1>{w.name}</h1>
                     </div>
-                })}
+            )}
                 </>
             )}
             {!winerys && !error && (
@@ -39,7 +39,7 @@ const Winerys = () => {
             )}
             {error && <h1>{error}</h1>}
         </div>
-    )
+    );
 }
 
 export default Winerys

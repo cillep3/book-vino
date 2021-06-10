@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/winerys">
+          <Route path="/winery">
             <Winerys />
           </Route>
         </section>
