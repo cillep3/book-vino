@@ -16,7 +16,7 @@ export const createWinery = (wineryData) => {
 }
 
 // GET - Get all wineries
-export const getData = () => {
+export const getAllWineries = () => {
 
     // GET http://localhost:5001/winery
     let response = axios.get(api.baseUrl + "winery").then((res) => {
