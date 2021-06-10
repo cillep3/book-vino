@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // Apikald
 import { getAllWineries, deleteWinery } from '../helpers/apikald'
+
+import {AiFillDelete, AiFillEdit} from "react-icons/ai"; // Her importerer vi vores react icons
 
 const AdminWinery = () => {
 
@@ -52,7 +54,6 @@ const AdminWinery = () => {
     }
 
 
-}
 
 
 
@@ -85,7 +86,7 @@ return (
 
         {/* ---------- Vi venter på data (endnu ingen data - og heller ingen fejl) */}
         {
-            !todo && !fejl &&
+            !winery && !fejl &&
             <h1>Loader ....</h1>
         }
 
@@ -96,7 +97,9 @@ return (
         }
 
     </div>
+    
 )
+}
 
 
 export default AdminWinery

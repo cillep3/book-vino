@@ -1,12 +1,15 @@
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
+
+
 // Import of components
 import Home from './pages/Home';
 import Navigation from './layouts/Navigation';
 import Footer from './layouts/Footer';
 import Winerys from './pages/Winerys';
 import CreateWinery from './pages/CreateWinery'
+import AdminWinery from "./pages/AdminWinery";
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
             <Winerys />
           </Route>
           <Route path="/winery">
-            <Winerys />
+            <Route />
+          </Route>
+          <Route path="/adminWinery">
+            <AdminWinery />
           </Route>
           <Route path="/createWinery">
             <CreateWinery />
