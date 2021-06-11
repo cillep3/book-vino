@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // Apikald
-import { createWinery, deleteWinery } from '../helpers/apikald'
+import { getAllWineries, deleteWinery } from '../helpers/apikald'
+
+import {AiFillDelete, AiFillEdit} from "react-icons/ai"; // Her importerer vi vores react icons
 
 const AdminWinery = () => {
 
@@ -14,7 +16,7 @@ const AdminWinery = () => {
 
     // UseEffect (til at kalde api'et når componentet er loadet)
     useEffect(() => {
-        createWinery().then(data => {
+        getAllWineries().then(data => {
             console.log(data);
             setWinery(data);
             setFejl(); // Tøm fejlbesked, hvis der har været en fejl og fejlen nu er blevet løst.
@@ -52,29 +54,28 @@ const AdminWinery = () => {
     }
 
 
-}
 
 
 
 return (
     <div>
-        <h1>Ret eller slet en todo</h1>
+        <h1>Ret eller slet et winery</h1>
         {/* ---------- Data er klar og map'es ud */}
         {
-            todo &&
+            winery &&
             <>
-                <h2>Antal todos: {todo.length}</h2>
+                <h2>Antal wineries: {winery.length}</h2>
                 {
-                    todo.map(t => (
+                    winery.map(w => (
                         // første element i map skal altid have en key som er unik - her bruger vi _id fra Mongo
-                        <div key={t._id}>
+                        <div key={w._id}>
                             <p>
-                                <AiFillDelete onClick={() => handleSlet(t._id)} />
-                                <Link to={"/Rettodo/" + t._id} > <AiFillEdit /></Link>
+                                <AiFillDelete onClick={() => handleSlet(w._id)} />
+                                <Link to={"/Retwinery/" + w._id} > <AiFillEdit /></Link>
                                 {/* Når vi skriver link, så kommer vi over i fanen rettodo
                                     AiFillDelete og onclick gør at vi der kommer icon frem. */}
 
-                                {t.titel} ... {t._id}
+                                {w.titel} ... {w._id}
                             </p>
                         </div>
                     ))
@@ -85,7 +86,7 @@ return (
 
         {/* ---------- Vi venter på data (endnu ingen data - og heller ingen fejl) */}
         {
-            !todo && !fejl &&
+            !winery && !fejl &&
             <h1>Loader ....</h1>
         }
 
@@ -96,7 +97,9 @@ return (
         }
 
     </div>
+    
 )
+}
 
 
 export default AdminWinery
