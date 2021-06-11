@@ -25,8 +25,13 @@ const Winerys = () => {
         <>
           {winerys.map((w) => (
             <div key={w._id}>
-              <h1>{w.name}</h1>
               <h1>{w.country}</h1>
+              <h1>{w.name}</h1>
+              <img
+                className="pictures"
+                src={"http://localhost:5001/images/" + w.pictures}
+                alt=""
+              />
             </div>
           ))}
         </>
