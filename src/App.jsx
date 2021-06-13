@@ -10,6 +10,7 @@ import Footer from './layouts/Footer';
 import Winerys from './pages/Winerys';
 import CreateWinery from './pages/CreateWinery'
 import AdminWinery from "./pages/AdminWinery";
+import EditWineries from './pages/EditWineries';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/createWinery">
             <CreateWinery />
           </Route>
+          <Route path="/editWineries/:id" component={EditWineries} />
         </section>
         <Footer />
       </BrowserRouter>

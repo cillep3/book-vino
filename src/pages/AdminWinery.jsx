@@ -72,7 +72,7 @@ return (
                         <div key={w._id}>
                             <p>
                                 <AiFillDelete onClick={() => handleSlet(w._id)} />
-                                <Link to={"/Retwinery/" + w._id} > <AiFillEdit /></Link>
+                                <Link to={"/editWineries/" + w._id} > <AiFillEdit /></Link>
                                 {/* Når vi skriver link, så kommer vi over i fanen rettodo
                                     AiFillDelete og onclick gør at vi der kommer icon frem. */}
 
