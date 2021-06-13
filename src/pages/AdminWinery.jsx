@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 // Apikald
 import { getAllWineries, deleteWinery } from '../helpers/apikald'
 
-import {AiFillDelete, AiFillEdit} from "react-icons/ai"; // Her importerer vi vores react icons
+import { AiFillDelete, AiFillEdit, AiOutlineSolution } from "react-icons/ai"; // Her importerer vi vores react icons
 
 const AdminWinery = () => {
 
@@ -64,6 +64,7 @@ return (
         {
             winery &&
             <>
+                <p><Link to={"/createWinery/"} > <AiOutlineSolution /></Link> Create new winery</p>    
                 <h2>Antal wineries: {winery.length}</h2>
                 {
                     winery.map(w => (
