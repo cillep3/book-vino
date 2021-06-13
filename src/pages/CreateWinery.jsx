@@ -55,6 +55,10 @@ const CreateWinery = () => {
                 <br />
                 <input name="website" type="text" placeholder="Type in website url" />
                 <br />
+                {/* <input name="image" type="file" id="img" accept="image/*" placeholder="Vedhæft billede" />
+                <br /> */}
+                <input type="submit" placeholder="Create winery" />
+                <br />
             </form>
 
             {/* Data has been created */}
@@ -71,11 +75,12 @@ const CreateWinery = () => {
                         <p>Email: {winery.oprettet.mail} </p>
                         <p>Opening hours: {winery.oprettet.openinghrs} </p>
                         <p>Website: {winery.oprettet.website} </p>
+                        {/* <img className="pictures" src={"http://localhost:5056/images/" + winery.oprettet.image} width="200px"/> */}
                     </div>
                 </div>
             }
 
-            {/* Der er endnu ikke svar fra api'et (hverken besked eller fejl) - vi afventer */}
+            {/* Der er endnu ikke svar fra api'et (hverken data eller fejl) - vi afventer */}
             {
                 loader &&
                 <h3>Loader...</h3>
