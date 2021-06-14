@@ -1,8 +1,9 @@
 import React from 'react'
+import './Mobile.scss'
 
 const Index = () => {
     return (
-        <div>
+        <div id="mobileContainer">
             <h1>mobileview</h1>
         </div>
     )

@@ -1,18 +1,19 @@
 import '../../App.css';
+import './Desktop.scss';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Import of components
 import Home from './Home';
 import Navigation from '../../layouts/Desktopview/Navigation';
 import Footer from '../../layouts/Footer';
-import Winerys from './Winerys';
-import CreateWinery from './CreateWinery'
-import AdminWinery from "./AdminWinery";
-import EditWineries from './EditWineries';
+import Winerys from './desktop_pages/Winerys';
+import CreateWinery from './desktop_pages/CreateWinery'
+import AdminWinery from "./desktop_pages/AdminWinery";
+import EditWineries from './desktop_pages/EditWineries';
 
 const Index = () => {
     return (
-        <div id="appContainer">
+        <div id="desktopContainer">
             <BrowserRouter>
                 <Navigation />
                 <section>
