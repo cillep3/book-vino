@@ -1,7 +1,7 @@
 import { useState} from 'react'
 
 // API CALL
-import { createWinery } from '../helpers/apikald'
+import { createWinery } from '../../helpers/apikald'
 
 const CreateWinery = () => {
     // States that contains data

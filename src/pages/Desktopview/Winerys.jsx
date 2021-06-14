@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllWineries } from "../helpers/apikald";
+import { getAllWineries } from '../../helpers/apikald';
 
 const Winerys = () => {
   const [winerys, setWinerys] = useState();
