@@ -67,14 +67,14 @@ const CreateWinery = () => {
                 <div>
                     <h3>You have created a new winery:</h3>
                     <div>
-                        <p>Country: {winery.oprettet.country} </p>
-                        <p>Name: {winery.oprettet.name} </p>
-                        <p>Location: {winery.oprettet.location} </p>
-                        <p>Description: {winery.oprettet.description} </p>
-                        <p>Price: {winery.oprettet.price} </p>
-                        <p>Email: {winery.oprettet.mail} </p>
-                        <p>Opening hours: {winery.oprettet.openinghrs} </p>
-                        <p>Website: {winery.oprettet.website} </p>
+                        <p>Country: {winery.created.country} </p>
+                        <p>Name: {winery.created.name} </p>
+                        <p>Location: {winery.created.location} </p>
+                        <p>Description: {winery.created.description} </p>
+                        <p>Price: {winery.created.price} </p>
+                        <p>Email: {winery.created.mail} </p>
+                        <p>Opening hours: {winery.created.openinghrs} </p>
+                        <p>Website: {winery.created.website} </p>
                         {/* <img className="pictures" src={"http://localhost:5056/images/" + winery.oprettet.image} width="200px"/> */}
                     </div>
                 </div>
