@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 //api-kald
-import { getWineryById, changeWinery } from '../../helpers/apikald'
+import { getWineryById, changeWinery } from '../../../helpers/apikald'
 
 // Vi sender props med over for at ramme id
 const EditWineries = (props) => {

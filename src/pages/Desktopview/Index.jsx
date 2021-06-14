@@ -1,9 +1,9 @@
-import '../../App.css';
+import '../../App.scss';
 import './Desktop.scss';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Import of components
-import Home from './Home';
+import Home from './desktop_pages/Home';
 import Navigation from '../../layouts/Desktopview/Navigation';
 import Footer from '../../layouts/Footer';
 import Winerys from './desktop_pages/Winerys';
