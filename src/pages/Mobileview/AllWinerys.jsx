@@ -14,35 +14,35 @@ const AllWinerys = (props) => {
     const [postnummer, setPostnummer] = useState("8000") // BRUGERENS VALGTE POSTNUMMER // BLÅ ER EN useSTATE
     const [AllWinerys, setAllWinerys] = useState() // VEJRDATA 
     const [error, setError] = useState() // FEJLBESKEDER
-    
+
 
 
     // alt det der skal ske, skrives i [] (når denne er loadet hentes vejret)
     useEffect(() => {
 
-       // setTimeout(() => {
+        // setTimeout(() => {
 
-            if (postnummer.length === 4) {
+        if (postnummer.length === 4) {
 
-                getAllWinerysByZip(postnummer).then(winerydata => {
+            getAllWinerysByZip(postnummer).then(winerydata => {
 
-                    console.log(winerydata)
-                    setAllWinerys(winerydata); // put vejrdata i vejrdata-state
-                    setError();          // Tøm fejlbesked
+                console.log(winerydata)
+                setAllWinerys(winerydata); // put vejrdata i vejrdata-state
+                setError();          // Tøm fejlbesked
 
-                    props.koord([winerydata.coord.lat, winerydata.coord.lon])
+                props.koord([winerydata.coord.lat, winerydata.coord.lon])
 
-                    // for at gribe fejlene som kommer tilbage - gemmes i error.
-                }).catch(err => {
+                // for at gribe fejlene som kommer tilbage - gemmes i error.
+            }).catch(err => {
 
-                    console.log(err)
-                    setError(err) // Put fejlbesked i errorstate / ER SERVICE NEDE ELLER HAR DU INDTASTET FORKERT POSTNUMMER
+                console.log(err)
+                setError(err) // Put fejlbesked i errorstate / ER SERVICE NEDE ELLER HAR DU INDTASTET FORKERT POSTNUMMER
 
-                })
-            }
+            })
+        }
 
 
-      //  }, 3000)
+        //  }, 3000)
 
     }, [postnummer])
 
@@ -74,7 +74,7 @@ const AllWinerys = (props) => {
             {
 
                 AllWinerys &&
-               
+
                 <div>
                     <h1>{AllWinerys.name} </h1>
 
@@ -95,7 +95,7 @@ const AllWinerys = (props) => {
                 <div>
                     <h1>Vejrdata loader - vent venligst</h1>
 
-                    
+
                 </div>
 
 
@@ -103,13 +103,13 @@ const AllWinerys = (props) => {
 
             {/* kort indlæses her */}
 
-            {   
+            {
 
                 AllWinerys &&
-                <Kort koordinater= {[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+                <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
 
             }
-            
+
 
 
         </div>
