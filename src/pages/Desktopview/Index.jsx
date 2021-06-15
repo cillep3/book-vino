@@ -10,6 +10,9 @@ import Winerys from './desktop_pages/Winerys';
 import CreateWinery from './desktop_pages/CreateWinery'
 import AdminWinery from "./desktop_pages/AdminWinery";
 import EditWineries from './desktop_pages/EditWineries';
+import Listelement from '../../components/Listelement';
+
+
 
 const Index = () => {
     return (
@@ -31,6 +34,9 @@ const Index = () => {
                         <CreateWinery />
                     </Route>
                     <Route path="/editWineries/:id" component={EditWineries} />
+                    <Route path="/listelement">
+                        <Listelement />
+                    </Route>
                 </section>
                 <Footer />
             </BrowserRouter>
