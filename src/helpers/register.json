@@ -7,19 +7,19 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
@@ -30,19 +30,19 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/no-food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
@@ -53,19 +53,19 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
@@ -76,19 +76,19 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
@@ -99,19 +99,19 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]

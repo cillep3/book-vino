@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Kort from "../../components/kort"
+import Kort from "../../components/Kort"
 
 
 import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
