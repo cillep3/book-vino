@@ -16,7 +16,7 @@ const Index = () => {
 
             <section>
             
-            <Route path= "/AllWinerys">
+            <Route path="/allWinerys">
                 <AllWinerys />
             </Route>
                 
