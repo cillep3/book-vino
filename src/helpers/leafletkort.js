@@ -6,7 +6,7 @@ let mymap, marker;
 
 export const makeCard = (koordinater = [56,10] ) => {
 
-    console.log("lavkort")
+    console.log("makeCard")
 
     //let koordinater = [56,10];
     mymap = L.map("mapcontainer").setView(koordinater, 8) // her loader vi kortet første gang og 8 er zoom ud.
