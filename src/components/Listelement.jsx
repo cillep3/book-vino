@@ -18,10 +18,10 @@ const Listelement = () => {
                         </div> */}
                         <div id="icons">
                             {Register.winery[0].icons.map((data, index) =>
-                                <img src={data.vector}/>
+                                <img id="icon_image" src={data.vector}/>
                             )}
                             {Register.winery[0].icons.map((data, index) =>
-                                <p>{data.text}</p>
+                                <p id="icon_text">{data.text}</p>
                             )}
                         </div>
                     </div>
