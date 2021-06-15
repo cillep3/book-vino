@@ -3,7 +3,7 @@ import React from 'react'
 import Kort from "../../components/kort"
 
 
-import { getAllWinerysByZip, imageURL } from "../../helpers/leafletkort"
+import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
 
 const AllWinerys = (props) => {
 
@@ -64,17 +64,17 @@ const AllWinerys = (props) => {
 
         <div>
 
-            <h1>Vejret {postnummer} </h1>
+            <h1>Winerys {postnummer} </h1>
 
-            <h2>Tast et postnummer og få vejret</h2>
+            <h2>Tast et postnummer og få alle Winerys</h2>
             <input type="text" onChange={(e) => setPostnummer(e.target.value)} />
 
-            {/* Hvis der er vejrdata */}
+            {/* Hvis der er Winerydata */}
 
             {
 
                 AllWinerys &&
-                // Her kommer vejrdata ind når man trykker. Efter den har loadet bliver beskrivelse vist.
+               
                 <div>
                     <h1>{AllWinerys.name} </h1>
 
@@ -95,13 +95,7 @@ const AllWinerys = (props) => {
                 <div>
                     <h1>Vejrdata loader - vent venligst</h1>
 
-                    <Loader // props er det der står nedenunder (egenskaber for at lave noget)
-                        type="Puff"
-                        color="#00BFFF"
-                        height={100}
-                        width={100}
-                        timeout={3000} //3 secs
-                    />
+                    
                 </div>
 
 
