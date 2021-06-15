@@ -4,7 +4,7 @@ import Kort from "../../components/Kort"
 const AllWinerys = () => {
     return (
         <div>
-            <Kort/>
+            <Kort />
         </div>
     )
 }
