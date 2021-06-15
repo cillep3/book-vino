@@ -1,11 +1,30 @@
-import React from 'react'
-import './Mobile.scss'
+import '../../App.scss';
+import "../../pages/Mobileview/Mobile.scss"
+import { BrowserRouter, Route } from 'react-router-dom';
+
+// Import of components
+import Navigation from "../../layouts/Mobileview/Navigation"
+import Footer from "../../layouts/Footer"
+import AllWinerys from "../../pages/Mobileview/AllWinerys"
+
 
 const Index = () => {
     return (
         <div id="mobileContainer">
-            <h1>mobileview</h1>
-        </div>
+        <BrowserRouter>
+            <Navigation />
+
+            <section>
+            
+            <Route path= "/AllWinerys">
+                <AllWinerys />
+            </Route>
+                
+            </section>
+
+            <Footer />
+        </BrowserRouter>
+    </div>
     )
 }
 
