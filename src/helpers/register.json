@@ -50,7 +50,7 @@
         {
             "title": "Sol de Montalto",
             "image": "assets/img/Sol-de-Montalto.png",
-            "stars": "../assets/vector/four-star.png",
+            "stars": "assets/vector/four-star.png",
             "icons": [
                 {
                     "vector":"",
@@ -72,8 +72,8 @@
         },
         {
             "title": "Le Marognole",
-            "image":"",
-            "stars": "../assets/vector/four-star.png",
+            "image": "assets/img/Sol-de-Montalto.png",
+            "stars": "assets/vector/four-star.png",
             "icons": [
                 {
                     "vector":"",
@@ -95,8 +95,8 @@
         },
         {
             "title": "Corte Archi",
-            "image":"",
-            "stars": "../assets/vector/four-star.png",
+            "image": "assets/img/Sol-de-Montalto.png",
+            "stars": "assets/vector/four-star.png",
             "icons": [
                 {
                     "vector":"",

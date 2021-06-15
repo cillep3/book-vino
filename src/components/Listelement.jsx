@@ -9,7 +9,12 @@ const Listelement = () => {
         <div id="listContainer">
             <figure id="listElement">
                 {
+                    <>
                     <img src={Register.winery[0].image} alt="Marchesini Marcello" />
+                    <h1>{Register.winery[0].title}</h1>
+                    <img src={Register.winery[0].stars} alt="Marchesini Marcello" />
+                    
+                    </>
                 }
             </figure>
             <button>Get more information</button>
