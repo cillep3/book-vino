@@ -1,3 +1,120 @@
 {
-    "_COMMENT_1":"*** LIST ***",
+    "_COMMENT_1":"*** LIST ELEMENTS ***",
+    "winery":[
+        {
+            "title": "Marchesini Marcello",
+            "image":"",
+            "stars": "../assets/vector/four-star.png",
+            "icons": [
+                {
+                    "vector":"",
+                    "text":"Food"
+                },
+                {
+                    "vector":"",
+                    "text":"Tasting"
+                },
+                {
+                    "vector":"",
+                    "text":"Tour"
+                },
+                {
+                    "vector":"",
+                    "text":"Italy"
+                }
+            ]
+        },
+        {
+            "title": "Marco Reggio - Enjoy good wine",
+            "image":"",
+            "stars": "../assets/vector/four-star.png",
+            "icons": [
+                {
+                    "vector":"",
+                    "text":"Food"
+                },
+                {
+                    "vector":"",
+                    "text":"Tasting"
+                },
+                {
+                    "vector":"",
+                    "text":"Tour"
+                },
+                {
+                    "vector":"",
+                    "text":"Italy"
+                }
+            ]
+        },
+        {
+            "title": "Sol de Montalto",
+            "image":"",
+            "stars": "../assets/vector/four-star.png",
+            "icons": [
+                {
+                    "vector":"",
+                    "text":"Food"
+                },
+                {
+                    "vector":"",
+                    "text":"Tasting"
+                },
+                {
+                    "vector":"",
+                    "text":"Tour"
+                },
+                {
+                    "vector":"",
+                    "text":"Italy"
+                }
+            ]
+        },
+        {
+            "title": "Le Marognole",
+            "image":"",
+            "stars": "../assets/vector/four-star.png",
+            "icons": [
+                {
+                    "vector":"",
+                    "text":"Food"
+                },
+                {
+                    "vector":"",
+                    "text":"Tasting"
+                },
+                {
+                    "vector":"",
+                    "text":"Tour"
+                },
+                {
+                    "vector":"",
+                    "text":"Italy"
+                }
+            ]
+        },
+        {
+            "title": "Corte Archi",
+            "image":"",
+            "stars": "../assets/vector/four-star.png",
+            "icons": [
+                {
+                    "vector":"",
+                    "text":"Food"
+                },
+                {
+                    "vector":"",
+                    "text":"Tasting"
+                },
+                {
+                    "vector":"",
+                    "text":"Tour"
+                },
+                {
+                    "vector":"",
+                    "text":"Italy"
+                }
+            ]
+        }
+    ]
 }

@@ -7,6 +7,7 @@ const Navigation = () => {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/adminWinery">Admin</NavLink>
             <NavLink to="/editWineries">Edit</NavLink>
+            <NavLink to="/listelement">Listelement</NavLink>
         </nav >
     )
 }
