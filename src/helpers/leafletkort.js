@@ -4,7 +4,7 @@ import L from "leaflet";
 
 let mymap, marker;
 
-export const makeCard = (koordinater = [56,10] ) => {
+export const makeCard = (koordinater = [56,10]) => {
 
     console.log("makeCard")
 
