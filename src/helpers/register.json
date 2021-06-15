@@ -3,7 +3,7 @@
     "winery":[
         {
             "title": "Marchesini Marcello",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/marchesini-marcetto.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
@@ -26,7 +26,7 @@
         },
         {
             "title": "Marco Reggio - Enjoy good wine",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/reggio.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
@@ -72,7 +72,7 @@
         },
         {
             "title": "Le Marognole",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/le-marognole.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
@@ -95,7 +95,7 @@
         },
         {
             "title": "Corte Archi",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/corte-archi.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {

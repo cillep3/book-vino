@@ -1,17 +1,28 @@
 #listContainer{
-    width:400px;
+    width:100%;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+figure{
+    width:100%;
 }
 
 #listElement{
-    width:100%;
     background-color:grey;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
 
     #hero{
         grid-column: 1/-1;
         grid-row:1/2;
+
+        width:100%;
+        object-fit: cover;
     }
 
     h1{
