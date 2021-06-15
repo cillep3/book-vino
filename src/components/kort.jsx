@@ -6,7 +6,7 @@ import { makeCard, deleteCard, changeCardView} from "../helpers/leafletkort";
 
 
 // PROPS skal medsendes som koordinater ={[56,10]}
-const map = (props) => {
+const kort = (props) => {
 
 
 
@@ -47,4 +47,4 @@ const map = (props) => {
     )
 }
 
-export default map
+export default kort
