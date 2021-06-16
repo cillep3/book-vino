@@ -3,46 +3,46 @@
     "winery":[
         {
             "title": "Marchesini Marcello",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/marchesini-marcetto.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
         },
         {
             "title": "Marco Reggio - Enjoy good wine",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/reggio.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/no-food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
@@ -53,65 +53,65 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
         },
         {
             "title": "Le Marognole",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/le-marognole.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]
         },
         {
             "title": "Corte Archi",
-            "image": "assets/img/Sol-de-Montalto.png",
+            "image": "assets/img/corte-archi.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"",
+                    "vector":"assets/vector/food.png",
                     "text":"Food"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tasting.png",
                     "text":"Tasting"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/tour.png",
                     "text":"Tour"
                 },
                 {
-                    "vector":"",
+                    "vector":"assets/vector/country.png",
                     "text":"Italy"
                 }
             ]

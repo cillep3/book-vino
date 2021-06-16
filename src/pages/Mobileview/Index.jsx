@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navigation from "../../layouts/Mobileview/Navigation"
 import Footer from "../../layouts/Footer"
 import AllWinerys from "../../pages/Mobileview/AllWinerys"
-
+import Liste from '../../components/Listelement'
 
 const Index = () => {
     return (
@@ -15,11 +15,13 @@ const Index = () => {
             <Navigation />
 
             <section>
-            
-            <Route path="/allWinerys">
-                <AllWinerys />
-            </Route>
-                
+                <Route path="/allWinerys">
+                    <AllWinerys />
+                </Route>
+                <Route path="/listelement">
+                    <Liste />
+                </Route>
+                    
             </section>
 
             <Footer />
