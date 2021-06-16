@@ -1,49 +1,49 @@
 {
-"_COMMENT_1":"*** LIST ELEMENTS ***",
-    "winery":[
+    "_COMMENT_1": "*** LIST ELEMENTS ***",
+    "winery": [
         {
             "title": "Marchesini Marcello",
             "image": "assets/img/marchesini-marcetto.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"assets/vector/food.png",
-                    "text":"Food"
+                    "vector": "assets/vector/food.png",
+                    "text": "Food"
                 },
                 {
-                    "vector":"assets/vector/tasting.png",
-                    "text":"Tasting"
+                    "vector": "assets/vector/tasting.png",
+                    "text": "Tasting"
                 },
                 {
-                    "vector":"assets/vector/tour.png",
-                    "text":"Tour"
+                    "vector": "assets/vector/tour.png",
+                    "text": "Tour"
                 },
                 {
-                    "vector":"assets/vector/country.png",
-                    "text":"Italy"
+                    "vector": "assets/vector/country.png",
+                    "text": "Italy"
                 }
             ]
         },
         {
-            "title": "Marco Reggio - Enjoy good wine",
+            "title": "Marco Reggio",
             "image": "assets/img/reggio.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"assets/vector/no-food.png",
-                    "text":"Food"
+                    "vector": "assets/vector/no-food.png",
+                    "text": "Food"
                 },
                 {
-                    "vector":"assets/vector/tasting.png",
-                    "text":"Tasting"
+                    "vector": "assets/vector/tasting.png",
+                    "text": "Tasting"
                 },
                 {
-                    "vector":"assets/vector/tour.png",
-                    "text":"Tour"
+                    "vector": "assets/vector/tour.png",
+                    "text": "Tour"
                 },
                 {
-                    "vector":"assets/vector/country.png",
-                    "text":"Italy"
+                    "vector": "assets/vector/country.png",
+                    "text": "Italy"
                 }
             ]
         },
@@ -53,20 +53,20 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"assets/vector/food.png",
-                    "text":"Food"
+                    "vector": "assets/vector/food.png",
+                    "text": "Food"
                 },
                 {
-                    "vector":"assets/vector/tasting.png",
-                    "text":"Tasting"
+                    "vector": "assets/vector/tasting.png",
+                    "text": "Tasting"
                 },
                 {
-                    "vector":"assets/vector/tour.png",
-                    "text":"Tour"
+                    "vector": "assets/vector/tour.png",
+                    "text": "Tour"
                 },
                 {
-                    "vector":"assets/vector/country.png",
-                    "text":"Italy"
+                    "vector": "assets/vector/country.png",
+                    "text": "Italy"
                 }
             ]
         },
@@ -76,20 +76,20 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"assets/vector/food.png",
-                    "text":"Food"
+                    "vector": "assets/vector/food.png",
+                    "text": "Food"
                 },
                 {
-                    "vector":"assets/vector/tasting.png",
-                    "text":"Tasting"
+                    "vector": "assets/vector/tasting.png",
+                    "text": "Tasting"
                 },
                 {
-                    "vector":"assets/vector/tour.png",
-                    "text":"Tour"
+                    "vector": "assets/vector/tour.png",
+                    "text": "Tour"
                 },
                 {
-                    "vector":"assets/vector/country.png",
-                    "text":"Italy"
+                    "vector": "assets/vector/country.png",
+                    "text": "Italy"
                 }
             ]
         },
@@ -99,29 +99,28 @@
             "stars": "assets/vector/four-star.png",
             "icons": [
                 {
-                    "vector":"assets/vector/food.png",
-                    "text":"Food"
+                    "vector": "assets/vector/food.png",
+                    "text": "Food"
                 },
                 {
-                    "vector":"assets/vector/tasting.png",
-                    "text":"Tasting"
+                    "vector": "assets/vector/tasting.png",
+                    "text": "Tasting"
                 },
                 {
-                    "vector":"assets/vector/tour.png",
-                    "text":"Tour"
+                    "vector": "assets/vector/tour.png",
+                    "text": "Tour"
                 },
                 {
-                    "vector":"assets/vector/country.png",
-                    "text":"Italy"
+                    "vector": "assets/vector/country.png",
+                    "text": "Italy"
                 }
             ]
         }
     ],
-"_COMMENT_2":"*** IMAGES ***",
+    "_COMMENT_2": "*** IMAGES ***",
     "images": [
         {
-            "src":"assets/img/about.jpg"
+            "src": "assets/img/about.jpg"
         }
     ]
-
 }
