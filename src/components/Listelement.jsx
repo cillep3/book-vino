@@ -16,12 +16,22 @@ const Listelement = () => {
                             <img id="stars" src={Register.winery[0].stars} alt="Marchesini Marcello" />
                         </div>
                         <div id="icons">
-                            {Register.winery[0].icons.map((data, index) =>
-                                <img id="icon_image" src={data.vector}/>
-                            )}
-                            {Register.winery[0].icons.map((data, index) =>
-                                <p id="icon_text">{data.text}</p>
-                            )}
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[0].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[0].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[1].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[1].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[2].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[2].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[3].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[3].text}</p>
+                            </div>
                         </div>
                     </div>
                 }
@@ -36,12 +46,22 @@ const Listelement = () => {
                             <img id="stars" src={Register.winery[0].stars} alt="Marchesini Marcello" />
                         </div>
                         <div id="icons">
-                            {Register.winery[0].icons.map((data, index) =>
-                                <img id="icon_image" src={data.vector} alt=""/>
-                            )}
-                            {Register.winery[0].icons.map((data, index) =>
-                                <p id="icon_text">{data.text}</p>
-                            )}
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[0].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[0].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[1].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[1].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[2].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[2].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[0].icons[3].vector}/>
+                                <p id="icon_text">{Register.winery[0].icons[3].text}</p>
+                            </div>
                         </div>
                     </div>
                 }

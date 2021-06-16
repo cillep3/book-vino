@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Kort from "../../components/Kort"
+import Kort from "../../components/kort"
 
 
 import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
@@ -41,9 +41,6 @@ const AllWinerys = (props) => {
             })
         }
 
-
-        //  }, 3000)
-
     }, [postnummer])
 
     const stortForbogstav = (teksten) => {
@@ -64,54 +61,26 @@ const AllWinerys = (props) => {
 
         <div>
 
-            <h1>Winerys {postnummer} </h1>
+            <h1>Vejret {postnummer} </h1>
 
-            <h2>Tast et postnummer og få alle Winerys</h2>
+            <h2>Tast et postnummer og få vejret</h2>
             <input type="text" onChange={(e) => setPostnummer(e.target.value)} />
 
-            {/* Hvis der er Winerydata */}
+           
 
             {
-
+                // Her kommer Winerydata ind når man trykker. 
                 AllWinerys &&
-
                 <div>
                     <h1>{AllWinerys.name} </h1>
-
-                    {/* hører sammen med linje 50 */}
-                    <p>{stortForbogstav(AllWinerys.weather[0].description)} </p>
-                    <img src={"http://openweathermap.org/img/wn/" + AllWinerys.weather[0].icon + "@2x.png"} alt=""/>
-                    <img src={imageURL + AllWinerys.weather[0].icon + "@2x.png"} alt=""/>
-
-                    <p>solen står op kl. {beregningsTidspunkt(AllWinerys.sys.sunrise)} og går ned kl.{beregningsTidspunkt(AllWinerys.sys.sunset)} </p>
-                    {/* <h1>Fejl: {error.response.data.cod} {error.response.data.message} {error.response.statusText} </h1> */}
                 </div>
             }
-
-            {
-                //LOADER // udråbdstegn kan oversættes til "ikke".. Der er "ikke vejr data og der er ikke fejl"
-                !AllWinerys && !error &&
-
-                <div>
-                    <h1>Vejrdata loader - vent venligst</h1>
-
-
-                </div>
-
-
-            }
-
-            {/* kort indlæses her */}
-
-            {
-
+                    
+            {   
                 AllWinerys &&
-                <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
-
+                <Kort koordinater= {[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
             }
-
-
-
+            
         </div>
 
     )
