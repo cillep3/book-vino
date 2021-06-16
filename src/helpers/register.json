@@ -119,8 +119,6 @@
     ],
     "_COMMENT_2": "*** IMAGES ***",
     "images": [
-        {
-            "src": "assets/img/about.jpg"
-        }
+        {}
     ]
 }
