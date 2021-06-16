@@ -1,4 +1,4 @@
-import Register from "../../helpers/register.json";
+import Register from "../../../helpers/register.json";
 import React from "react";
 
 const About = () => {
