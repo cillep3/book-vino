@@ -7,18 +7,21 @@
         color: #A53251;
         margin-top: calc(1em + 1vw);
         margin-bottom: calc(0.5em + 0.5vw);
-        font-size: 2.2em;
+        font-size: 4em;
         font-weight: 400;
+        font-family: 'Big Shoulders Display';
+        letter-spacing: 2px;
     }
     img {
         width: 100%;
     }
     h2 {
         color: #A53251;
-        margin-top: calc(1em + 1vw);
+        margin-top: calc(0.5em + 0.5vw);
         margin-bottom: calc(0.3em + 0.3vw);
-        font-size: 1.5em;
+        font-size: 3em;
         font-weight: 400;
+        font-family: 'Big Shoulders Display';
     }
     h4 {
         margin: auto;
@@ -29,6 +32,10 @@
     p{
         margin: auto;
         width: 40%;
+    }
+    button {
+        width: 80%;
+        margin: calc(1.5em + 1.5vw);
     }
 }
 

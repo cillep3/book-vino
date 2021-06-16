@@ -34,6 +34,7 @@ const About = () => {
       </div>
       <h2>Enjoy your tasting</h2>
       <p>Now you receive your booking details in your mailboks. Enjoy your tasting!!</p>
+      <button>SEE WINERIE LIST</button>
     </div>
   );
 };
