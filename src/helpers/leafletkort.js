@@ -4,7 +4,8 @@ import L from "leaflet";
 
 let mymap, marker;
 
-export const makeCard = (koordinater = [56,10]) => {
+export const makeCard = (koordinater = [56,10] ) => {
+    
 
     console.log("makeCard")
 
@@ -21,7 +22,7 @@ export const makeCard = (koordinater = [56,10]) => {
 // Vis et andet udsnit (anden by/postnummer)
 export const changeCardView = (koordinater) => {
 
-    mymap.setView(koordinater, 13)
+    mymap.setView([41.902782, 12.496366], 5)
 
 }
 
