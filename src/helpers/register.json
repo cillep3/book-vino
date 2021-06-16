@@ -121,6 +121,15 @@
     "images": [
         {
             "src":"assets/img/about.jpg"
+        },
+        {
+            "src":"assets/vector/Booking-process-step-1.png"
+        },
+        {
+            "src":"assets/vector/Booking-process-step-2.png" 
+        },
+        {
+            "src":"assets/vector/Bookin-process-step-3.png"
         }
     ]
 
