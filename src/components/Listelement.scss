@@ -9,7 +9,7 @@
 
 figure{
     width:100%;
-    padding:20px;
+    padding:10px;
 }
 
 #listElement{
@@ -32,7 +32,7 @@ figure{
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        padding:10px;
+        padding:5px;
 
         border-left:2px solid #a63251;
         border-right:2px solid #a63251;
@@ -44,6 +44,7 @@ figure{
     
             color:#a63251;
             font-family: 'Big Shoulders Display';
+            align-self: center;
         }
     
         #stars{
@@ -64,21 +65,48 @@ figure{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
 
-        #icon_image{
-            width:60%;
-            justify-self: center;
-            align-self: center;
-        }
+        #icons_border{
+            display:grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr auto;
 
-        #icon_text{
-            text-align: center;
+            #icon_image{
+                width:60%;
+                justify-self: center;
+                align-self: center;
+            }
+    
+            #icon_text{
+                text-align: center;
+            }
         }
     }
 }
 
+#icons_border:nth-child(1){
+    border-left:2px solid #a63251;
+    border-bottom:2px solid #a63251;
+    border-right:2px solid #a63251;
+}
+
+#icons_border:nth-child(2){
+    border-bottom:2px solid #a63251;
+    border-right:2px solid #a63251;
+}
+
+#icons_border:nth-child(3){
+    border-bottom:2px solid #a63251;
+    border-right:2px solid #a63251;
+}
+
+#icons_border:nth-child(4){
+    border-bottom:2px solid #a63251;
+    border-right:2px solid #a63251;
+}
+
 button{
     width:100%;
-    height:50px;
+    height:60px;
     margin-top:10px;
     border-radius: 0px 10px 10px 10px;
     text-transform: uppercase;
