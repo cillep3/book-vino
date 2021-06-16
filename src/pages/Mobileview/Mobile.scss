@@ -113,5 +113,38 @@ nav {
     button {
         width: 70%;
         background-color: #f2a344;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw);
     }
+    h5 {
+        font-size: 1.2em;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw); 
+    }
+    h6 {
+        font-size: 1em;
+        font-weight: 400;
+        padding-bottom: calc(1.5em + 1.5vw);
+    }
+    p{
+        margin: auto;
+        margin-bottom: calc(1em + 1vw);
+        width: 85%;
+        img {
+            padding-right: 8px;
+            margin-right: 10px;
+        }
+    }
+    img{
+        width: 6%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.footlogo img{
+    width: 20%;
+    margin-top: calc(2.5em + 2.5vw);
+    margin-bottom: calc(2em + 2vw);
 }
