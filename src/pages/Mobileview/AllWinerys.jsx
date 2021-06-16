@@ -66,7 +66,7 @@ const AllWinerys = (props) => {
             <h2>Tast et postnummer og få vejret</h2>
             <input type="text" onChange={(e) => setPostnummer(e.target.value)} />
 
-           
+
 
             {
                 // Her kommer Winerydata ind når man trykker. 
@@ -75,12 +75,12 @@ const AllWinerys = (props) => {
                     <h1>{AllWinerys.name} </h1>
                 </div>
             }
-                    
-            {   
+
+            {
                 AllWinerys &&
-                <Kort koordinater= {[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+                <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
             }
-            
+
         </div>
 
     )
