@@ -75,5 +75,11 @@ nav {
     button {
         width: 70%;
         background-color: #f2a344;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw);
+    }
+    p{
+        margin: auto;
+        width: 85%;
     }
 }

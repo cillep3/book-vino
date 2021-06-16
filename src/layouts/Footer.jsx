@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <div className="footer">
             <img />
-            <p>Hej</p>
-            <p>Hello</p>
-            <p>Guten Tag</p>
+            <p>ck@bookvino.com</p>
+            <p>Engdalen 28, 8500 Grenaa</p>
+            <p>+45 29875722</p>
             <button>BOOK NOW</button>
             <h5>FAQ</h5>
             <h5>About BookVino</h5>
