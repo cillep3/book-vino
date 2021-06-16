@@ -1,6 +1,7 @@
 import React from 'react'
 import '../pages/Mobileview/Mobile.scss'
 import Register from '../helpers/register.json'
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -11,11 +12,11 @@ const Footer = () => {
             <p><img src={Register.images[7].src}/>+45 29875722</p>
             <button>BOOK NOW</button>
             <h5>FAQ</h5>
-            <h5>About BookVino</h5>
-            <h5>Wineries</h5>
+            <Link to="/aboutus"><h5>About BookVino</h5></Link>
+            <Link to="/allwinerys"><h5>Wineries</h5></Link>
             <img /><img /><img />
-            <h6>Copyright © bookvino.com 2020 All Rights Reserved</h6>
-            <h6>CVR: 37992240</h6>
+            <h6>Copyright © bookvino.com 2020 All Rights Reserved<br></br>CVR: 37992240</h6>
+            
         </div>
     )
 }

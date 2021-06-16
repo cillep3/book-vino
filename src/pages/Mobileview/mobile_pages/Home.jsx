@@ -9,7 +9,7 @@ import Register from '../../../helpers/register.json'
 const Home = () => {
     return (
         <div id="home">
-            <img className='hero' src={Register.images[4].src} />
+
             <h1>Our Wineries</h1>
             <Liste />
             <Link to="/allwinerys"><button id="homeButton">Load more</button></Link>

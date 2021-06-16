@@ -33,6 +33,7 @@
     }
     img {
         width: 100%;
+        object-fit: cover;
     }
     h2 {
         color: #A53251;
@@ -74,6 +75,43 @@
 
 #home{
     text-align:center; 
+
+    #hero_box{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        #home_hero{
+            grid-column: 1/-1;
+            grid-row: 1/-1;
+            width:100%;
+            object-fit: cover;
+        }
+
+        h1{
+            grid-column: 1/-1;
+            grid-row: 2/3;
+            align-self: flex-end;
+            font-family: 'Big Shoulder Display';
+            color:white;
+            text-transform: uppercase;
+            font-size: 50px;
+            padding:10px;
+        }
+    }
+
+    h1{
+        color:#a63251;
+        font-size: 30px;
+        padding-top:25px;
+    }
+
+    #homeButton{
+        background-color: #d97e7e;
+        width:50%;
+        margin: 50px 0px 100px 0px;
+    }
+
 }
 
 .footer {
@@ -89,19 +127,30 @@
         margin-bottom: calc(1em + 1vw);
     }
     h5 {
+        font-size: 1.2em;
         margin-top: calc(1em + 1vw);
         margin-bottom: calc(1em + 1vw); 
     }
     h6 {
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: 400;
+        padding-bottom: calc(1.5em + 1.5vw);
     }
     p{
         margin: auto;
+        margin-bottom: calc(1em + 1vw);
         width: 85%;
+        img {
+            padding-right: 8px;
+            margin-right: 10px;
+        }
     }
     img{
-        width: 7%;
+        width: 6%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
     }
 }
 .footlogo img{
