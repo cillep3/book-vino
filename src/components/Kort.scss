@@ -1,0 +1,20 @@
+.inputfelt{
+    position: absolute;
+    margin-top: 80px;
+    transform: translate(120px);
+    z-index: 3;
+    border-radius: 50%;
+}
+.inputdesign{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+#mapcontainer{
+    height: 400px;
+    width: 450px;
+    background-color: silver;
+}

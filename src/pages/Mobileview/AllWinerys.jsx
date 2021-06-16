@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Kort from "../../components/kort"
+import Kort from "../../components/Kort"
 
 
 import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
@@ -11,23 +11,23 @@ const AllWinerys = (props) => {
     // alt det som kommer ind i [] vil være navnet på vores data. vejret er classen og setVejret gør at vi kan ændre den.
 
 
-    const [postnummer, setPostnummer] = useState("8000") // BRUGERENS VALGTE POSTNUMMER // BLÅ ER EN useSTATE
-    const [AllWinerys, setAllWinerys] = useState() // VEJRDATA 
+    const [byNavne, setbyNavne] = useState("Rome") // Her er zipcode skiftet ud med "bynavn"
+    const [AllWinerys, setAllWinerys] = useState() // Vindata
     const [error, setError] = useState() // FEJLBESKEDER
 
 
 
-    // alt det der skal ske, skrives i [] (når denne er loadet hentes vejret)
+    // alt det der skal ske, skrives i [] (når denne er loadet hentes vindata)
     useEffect(() => {
 
         // setTimeout(() => {
 
-        if (postnummer.length === 4) {
+        if (byNavne.length != null) {
 
-            getAllWinerysByZip(postnummer).then(winerydata => {
+            getAllWinerysByZip(byNavne).then(winerydata => {
 
                 console.log(winerydata)
-                setAllWinerys(winerydata); // put vejrdata i vejrdata-state
+                setAllWinerys(winerydata); // put vindata i vindata-state
                 setError();          // Tøm fejlbesked
 
                 props.koord([winerydata.coord.lat, winerydata.coord.lon])
@@ -41,11 +41,11 @@ const AllWinerys = (props) => {
             })
         }
 
-    }, [postnummer])
+    }, [byNavne])
 
     const stortForbogstav = (teksten) => {
 
-        // Gør at vejrbeksrivelsen altid er med stort forbogstav
+        // Gør at Vintekst beksrivelsen altid er med stort forbogstav
 
         return teksten.charAt(0).toUpperCase() + teksten.slice(1);
     }
@@ -61,10 +61,13 @@ const AllWinerys = (props) => {
 
         <div>
 
-            <h1>Vejret {postnummer} </h1>
+            <h1>{byNavne} </h1>
 
-            <h2>Tast et postnummer og få vejret</h2>
-            <input type="text" onChange={(e) => setPostnummer(e.target.value)} />
+            <div className="inputfelt">
+                <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
+                
+            </div>
+            
 
            
 
@@ -80,6 +83,8 @@ const AllWinerys = (props) => {
                 AllWinerys &&
                 <Kort koordinater= {[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
             }
+
+
             
         </div>
 
