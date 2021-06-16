@@ -9,10 +9,18 @@ import Register from '../../../helpers/register.json'
 const Home = () => {
     return (
         <div id="home">
+            <div id="home">
 
-            <h1>Our Wineries</h1>
-            <Liste />
-            <Link to="/allwinerys"><button id="homeButton">Load more</button></Link>
+                <div id="hero_box">
+                    <img id="home_hero" src={Register.images[4].src} />
+                    <h1>Wine tasting around the world</h1>
+                </div>
+
+
+                <h1>Our Wineries</h1>
+                <Liste />
+                <Link to="/allwinerys"><button id="homeButton">Load more</button></Link>
+            </div>
         </div>
     )
 }
