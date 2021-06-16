@@ -16,7 +16,7 @@ const About = () => {
         sure that there is also the opportunity for a tour of the fields, a talk
         about the production and an extended tasting. At BookVino.com you will
         only find less family owned and authentic wineries, where we are sure
-        you will have a really good holiday experience.
+        you will have a really good holiday experience..
       </h4>
       <h1>Booking Process</h1>
       <div className="yellowcircle">
