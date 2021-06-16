@@ -13,8 +13,8 @@ const Footer = () => {
             <h5>About BookVino</h5>
             <h5>Wineries</h5>
             <img /><img /><img />
-            <p>Copyright © bookvino.com 2020 All Rights Reserved</p>
-            <p>CVR: 37992240</p>
+            <h6>Copyright © bookvino.com 2020 All Rights Reserved</h6>
+            <h6>CVR: 37992240</h6>
         </div>
     )
 }
