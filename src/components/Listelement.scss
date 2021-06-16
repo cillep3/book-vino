@@ -28,6 +28,7 @@ figure{
     #borderBox{
         grid-column:1/-1;
         grid-row:2/3;
+        height:100px;
 
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -69,6 +70,7 @@ figure{
             display:grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr auto;
+            padding:5px;
 
             #icon_image{
                 width:60%;
@@ -118,6 +120,14 @@ button{
 }
 
 @media screen and (max-width:900px) {
+    #borderBox{
+        height:150px;
+
+        h1{
+            font-size: 20px;
+        }
+    }
+    
     #icon_text{
         font-size:12px;
     }

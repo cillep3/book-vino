@@ -1,5 +1,5 @@
 {
-    "_COMMENT_1":"*** LIST ELEMENTS ***",
+"_COMMENT_1":"*** LIST ELEMENTS ***",
     "winery":[
         {
             "title": "Marchesini Marcello",
@@ -116,5 +116,12 @@
                 }
             ]
         }
+    ],
+"_COMMENT_2":"*** IMAGES ***",
+    "images": [
+        {
+            "src":"assets/about.png"
+        }
     ]
+
 }
