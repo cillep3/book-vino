@@ -1,5 +1,6 @@
 import React from 'react'
 import './Listelement.scss'
+import { Link } from 'react-router-dom'
 
 // Import of components
 import Register from '../helpers/register.json'
@@ -35,7 +36,7 @@ const Listelement = () => {
                         </div>
                     </div>
                 }
-                <button>Get more information</button>
+                <Link to={"/marchesini-marcello"}><button>Get more information</button></Link>
             </figure>
             <figure>
                 {
@@ -65,7 +66,7 @@ const Listelement = () => {
                         </div>
                     </div>
                 }
-                <button>Get more information</button>
+                <Link to={"/marco-reggio"}><button>Get more information</button></Link>
             </figure>
             <figure>
                 {
@@ -95,7 +96,7 @@ const Listelement = () => {
                         </div>
                     </div>
                 }
-                <button>Get more information</button>
+                <Link to={"/sol-de-montalto"}><button>Get more information</button></Link>
             </figure>
             <figure>
                 {
@@ -125,7 +126,7 @@ const Listelement = () => {
                         </div>
                     </div>
                 }
-                <button>Get more information</button>
+                <Link to={"/le-marognole"}><button>Get more information</button></Link>
             </figure>
             <figure>
                 {
@@ -155,7 +156,7 @@ const Listelement = () => {
                         </div>
                     </div>
                 }
-                <button>Get more information</button>
+                <Link to={"/corte-archi"}><button>Get more information</button></Link>
             </figure>
         </div>
     )
