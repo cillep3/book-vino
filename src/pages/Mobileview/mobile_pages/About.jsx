@@ -1,6 +1,7 @@
 import Register from "../../../helpers/register.json";
 import React from "react";
 import '../../Mobileview/Mobile.scss'
+import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
       </div>
       <h2>Enjoy your tasting</h2>
       <p>Now you receive your booking details in your mailboks. Enjoy your tasting!!</p>
-      <button>SEE WINERIE LIST</button>
+      <Link to="/allwinerys"><button>SEE WINERIE LIST</button></Link>
     </div>
   );
 };
