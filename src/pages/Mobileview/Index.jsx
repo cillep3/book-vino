@@ -26,7 +26,7 @@ const Index = () => {
             <Navigation />
 
             <section>
-                <Route exact-path="/">
+                <Route exact path="/">
                     <Home />
                 </Route>
                 <Route path="/allWinerys">
