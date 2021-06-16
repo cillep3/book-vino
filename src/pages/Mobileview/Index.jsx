@@ -7,6 +7,7 @@ import Navigation from "../../layouts/Mobileview/Navigation"
 import Footer from "../../layouts/Footer"
 import AllWinerys from "../../pages/Mobileview/AllWinerys"
 import Liste from '../../components/Listelement'
+import About from '../Mobileview/About'
 
 const Index = () => {
     return (
@@ -20,6 +21,9 @@ const Index = () => {
                 </Route>
                 <Route path="/listelement">
                     <Liste />
+                </Route>
+                <Route path="/aboutus">
+                    <About/>
                 </Route>
                     
             </section>
