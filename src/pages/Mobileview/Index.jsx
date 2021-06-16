@@ -10,6 +10,7 @@ import Liste from '../../components/Listelement'
 import About from '../Mobileview/mobile_pages/About'
 import Admin from './mobile_pages/AdminWinery'
 import Edit from './mobile_pages/EditWinery'
+import Home from './mobile_pages/Home'
 
 // Import of single wineries components
 import Corte from './mobile_pages/single_wineries/Corte_Archi'
@@ -25,6 +26,9 @@ const Index = () => {
             <Navigation />
 
             <section>
+                <Route exact-path="/">
+                    <Home />
+                </Route>
                 <Route path="/allWinerys">
                     <AllWinerys />
                 </Route>
