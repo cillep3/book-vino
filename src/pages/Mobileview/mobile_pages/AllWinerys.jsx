@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Kort from "../../components/Kort"
+import Kort from "../../../components/Kort"
 
 
-import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
+import { getAllWinerysByZip, imageURL } from "../../../helpers/apikaldleaflet"
 
 const AllWinerys = (props) => {
 

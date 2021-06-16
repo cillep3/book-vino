@@ -28,7 +28,7 @@ figure{
     #borderBox{
         grid-column:1/-1;
         grid-row:2/3;
-        height:100px;
+        height:110px;
 
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -121,8 +121,6 @@ button{
 
 @media screen and (max-width:900px) {
     #borderBox{
-        height:150px;
-
         h1{
             font-size: 20px;
         }
@@ -140,8 +138,18 @@ button{
         grid-template-rows: auto;
     }
 
+    #borderBox{
+        h1{
+            font-size: 25px;
+        }
+    }
+
     #icon_text{
         font-size:16px;
+    }
+
+    figure{
+        padding:25px;
     }
     
 }
