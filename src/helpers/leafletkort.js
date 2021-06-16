@@ -21,7 +21,7 @@ export const makeCard = (koordinater = [56,10]) => {
 // Vis et andet udsnit (anden by/postnummer)
 export const changeCardView = (koordinater) => {
 
-    mymap.setView(koordinater, 13)
+    mymap.setView(koordinater, 4)
 
 }
 

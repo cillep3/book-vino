@@ -80,8 +80,8 @@ const AllWinerys = (props) => {
 
                     {/* hører sammen med linje 50 */}
                     <p>{stortForbogstav(AllWinerys.weather[0].description)} </p>
-                    <img src={"http://openweathermap.org/img/wn/" + AllWinerys.weather[0].icon + "@2x.png"} />
-                    <img src={imageURL + AllWinerys.weather[0].icon + "@2x.png"} />
+                    <img src={"http://openweathermap.org/img/wn/" + AllWinerys.weather[0].icon + "@2x.png"} alt=""/>
+                    <img src={imageURL + AllWinerys.weather[0].icon + "@2x.png"} alt=""/>
 
                     <p>solen står op kl. {beregningsTidspunkt(AllWinerys.sys.sunrise)} og går ned kl.{beregningsTidspunkt(AllWinerys.sys.sunset)} </p>
                     {/* <h1>Fejl: {error.response.data.cod} {error.response.data.message} {error.response.statusText} </h1> */}
