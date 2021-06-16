@@ -136,6 +136,15 @@
             },
             {
                 "src":"assets/vector/map-white.png"
+            },
+            {
+                "src":"assets/vector/mail-white.png"
+            },
+            {
+                "src":"assets/vector/mobile-white.png"
+            },
+            {
+                "src":"assets/vector/logo.png"
             }
         ]
     
