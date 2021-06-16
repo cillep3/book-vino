@@ -79,19 +79,29 @@ nav {
         margin-bottom: calc(1em + 1vw);
     }
     h5 {
+        font-size: 1.2em;
         margin-top: calc(1em + 1vw);
         margin-bottom: calc(1em + 1vw); 
     }
     h6 {
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: 400;
     }
     p{
         margin: auto;
+        margin-bottom: calc(1em + 1vw);
         width: 85%;
+        img {
+            padding-right: 8px;
+            margin-right: 10px;
+        }
     }
     img{
-        width: 5%;
+        width: 6%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
     }
 }
 .footlogo img{
