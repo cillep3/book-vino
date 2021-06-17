@@ -7,6 +7,8 @@
 // Import of stylesheets
 @import "./components/Listelement.scss";
 @import "./components/Kort.scss";
+@import "./pages/Desktopview/Desktop.scss";
+@import "./pages//Mobileview/Mobile.scss";
 
 // Import of fonts
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
@@ -17,7 +19,7 @@ body{
     
 }
 
-
+// *** FOOTER ***
 .footer {
     height: auto;
     background-color: #424242;
@@ -72,3 +74,5 @@ body{
     margin-top: calc(2.5em + 2.5vw);
     margin-bottom: calc(2em + 2vw);
 }
+
+// *** 

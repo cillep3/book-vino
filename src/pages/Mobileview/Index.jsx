@@ -12,6 +12,7 @@ import Admin from './mobile_pages/AdminWinery'
 import Edit from './mobile_pages/EditWinery'
 import Home from './mobile_pages/Home'
 import ScrollToTop from '../../components/ToTop'
+import Login from '../../layouts/Login'
 
 // Import of single wineries components
 import Corte from './mobile_pages/single_wineries/Corte_Archi'
@@ -62,6 +63,9 @@ const Index = () => {
                     </Route>
                     <Route path="/bel-amino">
                         <BelAmino />
+                    </Route>
+                    <Route path="/login">
+                        <Login />
                     </Route>
 
                 </section>
