@@ -6,7 +6,7 @@ const Marchesini_Marcello = () => {
         <div className="singlewine">
             <img src={Register.winery[0].image} className="topimg"/>
             <h1>Marchesini Marcello</h1>
-            <img src={Register.images[9].src} className="starimg"/>
+            <img src={Register.winery[0].stars} className="starimg"/>
             <h4>Wine is often served with dinner. It may be the oldest known type of wine, as it is the most straightforward to make with the skin contact method. In the unreliable summers of northern France, the acidity of under ripened grapes was often masked with chaptalization with unsatisfactory results, whereas now the less ripe grapes are made into popular sparkling wines.</h4>
             <h3>Price 215$</h3>
             <button>BOOK NOW</button>
@@ -24,6 +24,7 @@ const Marchesini_Marcello = () => {
             <p>Be not offended when your ex drinks wine.</p><br></br>
             <p>Burgundy is the definition of a strong red.</p><br></br>
         </div>
+        
     )
 }
 

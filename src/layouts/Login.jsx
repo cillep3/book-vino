@@ -7,8 +7,12 @@ import Register from '../helpers/register.json'
 const Login = () => {
     return (
         <div id="loginContainer">
-            <h1>login</h1>
-            <img src={Register.images[7].src} />
+            <img id="loginLogo" src={Register.images[8].src} />
+            <div id="loginInputs">
+                <input type="text"/>
+                <input type="text"/>
+            </div>
+            <button id="loginButton">Test</button>
         </div>
     )
 }
