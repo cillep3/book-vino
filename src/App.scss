@@ -16,3 +16,58 @@ body{
     font-family: 'Poppins';
     
 }
+
+
+.footer {
+    height: auto;
+    background-color: #424242;
+    color: white;
+    text-align: center;
+
+    button {
+        width: 70%;
+        background-color: #f2a344;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw);
+    }
+    h5 {
+        font-size: 1.2em;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw); 
+    }
+    h6 {
+        font-size: 1em;
+        font-weight: 400;
+        padding-bottom: calc(1.5em + 1.5vw);
+    }
+    #contact{
+        width:100%;
+        height:50px;
+        
+        display:grid;
+        grid-template-columns: 0.75fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:20px;
+        padding-bottom: 75px;
+
+        p{
+            justify-self: left;
+            align-self: center;
+        }
+        img{
+            width:15%;
+            align-self: center;
+            justify-self: right;
+            margin-right:20px;
+        }
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.footlogo img{
+    width: 20%;
+    margin-top: calc(2.5em + 2.5vw);
+    margin-bottom: calc(2em + 2vw);
+}
