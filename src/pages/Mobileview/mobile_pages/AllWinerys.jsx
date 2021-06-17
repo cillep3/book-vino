@@ -37,21 +37,15 @@ const AllWinerys = (props) => {
     }, [byNavne])
 
     return (
-        <>
-            <div id="kortContainer">
-                <h1>{byNavne} </h1>
-                <div id="inputfelt">
-                    <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
-                    <img id="loupeicon" src={Register.icons[0].src} />
-                </div>
 
-                {
-                    AllWinerys &&
-                    <div id="kort">
-                        <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
-                    </div>
+
+        {
+            AllWinerys &&
+        <div id="kort">
+            <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+        </div>
                 }
-            </div>
+            </div >
             <h1 id="allWineriesHeadline">Wineries</h1>
             <Liste />
         </>
