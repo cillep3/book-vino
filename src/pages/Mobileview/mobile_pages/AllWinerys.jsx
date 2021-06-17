@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react'
 import React from 'react'
 
 import Kort from "../../../components/Kort"
+import {Grid} from "@material-ui/core"
+
 import TextField from "@material-ui/core/TextField"
-import SaveIcon from '@material-ui/icons/Save';
+import Container from "@material-ui/core/Container"
 import Register from "../../../helpers/register.json"
 
 
@@ -64,20 +66,20 @@ const AllWinerys = (props) => {
 
     return (
 
-
+        
         <div id="kortContainer">
+           
+           <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
 
-            <h1>{byNavne} </h1>
-
-            <div id="TextField">
-
-                <TextField
-                    searchIcon={<SaveIcon />}
+                <TextField 
                     variant="outlined"
-                    color="secondary"
+                    color="standard"
                     label="Choose Area"
+                    size="small"
                 />
-            </div>
+           
+           </div>
+         
 
 
             {/* <div id="inputfelt">
