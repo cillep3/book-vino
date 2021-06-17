@@ -15,7 +15,7 @@ const Footer = () => {
             <h5>FAQ</h5>
             <Link to="/aboutus"><h5>About BookVino</h5></Link>
             <Link to="/allwinerys"><h5>Wineries</h5></Link>
-            <img /><img /><img />
+            <img alt=""/><img alt=""/><img alt=""/>
             <h6>Copyright © bookvino.com 2020 All Rights Reserved<br></br>CVR: 37992240</h6>
             
         </div>
