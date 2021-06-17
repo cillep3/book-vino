@@ -8,33 +8,51 @@
 #kort{
     grid-column: 1/-1;
     grid-row: 1/-1;
-}
-#inputfelt{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    z-index: 10;
-    width: 100%;
-    height:50px;
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.541);
-    text-align: center;
-}
-.inputdesign{
-    width: 70%;
-    text-align: center;
-    border: none;
-}
+ }
+// #inputfelt{
+//     grid-column: 2/3;
+//     grid-row: 2/3;
+//     z-index: 10;
+//     width: 100%;
+//     height:50px;
+//     background-color: white;
+//     border-radius: 5px;
+//     border: 1px solid rgba(128, 128, 128, 0.541);
+//     text-align: center;
+    
+// }
+// .inputdesign{
+//     width: 60%;
+//     text-align: center;
+//     border: none;
+     
+// }
 
-#loupeicon{
-    width: 10%;
-    padding-top: 10px;    
-}
+// #loupeicon{
+//     width: 10%;
+//     padding-top: 10px;
+//     margin-left: 5%;    
+// }
 
 #mapcontainer{
     height: 550px;
     width: 100%;
     background-color: silver;
+}
+
+#TextField{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+input{
+    
+    
+    color: rgb(0, 0, 0) !important;
 }
 
 //position: absolute;

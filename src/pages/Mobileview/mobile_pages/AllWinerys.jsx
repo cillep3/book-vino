@@ -2,7 +2,10 @@ import { useState, useEffect } from 'react'
 import React from 'react'
 
 import Kort from "../../../components/Kort"
+import TextField from "@material-ui/core/TextField"
+import SearchIcon from "@material-ui//icons/Search"
 import Register from "../../../helpers/register.json"
+
 
 
 
@@ -66,11 +69,22 @@ const AllWinerys = (props) => {
 
             <h1>{byNavne} </h1>
 
-            <div id="inputfelt">
+            <div id="TextField">
+
+                <TextField
+                    startIcon={<SearchIcon />}
+                    variant="outlined"
+                    color="secondary"
+                    label="Choose Area"
+                />
+            </div>
+
+
+            {/* <div id="inputfelt">
                 <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
                 <img id="loupeicon"src = {Register.icons[0].src} />
-            </div>
-            
+            </div> */}
+
 
 
 
@@ -87,7 +101,7 @@ const AllWinerys = (props) => {
                 <div id="kort">
                     <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
                 </div>
-                
+
             }
 
         </div>
