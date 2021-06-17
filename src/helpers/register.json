@@ -1,173 +1,159 @@
 {
-    "_COMMENT_1": "*** LIST ELEMENTS ***",
-    "winery": [
-        {
-            "title": "Marchesini Marcello",
-            "image": "assets/img/marchesini-marcetto.png",
-            "stars": "assets/vector/four-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        },
-        {
-            "title": "Marco Reggio - Enjoy good wine",
-            "image": "assets/img/reggio.png",
-            "stars": "assets/vector/four-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/no-food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        },
-        {
-            "title": "Sol de Montalto",
-            "image": "assets/img/Sol-de-Montalto.png",
-            "stars": "assets/vector/four-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        },
-        {
-            "title": "Le Marognole",
-            "image": "assets/img/le-marognole.png",
-            "stars": "assets/vector/four-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        },
-        {
-            "title": "Corte Archi",
-            "image": "assets/img/corte-archi.png",
-            "stars": "assets/vector/four-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        },
-        {
-            "title": "Bel Amino",
-            "image": "assets/img/bel-amino.png",
-            "stars": "assets/vector/tree-star.png",
-            "icons": [
-                {
-                    "vector": "assets/vector/food.png",
-                    "text": "Food"
-                },
-                {
-                    "vector": "assets/vector/tasting.png",
-                    "text": "Tasting"
-                },
-                {
-                    "vector": "assets/vector/tour.png",
-                    "text": "Tour"
-                },
-                {
-                    "vector": "assets/vector/country.png",
-                    "text": "Italy"
-                }
-            ]
-        }
-    ],
-    "_COMMENT_2": "*** IMAGES ***",
-    "images": [
-        {
-            "src": "assets/img/about.jpg"
-        },
-        {
-            "src": "assets/vector/Booking-process-step-1.png"
-        },
-        {
-            "src": "assets/vector/Booking-process-step-2.png"
-        },
-        {
-            "src": "assets/vector/Bookin-process-step-3.png"
-        },
-        {
-            "src": "assets/img/home.jpg"
-        },
-        {
-            "src": "assets/vector/map-white.png"
-        },
-        {
-            "src": "assets/vector/mail-white.png"
-        },
-        {
-            "src": "assets/vector/mobile-white.png"
-        },
-        {
-            "src": "assets/vector/logo.png"
-        }
-    ]
+    "_COMMENT_1":"*** LIST ELEMENTS ***",
+        "winery":[
+            {
+                "title": "Marchesini Marcello",
+                "image": "assets/img/marchesini-marcetto.png",
+                "stars": "assets/vector/four-star.png",
+                "icons": [
+                    {
+                        "vector":"assets/vector/food.png",
+                        "text":"Food"
+                    },
+                    {
+                        "vector":"assets/vector/tasting.png",
+                        "text":"Tasting"
+                    },
+                    {
+                        "vector":"assets/vector/tour.png",
+                        "text":"Tour"
+                    },
+                    {
+                        "vector":"assets/vector/country.png",
+                        "text":"Italy"
+                    }
+                ]
+            },
+            {
+                "title": "Marco Reggio - Enjoy good wine",
+                "image": "assets/img/reggio.png",
+                "stars": "assets/vector/four-star.png",
+                "icons": [
+                    {
+                        "vector":"assets/vector/no-food.png",
+                        "text":"Food"
+                    },
+                    {
+                        "vector":"assets/vector/tasting.png",
+                        "text":"Tasting"
+                    },
+                    {
+                        "vector":"assets/vector/tour.png",
+                        "text":"Tour"
+                    },
+                    {
+                        "vector":"assets/vector/country.png",
+                        "text":"Italy"
+                    }
+                ]
+            },
+            {
+                "title": "Sol de Montalto",
+                "image": "assets/img/Sol-de-Montalto.png",
+                "stars": "assets/vector/four-star.png",
+                "icons": [
+                    {
+                        "vector":"assets/vector/food.png",
+                        "text":"Food"
+                    },
+                    {
+                        "vector":"assets/vector/tasting.png",
+                        "text":"Tasting"
+                    },
+                    {
+                        "vector":"assets/vector/tour.png",
+                        "text":"Tour"
+                    },
+                    {
+                        "vector":"assets/vector/country.png",
+                        "text":"Italy"
+                    }
+                ]
+            },
+            {
+                "title": "Le Marognole",
+                "image": "assets/img/le-marognole.png",
+                "stars": "assets/vector/four-star.png",
+                "icons": [
+                    {
+                        "vector":"assets/vector/food.png",
+                        "text":"Food"
+                    },
+                    {
+                        "vector":"assets/vector/tasting.png",
+                        "text":"Tasting"
+                    },
+                    {
+                        "vector":"assets/vector/tour.png",
+                        "text":"Tour"
+                    },
+                    {
+                        "vector":"assets/vector/country.png",
+                        "text":"Italy"
+                    }
+                ]
+            },
+            {
+                "title": "Corte Archi",
+                "image": "assets/img/corte-archi.png",
+                "stars": "assets/vector/four-star.png",
+                "icons": [
+                    {
+                        "vector":"assets/vector/food.png",
+                        "text":"Food"
+                    },
+                    {
+                        "vector":"assets/vector/tasting.png",
+                        "text":"Tasting"
+                    },
+                    {
+                        "vector":"assets/vector/tour.png",
+                        "text":"Tour"
+                    },
+                    {
+                        "vector":"assets/vector/country.png",
+                        "text":"Italy"
+                    }
+                ]
+            }
+        ],
+    "_COMMENT_2":"*** IMAGES ***",
+        "images": [
+            {
+                "src":"assets/img/about.jpg"
+            },
+            {
+                "src":"assets/vector/Booking-process-step-1.png"
+            },
+            {
+                "src":"assets/vector/Booking-process-step-2.png" 
+            },
+            {
+                "src":"assets/vector/Bookin-process-step-3.png"
+            },
+            {
+                "src":"assets/img/home.jpg"
+            },
+            {
+                "src": "assets/vector/map-white.png"
+            },
+            {
+                "src": "assets/vector/mail-white.png"
+            },
+            {
+                "src": "assets/vector/mobile-white.png"
+            },
+            {
+                "src": "assets/vector/logo.png"
+            }
+        ],
+
+    "_COMMENT_3":"*** Icons ***",
+        "icons": [
+            {
+                "src":"assets/vector/loupe.png"
+            }
+         
+        ]
+    
 }

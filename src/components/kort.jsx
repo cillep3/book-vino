@@ -40,8 +40,8 @@ const Kort = (props) => {
 
 
         <div>
-            <h1>kort her</h1>
-            <div id="mapcontainer" style={{ height: "300px", width: "450px", backgroundColor: "silver" }}></div>
+           
+            <div id="mapcontainer"></div>
             {/* kort indlæses her */}
         </div>
     )

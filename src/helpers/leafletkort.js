@@ -4,13 +4,13 @@ import L from "leaflet";
 
 let mymap, marker;
 
-export const makeCard = (koordinater = [56,10] ) => {
+export const makeCard = (koordinater = [54,22] ) => {
     
 
     console.log("makeCard")
 
     //let koordinater = [56,10];
-    mymap = L.map("mapcontainer").setView(koordinater, 8) // her loader vi kortet første gang og 8 er zoom ud.
+    mymap = L.map("mapcontainer").setView(koordinater, 10) // her loader vi kortet første gang og 8 er zoom ud.
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -21,8 +21,9 @@ export const makeCard = (koordinater = [56,10] ) => {
 
 // Vis et andet udsnit (anden by/postnummer)
 export const changeCardView = (koordinater) => {
-
-    mymap.setView([41.902782, 12.496366], 5)
+    
+    //Her er slettet tal, og i stedet for sat koordinater ind, så den automatisk finder byer når man skriver bynavne.
+    mymap.setView(koordinater, 10)
 
 }
 
