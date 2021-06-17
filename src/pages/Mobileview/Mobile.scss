@@ -92,18 +92,22 @@
             grid-column: 1/-1;
             grid-row: 2/3;
             align-self: flex-end;
-            font-family: 'Big Shoulder Display';
+            font-family: 'Big Shoulders Display';
             color:white;
             text-transform: uppercase;
-            font-size: 50px;
+            font-size: 55px;
             padding:10px;
         }
     }
 
     #homeHeadline{
         color:#a63251;
-        font-size: 30px;
-        padding-top:25px;
+        font-size: 45px;
+        padding-top:45px;
+        padding-bottom:25px;
+
+        font-family: 'Big Shoulders Display';
+
     }
 
     #homeButton{
