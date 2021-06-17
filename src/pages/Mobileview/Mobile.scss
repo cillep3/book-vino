@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    a{
+        color: white;
+    }
+}
+
+.about {
+    text-align: center;
+    h1 {
+        color: #A53251;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(0.5em + 0.5vw);
+        font-size: 4em;
+        font-weight: 400;
+        font-family: 'Big Shoulders Display';
+        letter-spacing: 2px;
+    }
+    img {
+        width: 100%;
+    }
+    h2 {
+        color: #A53251;
+        margin-top: calc(0.5em + 0.5vw);
+        margin-bottom: calc(0.3em + 0.3vw);
+        font-size: 3em;
+        font-weight: 400;
+        font-family: 'Big Shoulders Display';
+    }
+    h4 {
+        margin: auto;
+        font-size: 16px;
+        font-weight: 400;
+        width: 80%;
+    }
+    p{
+        margin: auto;
+        width: 40%;
+    }
+    button {
+        width: 80%;
+        margin: calc(1.5em + 1.5vw);
+        cursor: pointer;
+    }
+}
+
+.yellowcircle {
+    margin: auto;
+    margin-top: calc(3em + 3vw);
+    width: 130px;
+    background-color: #f2a344;
+    border-radius: 50%;
+    img {
+        width: 120px;
+        padding: 20px;
+        object-fit: cover;
+    }
+}
+
+#home{
+    text-align:center; 
+}
+
+.footer {
+    height: auto;
+    background-color: #424242;
+    color: white;
+    text-align: center;
+
+    button {
+        width: 70%;
+        background-color: #f2a344;
+    }
+}

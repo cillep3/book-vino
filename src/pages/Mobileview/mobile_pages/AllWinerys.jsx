@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Kort from "../../components/Kort"
+
+import Kort from "../../../components/Kort"
+import Register from "../../../helpers/register.json"
 
 
-import { getAllWinerysByZip, imageURL } from "../../helpers/apikaldleaflet"
+
+import { getAllWinerysByZip, imageURL } from "../../../helpers/apikaldleaflet"
 
 const AllWinerys = (props) => {
 
@@ -59,17 +62,17 @@ const AllWinerys = (props) => {
     return (
 
 
-        <div>
+        <div id="kortContainer">
 
             <h1>{byNavne} </h1>
 
-            <div className="inputfelt">
+            <div id="inputfelt">
                 <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
-                
+                <img id="loupeicon"src = {Register.icons [0].src} />
             </div>
             
 
-           
+
 
             {
                 // Her kommer Winerydata ind når man trykker. 
@@ -78,14 +81,15 @@ const AllWinerys = (props) => {
                     <h1>{AllWinerys.name} </h1>
                 </div>
             }
-                    
-            {   
+
+            {
                 AllWinerys &&
-                <Kort koordinater= {[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+                <div id="kort">
+                    <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+                </div>
+                
             }
 
-
-            
         </div>
 
     )
