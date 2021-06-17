@@ -3,7 +3,7 @@ import React from 'react'
 
 import Kort from "../../../components/Kort"
 import TextField from "@material-ui/core/TextField"
-import SearchIcon from "@material-ui//icons/Search"
+import SaveIcon from '@material-ui/icons/Save';
 import Register from "../../../helpers/register.json"
 
 
@@ -72,7 +72,7 @@ const AllWinerys = (props) => {
             <div id="TextField">
 
                 <TextField
-                    startIcon={<SearchIcon />}
+                    searchIcon={<SaveIcon />}
                     variant="outlined"
                     color="secondary"
                     label="Choose Area"
