@@ -167,13 +167,19 @@
             "src": "assets/vector/mobile-white.png"
         },
         {
-            "src": "assets/vector/logo.png"
+            "src": "assets/vector/logo-lys.png"
+        },
+        {
+            "src": "assets/vector/four-star.png"
+        },
+        {
+            "src": "assets/vector/logo-mork.png"
         }
     ],
     "_COMMENT_3": "*** ICONS ***",
     "icons": [
         {
-            "src":"assets/vector/loupe.png"
+            "src": "assets/vector/loupe.png"
         }
     ]
 }

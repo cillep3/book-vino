@@ -7,6 +7,8 @@
 // Import of stylesheets
 @import "./components/Listelement.scss";
 @import "./components/Kort.scss";
+@import "./pages/Desktopview/Desktop.scss";
+@import "./pages//Mobileview/Mobile.scss";
 
 // Import of fonts
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
@@ -16,3 +18,63 @@ body{
     font-family: 'Poppins';
     
 }
+
+// *** FOOTER ***
+.footer {
+    height: auto;
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+
+    button {
+        width: 70%;
+        background-color: #f2a344;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw);
+    }
+    h5 {
+        font-size: 1.2em;
+        margin-top: calc(1em + 1vw);
+        margin-bottom: calc(1em + 1vw); 
+    }
+    h6 {
+        font-size: 1em;
+        font-weight: 400;
+        padding-bottom: calc(1.5em + 1.5vw);
+    }
+    #contact{
+        width:100%;
+        height:50px;
+        
+        display:grid;
+        grid-template-columns:0.45fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:20px;
+        padding-bottom: 75px;
+
+        p{
+            justify-self: left;
+            align-self: center;
+        }
+        .iconfa{
+            font-size: 20px;
+            justify-self: right;
+            align-self: center;
+
+            
+           
+        }
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.footlogo img{
+    width: 30%;
+    margin-top: calc(2.5em + 2.5vw);
+    margin-bottom: calc(2em + 2vw);
+}
+
+// *** 
