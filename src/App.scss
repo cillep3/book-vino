@@ -68,6 +68,7 @@ body{
         text-decoration: none;
     }
 }
+
 .footlogo img{
     width: 30%;
     margin-top: calc(2.5em + 2.5vw);
@@ -79,4 +80,47 @@ body{
     margin-bottom: calc(0.7em + 0.7vw);
 }
 
-// *** 
+// *** LOGIN ***
+#loginContainer{
+    width:100%;
+    height:100vh;
+    background-color: #a63251;
+
+    display:grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    #loginLogo{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #loginInputs{
+        grid-column: 1/-1;
+        grid-row:2/3;
+    
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+
+        input{
+            background-color: white;
+            border-radius:10px 0px 0px 0px;
+            margin:10px;
+            display:block;
+            height:20px;
+        }
+    }
+
+    #loginButton{
+        background-color: #d97e7e;
+        width:50%;
+        height:50px;
+        color:white;
+        text-align: center;
+        justify-self: center;
+    }
+}

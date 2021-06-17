@@ -15,6 +15,7 @@ import Edit from './mobile_pages/EditWinery'
 import Home from './mobile_pages/Home'
 import ScrollToTop from '../../components/ToTop'
 import Login from '../../layouts/Login'
+import Create from './mobile_pages/CreateWinery'
 
 // Import of single wineries components
 import Corte from './mobile_pages/single_wineries/Corte_Archi'
@@ -68,6 +69,9 @@ const Index = () => {
                     </Route>
                     <Route path="/login">
                         <Login />
+                    </Route>
+                    <Route path="/create">
+                        <Create />
                     </Route>
 
                 </section>
