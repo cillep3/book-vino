@@ -17,11 +17,18 @@ import Wineries from '@material-ui/icons/LocationOnRounded';
 
 const useStyles = makeStyles({
     root: {
-        width: 490,
+        width: "100%",
+        position: "fixed",
+        bottom: 0,
         paddingTop: 30,
-        paddingBottom: 50,
-
-    },
+        paddingBottom: 40,
+        "& .MuiBottomNavigationAction-root": {
+            "@media (max-width: 768px)": {
+                minWidth: "auto",
+                padding: "6px 0"
+            }
+        }
+    }
 });
 
 export default function SimpleBottomNavigation() {
