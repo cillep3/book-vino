@@ -18,51 +18,56 @@ import Marognole from './mobile_pages/single_wineries/Le_Marognole'
 import Marchesini from './mobile_pages/single_wineries/Marchesini_Marcello'
 import Marco from './mobile_pages/single_wineries/Marco_Reggio'
 import Montalto from './mobile_pages/single_wineries/Sol_de_Montalto'
+import BelAmino from './mobile_pages/single_wineries/Bel_Amino'
+
 
 const Index = () => {
     return (
         <div id="mobileContainer">
-        <BrowserRouter>
-            <Navigation />
+            <BrowserRouter>
+                <Navigation />
 
-            <section>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/allWinerys">
-                    <AllWinerys />
-                </Route>
-                <Route path="/listelement">
-                    <Liste />
-                </Route>
-                <Route path="/aboutus">
-                    <About/>
-                </Route>
-                <Route path="/adminWinery">
-                    <Admin />
-                </Route>
-                <Route path="/editWineries/:id" component={Edit} />
-                <Route path="/corte-archi">
-                    <Corte/>
-                </Route>
-                <Route path="/le-marognole">
-                    <Marognole/>
-                </Route>
-                <Route path="/marchesini-marcello">
-                    <Marchesini/>
-                </Route>
-                <Route path="/marco-reggio">
-                    <Marco/>
-                </Route>
-                <Route path="/sol-de-montalto">
-                    <Montalto/>
-                </Route>
-                    
-            </section>
+                <section>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/allWinerys">
+                        <AllWinerys />
+                    </Route>
+                    <Route path="/listelement">
+                        <Liste />
+                    </Route>
+                    <Route path="/aboutus">
+                        <About />
+                    </Route>
+                    <Route path="/adminWinery">
+                        <Admin />
+                    </Route>
+                    <Route path="/editWineries/:id" component={Edit} />
+                    <Route path="/corte-archi">
+                        <Corte />
+                    </Route>
+                    <Route path="/le-marognole">
+                        <Marognole />
+                    </Route>
+                    <Route path="/marchesini-marcello">
+                        <Marchesini />
+                    </Route>
+                    <Route path="/marco-reggio">
+                        <Marco />
+                    </Route>
+                    <Route path="/sol-de-montalto">
+                        <Montalto />
+                    </Route>
+                    <Route path="/bel-amino">
+                        <BelAmino />
+                    </Route>
 
-            <Footer />
-        </BrowserRouter>
-    </div>
+                </section>
+
+                <Footer />
+            </BrowserRouter>
+        </div>
     )
 }
 

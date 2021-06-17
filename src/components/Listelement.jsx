@@ -18,19 +18,19 @@ const Listelement = () => {
                         </div>
                         <div id="icons">
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[0].icons[0].vector} alt="Food"/>
+                                <img id="icon_image" src={Register.winery[0].icons[0].vector} alt="Food" />
                                 <p id="icon_text">{Register.winery[0].icons[0].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[0].icons[1].vector} alt="Tasting"/>
+                                <img id="icon_image" src={Register.winery[0].icons[1].vector} alt="Tasting" />
                                 <p id="icon_text">{Register.winery[0].icons[1].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[0].icons[2].vector} alt="Tour"/>
+                                <img id="icon_image" src={Register.winery[0].icons[2].vector} alt="Tour" />
                                 <p id="icon_text">{Register.winery[0].icons[2].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[0].icons[3].vector} alt="Country"/>
+                                <img id="icon_image" src={Register.winery[0].icons[3].vector} alt="Country" />
                                 <p id="icon_text">{Register.winery[0].icons[3].text}</p>
                             </div>
                         </div>
@@ -48,19 +48,19 @@ const Listelement = () => {
                         </div>
                         <div id="icons">
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[1].icons[0].vector} alt="Food"/>
+                                <img id="icon_image" src={Register.winery[1].icons[0].vector} alt="Food" />
                                 <p id="icon_text">{Register.winery[1].icons[0].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[1].icons[1].vector} alt="Tasting"/>
+                                <img id="icon_image" src={Register.winery[1].icons[1].vector} alt="Tasting" />
                                 <p id="icon_text">{Register.winery[1].icons[1].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[1].icons[2].vector} alt="Tour"/>
+                                <img id="icon_image" src={Register.winery[1].icons[2].vector} alt="Tour" />
                                 <p id="icon_text">{Register.winery[1].icons[2].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[1].icons[3].vector} alt="Country"/>
+                                <img id="icon_image" src={Register.winery[1].icons[3].vector} alt="Country" />
                                 <p id="icon_text">{Register.winery[1].icons[3].text}</p>
                             </div>
                         </div>
@@ -78,19 +78,19 @@ const Listelement = () => {
                         </div>
                         <div id="icons">
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[2].icons[0].vector} alt="Food"/>
+                                <img id="icon_image" src={Register.winery[2].icons[0].vector} alt="Food" />
                                 <p id="icon_text">{Register.winery[2].icons[0].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[2].icons[1].vector} alt="Tasting"/>
+                                <img id="icon_image" src={Register.winery[2].icons[1].vector} alt="Tasting" />
                                 <p id="icon_text">{Register.winery[2].icons[1].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[2].icons[2].vector} alt="Tour"/>
+                                <img id="icon_image" src={Register.winery[2].icons[2].vector} alt="Tour" />
                                 <p id="icon_text">{Register.winery[2].icons[2].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[2].icons[3].vector} alt="Country"/>
+                                <img id="icon_image" src={Register.winery[2].icons[3].vector} alt="Country" />
                                 <p id="icon_text">{Register.winery[2].icons[3].text}</p>
                             </div>
                         </div>
@@ -108,19 +108,19 @@ const Listelement = () => {
                         </div>
                         <div id="icons">
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[3].icons[0].vector} alt="Food"/>
+                                <img id="icon_image" src={Register.winery[3].icons[0].vector} alt="Food" />
                                 <p id="icon_text">{Register.winery[3].icons[0].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[3].icons[1].vector} alt="Tasting"/>
+                                <img id="icon_image" src={Register.winery[3].icons[1].vector} alt="Tasting" />
                                 <p id="icon_text">{Register.winery[3].icons[1].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[3].icons[2].vector} alt="Tour"/>
+                                <img id="icon_image" src={Register.winery[3].icons[2].vector} alt="Tour" />
                                 <p id="icon_text">{Register.winery[3].icons[2].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[3].icons[3].vector} alt="Country"/>
+                                <img id="icon_image" src={Register.winery[3].icons[3].vector} alt="Country" />
                                 <p id="icon_text">{Register.winery[3].icons[3].text}</p>
                             </div>
                         </div>
@@ -138,25 +138,55 @@ const Listelement = () => {
                         </div>
                         <div id="icons">
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[4].icons[0].vector} alt="Food"/>
+                                <img id="icon_image" src={Register.winery[4].icons[0].vector} alt="Food" />
                                 <p id="icon_text">{Register.winery[4].icons[0].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[4].icons[1].vector} alt="Tasting"/>
+                                <img id="icon_image" src={Register.winery[4].icons[1].vector} alt="Tasting" />
                                 <p id="icon_text">{Register.winery[4].icons[1].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[4].icons[2].vector} alt="Tour"/>
+                                <img id="icon_image" src={Register.winery[4].icons[2].vector} alt="Tour" />
                                 <p id="icon_text">{Register.winery[4].icons[2].text}</p>
                             </div>
                             <div id="icons_border">
-                                <img id="icon_image" src={Register.winery[4].icons[3].vector} alt="Country"/>
+                                <img id="icon_image" src={Register.winery[4].icons[3].vector} alt="Country" />
                                 <p id="icon_text">{Register.winery[4].icons[3].text}</p>
                             </div>
                         </div>
                     </div>
                 }
                 <Link to={"/corte-archi"}><button>Get more information</button></Link>
+            </figure>
+            <figure>
+                {
+                    <div id="listElement">
+                        <img id="hero" src={Register.winery[5].image} alt="Corte Archi" />
+                        <div id="borderBox">
+                            <h1>{Register.winery[5].title}</h1>
+                            <img id="stars" src={Register.winery[5].stars} alt="Corte Archi" />
+                        </div>
+                        <div id="icons">
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[5].icons[0].vector} alt="Food" />
+                                <p id="icon_text">{Register.winery[5].icons[0].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[5].icons[1].vector} alt="Tasting" />
+                                <p id="icon_text">{Register.winery[5].icons[1].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[5].icons[2].vector} alt="Tour" />
+                                <p id="icon_text">{Register.winery[5].icons[2].text}</p>
+                            </div>
+                            <div id="icons_border">
+                                <img id="icon_image" src={Register.winery[5].icons[3].vector} alt="Country" />
+                                <p id="icon_text">{Register.winery[5].icons[3].text}</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <Link to={"/bel-amino"}><button>Get more information</button></Link>
             </figure>
         </div>
     )
