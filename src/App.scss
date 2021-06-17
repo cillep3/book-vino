@@ -96,13 +96,26 @@ body{
     #loginInputs{
         grid-column: 1/-1;
         grid-row:2/3;
+    
+        text-align: center;
+        justify-self: center;
+        align-self: center;
 
-        input[type=text]{
+        input{
+            background-color: white;
+            border-radius:10px 0px 0px 0px;
+            margin:10px;
             display:block;
+            height:20px;
         }
     }
 
     #loginButton{
         background-color: #d97e7e;
+        width:50%;
+        height:50px;
+        color:white;
+        text-align: center;
+        justify-self: center;
     }
 }
