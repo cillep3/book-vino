@@ -134,6 +134,14 @@
             {
                 "src":"assets/img/home.jpg"
             }
+        ],
+
+    "_COMMENT_3":"*** Icons ***",
+        "icons": [
+            {
+                "src":"assets/vector/loupe.png"
+            }
+         
         ]
     
     }

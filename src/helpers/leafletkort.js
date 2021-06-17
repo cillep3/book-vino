@@ -10,7 +10,7 @@ export const makeCard = (koordinater = [54,22] ) => {
     console.log("makeCard")
 
     //let koordinater = [56,10];
-    mymap = L.map("mapcontainer").setView(koordinater, 8) // her loader vi kortet første gang og 8 er zoom ud.
+    mymap = L.map("mapcontainer").setView(koordinater, 10) // her loader vi kortet første gang og 8 er zoom ud.
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
