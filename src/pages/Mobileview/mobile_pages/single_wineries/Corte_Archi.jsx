@@ -1,5 +1,10 @@
 import React from 'react'
 import Register from '../../../../helpers/register.json'
+import {FaMapMarkerAlt} from 'react-icons/fa';
+import {FaMobileAlt} from 'react-icons/fa';
+import {FaRegEnvelope} from 'react-icons/fa';
+import {FaGlobe} from 'react-icons/fa';
+import {BsClock} from 'react-icons/bs';
 
 const Corte_Archi = () => {
     return (
@@ -13,11 +18,11 @@ const Corte_Archi = () => {
             <h2>About Corte Archi</h2>
             <p>Fernando and Silvia will welcome you cordially to show the cellar and, in the tasting room or on the portico surrounded by the Arches, they will accompany you through the tasting journey in the wonderful world of their wines.</p>
             <h2>Contact information</h2>
-            <p>Corte Archi, Via Paverno 21, 37020, Valgatara - Marano di Valpolicella, Italy, Via Paverno 21</p><br></br>
-            <p>+39 3358140026 / +39 45 7701237</p><br></br>
-            <p>info@cortearchi.it / info@cortearchi.it</p><br></br>
-            <p>http://www.cortearchi.it</p><br></br>
-            <p>Monday to Saturday  10 am - 6pm</p>
+            <p><FaMapMarkerAlt/>Corte Archi, Via Paverno 21, 37020, Valgatara - Marano di Valpolicella, Italy, Via Paverno 21</p><br></br>
+            <p><FaMobileAlt/>+39 3358140026 / +39 45 7701237</p><br></br>
+            <p><FaRegEnvelope/>info@cortearchi.it / info@cortearchi.it</p><br></br>
+            <p><FaGlobe/>http://www.cortearchi.it</p><br></br>
+            <p><BsClock/>Monday to Saturday  10 am - 6pm</p>
             <h2>Near By</h2>
             <p>Wine is often served with dinner.</p><br></br>
             <p>How do you hold a wine glass?</p><br></br>

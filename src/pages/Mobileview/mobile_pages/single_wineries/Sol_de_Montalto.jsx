@@ -1,5 +1,10 @@
 import React from 'react'
 import Register from '../../../../helpers/register.json'
+import {FaMapMarkerAlt} from 'react-icons/fa';
+import {FaMobileAlt} from 'react-icons/fa';
+import {FaRegEnvelope} from 'react-icons/fa';
+import {FaGlobe} from 'react-icons/fa';
+import {BsClock} from 'react-icons/bs';
 
 const Sol_de_Montalto = () => {
     return (
@@ -13,11 +18,11 @@ const Sol_de_Montalto = () => {
             <h2>About Sol de Montalto</h2>
             <p>The company produces a limited amount of bottles (around 15,000 per year) divided in 9 different wines. They produce extra virgin olive oil, honey, marmelades and cold cuts as well. The vineyards are processed without the use of pesticides, herbicides and chemical fertilizers in total respect of biodiversity. To ensure their health, the vineyards are sown in autumn with 12 types of herbs and plants with the aim of preserve the fauna and the proliferation of useful insects.</p>
             <h2>Contact information</h2>
-            <p>Sol de Montalto, Loc. Montalto di Gaium, 88, 37010, Rivoli Veronese</p><br></br>
-            <p>+390456261292 / +393201133324</p><br></br>
-            <p>info@soldemontalto.it</p><br></br>
-            <p>http://www.soldemontalto.it</p><br></br>
-            <p>Monday to Saturday  9am - 9pm</p>
+            <p><FaMapMarkerAlt/>Sol de Montalto, Loc. Montalto di Gaium, 88, 37010, Rivoli Veronese</p><br></br>
+            <p><FaMobileAlt/>+390456261292 / +393201133324</p><br></br>
+            <p><FaRegEnvelope/>info@soldemontalto.it</p><br></br>
+            <p><FaGlobe/>http://www.soldemontalto.it</p><br></br>
+            <p><BsClock/>Monday to Saturday  9am - 9pm</p>
             <h2>Near By</h2>
             <p>Wine is often served with dinner.</p><br></br>
             <p>How do you hold a wine glass?</p><br></br>

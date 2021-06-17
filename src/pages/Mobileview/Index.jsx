@@ -2,6 +2,8 @@ import '../../App.scss';
 import "../../pages/Mobileview/Mobile.scss"
 import { BrowserRouter, Route } from 'react-router-dom';
 
+
+
 // Import of components
 import Navigation from "../../layouts/Mobileview/Navigation"
 import Footer from "../../layouts/Footer"

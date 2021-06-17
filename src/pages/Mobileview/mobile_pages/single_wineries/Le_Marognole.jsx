@@ -1,5 +1,10 @@
 import React from 'react'
 import Register from '../../../../helpers/register.json'
+import {FaMapMarkerAlt} from 'react-icons/fa';
+import {FaMobileAlt} from 'react-icons/fa';
+import {FaRegEnvelope} from 'react-icons/fa';
+import {FaGlobe} from 'react-icons/fa';
+import {BsClock} from 'react-icons/bs';
 
 const Le_Marognole = () => {
     return (
@@ -13,11 +18,11 @@ const Le_Marognole = () => {
             <h2>About Le Marognole</h2>
             <p>At this idyllic family-owned place, you instantly sense enthusiasm from the wine farmer, which gives you great quality for your money. Absolutely top notch with wine that is to pay off and that will impress at any dinner party. Of all the places we’ve visited in Valpolicella, this is where you get the best value for money. Even local wine growers recommend this place, which has helped us to find it – look forward to this experience.</p>
             <h2>Contact information</h2>
-            <p>Via Marognole, 7, 37020 Marano di Valpolicella VR, Italy.</p><br></br>
-            <p>+39 3358140026 / +39 45 7701237</p><br></br>
-            <p>info@cortearchi.it / info@cortearchi.it</p><br></br>
-            <p>http://www.cortearchi.it</p><br></br>
-            <p>Monday to Saturday  10 am - 6pm</p>
+            <p><FaMapMarkerAlt/>Via Marognole, 7, 37020 Marano di Valpolicella VR, Italy.</p><br></br>
+            <p><FaMobileAlt/>+39 3358140026 / +39 45 7701237</p><br></br>
+            <p><FaRegEnvelope/>info@cortearchi.it / info@cortearchi.it</p><br></br>
+            <p><FaGlobe/>http://www.cortearchi.it</p><br></br>
+            <p><BsClock/>Monday to Saturday  10 am - 6pm</p>
             <h2>Near By</h2>
             <p>Wine is often served with dinner.</p><br></br>
             <p>How do you hold a wine glass?</p><br></br>
