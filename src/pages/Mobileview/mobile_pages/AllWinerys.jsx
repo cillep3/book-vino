@@ -68,9 +68,9 @@ const AllWinerys = (props) => {
 
             <div id="inputfelt">
                 <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
-                <img id="loupeicon"src = {Register.icons[0].src} />
+                <img id="loupeicon" src={Register.icons[0].src} />
             </div>
-            
+
 
 
 
@@ -87,7 +87,7 @@ const AllWinerys = (props) => {
                 <div id="kort">
                     <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
                 </div>
-                
+
             }
 
         </div>
