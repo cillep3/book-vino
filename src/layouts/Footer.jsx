@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footlogo"><img src={Register.images[8].src}/></div>
-            <div></div>
+            <div id=""></div>
             <p><img src={Register.images[6].src}/>ck@bookvino.com</p>
             <p><img src={Register.images[5].src}/>Engdalen 28, 8500 Grenaa</p>
             <p><img src={Register.images[7].src}/>+45 29875722</p>

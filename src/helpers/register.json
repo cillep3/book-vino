@@ -25,7 +25,7 @@
             ]
         },
         {
-            "title": "Marco Reggio - Enjoy good wine",
+            "title": "Marco Reggio",
             "image": "assets/img/reggio.png",
             "stars": "assets/vector/four-star.png",
             "icons": [
@@ -168,6 +168,12 @@
         },
         {
             "src": "assets/vector/logo.png"
+        }
+    ],
+    "_COMMENT_3": "*** ICONS ***",
+    "icons": [
+        {
+            "src":"assets/vector/loupe.png"
         }
     ]
 }
