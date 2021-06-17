@@ -11,6 +11,7 @@ import About from '../Mobileview/mobile_pages/About'
 import Admin from './mobile_pages/AdminWinery'
 import Edit from './mobile_pages/EditWinery'
 import Home from './mobile_pages/Home'
+import ScrollToTop from '../../components/ToTop'
 
 // Import of single wineries components
 import Corte from './mobile_pages/single_wineries/Corte_Archi'
@@ -26,7 +27,7 @@ const Index = () => {
         <div id="mobileContainer">
             <BrowserRouter>
                 <Navigation />
-
+                <ScrollToTop />
                 <section>
                     <Route exact path="/">
                         <Home />

@@ -12,7 +12,7 @@ const Home = () => {
             <div id="home">
 
                 <div id="hero_box">
-                    <img id="home_hero" src={Register.images[4].src} />
+                    <img id="home_hero" src={Register.images[4].src} alt=""/>
                     <h1>Wine tasting around the world</h1>
                 </div>
 
