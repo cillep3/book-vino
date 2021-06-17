@@ -5,10 +5,10 @@
 }
 
 // Import of stylesheets
+@import "./components/Listelement.scss";
+@import "./components/Kort.scss";
 @import "./pages/Desktopview/Desktop.scss";
 @import "./pages//Mobileview/Mobile.scss";
-@import "./components/Kort.scss";
-@import "./components/Listelement.scss";
 
 // Import of fonts
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
@@ -48,7 +48,7 @@ body{
         height:50px;
         
         display:grid;
-        grid-template-columns: 0.75fr 1fr;
+        grid-template-columns:0.45fr 1fr;
         grid-template-rows: 1fr;
         grid-gap:20px;
         padding-bottom: 75px;
@@ -57,11 +57,13 @@ body{
             justify-self: left;
             align-self: center;
         }
-        img{
-            width:15%;
-            align-self: center;
+        .iconfa{
+            font-size: 20px;
             justify-self: right;
-            margin-right:20px;
+            align-self: center;
+
+            
+           
         }
     }
     a{
@@ -70,39 +72,9 @@ body{
     }
 }
 .footlogo img{
-    width: 20%;
+    width: 30%;
     margin-top: calc(2.5em + 2.5vw);
     margin-bottom: calc(2em + 2vw);
 }
 
-// *** LOGIN ***
-#loginContainer{
-    width:100%;
-    height:100vh;
-    background-color: #a63251;
-
-    display:grid; 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    #loginLogo{
-        grid-column: 1/-1;
-        grid-row: 1/2;
-        text-align: center;
-        justify-self: center;
-        align-self: center;
-    }
-
-    #loginInputs{
-        grid-column: 1/-1;
-        grid-row:2/3;
-
-        input[type=text]{
-            display:block;
-        }
-    }
-
-    #loginButton{
-        background-color: #d97e7e;
-    }
-}
+// *** 
