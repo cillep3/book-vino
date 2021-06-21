@@ -65,8 +65,9 @@ const CreateWinery = () => {
                 <label for="website">Website</label>
                 <input name="website" type="text" placeholder="Type in website url" />
                 <br />
-                {/* <input name="image" type="file" id="img" accept="image/*" placeholder="Vedhæft billede" />
-                <br /> */}
+                <label for="pictures"></label>
+                <input name="pictures" type="file" class="custom-file-input" id="img" accept="image/*" />
+                <br /> 
                 <input type="submit" placeholder="Create winery" value="Create winery"/>
                 <br />
             </form>
@@ -85,7 +86,7 @@ const CreateWinery = () => {
                         <p>Email: {winery.created.mail} </p>
                         <p>Opening hours: {winery.created.openinghrs} </p>
                         <p>Website: {winery.created.website} </p>
-                        {/* <img className="pictures" src={"http://localhost:5056/images/" + winery.oprettet.image} width="200px"/> */}
+                        <img className="pictures" src={"http://localhost:5001/pictures/" + winery.created.pictures} width="200px"/>
                     </div>
                 </div>
             }

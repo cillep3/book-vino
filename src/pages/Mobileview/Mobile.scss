@@ -213,6 +213,28 @@
             font-family: 'Poppins';
         }
 
+        input[type=file]{
+            color:white;
+            width:50%;
+            justify-content: center;
+        }
+
+        .custom-file-input::-webkit-file-upload-button{
+            visibility: hidden;
+        }
+
+        .custom-file-input::before{
+            content:'Add an image';
+            display:block;
+            background:white; 
+            border:1px solid white;
+            color:black;
+            padding:10px;
+            text-align: center;
+            margin-top:50px;
+            font-family: 'Poppins';
+        }
+
         textarea{
             width:80%;
             height:auto;
