@@ -29,7 +29,7 @@ const Footer = () => {
 
                 <p>+45 29875722</p>
             </div>
-            <button>BOOK NOW</button>
+            <Link to="/booking"><button>BOOK NOW</button></Link>
             <h5>FAQ</h5>
             <Link to="/aboutus"><h5>About BookVino</h5></Link>
             <Link to="/allwinerys"><h5>Wineries</h5></Link>

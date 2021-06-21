@@ -229,3 +229,44 @@
         }
     }
 }
+#bookingwrap {
+    width:100%;
+    height:auto;
+    background-color: #a63251;
+    color: white;
+    text-align: center;
+    h1 {
+        color:white;
+        font-size: 45px;
+        padding:50px 0px;
+        text-align: center;
+
+        font-family: 'Big Shoulders Display';
+    }
+}
+#bookingform {
+
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+    }
+    input[type=text], input[type=number], input[type=datetime-local]{
+        width:80%;
+        height:40px;
+        margin-bottom: 10px;
+        border:none;
+        padding: 10px;
+        font-family: 'Poppins';
+    }
+    input[type=submit]{
+        width:60%;
+        height:40px;
+        margin:50px 0px 50px 0px;
+        background-color: #d97e7e;
+        border:none;
+        border-radius:10px 0px 0px 0px;
+        color:white;
+        text-transform: uppercase;
+    }
+}
