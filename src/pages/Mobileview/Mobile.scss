@@ -178,7 +178,13 @@
     width:100%;
     height:auto;
     background-color: #a63251;
+    color: white;
 
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+    }
     #createHeadline{
         color:white;
         font-size: 45px;
@@ -197,15 +203,18 @@
         input[type=text], input[type=number]{
             width:80%;
             height:40px;
-            margin:10px;
-            border-radius:10px 0px 0px 0px;
+            margin-bottom: 10px;
             border:none;
+            padding: 10px;
+            font-family: 'Poppins';
         }
 
         textarea{
             width:80%;
             height:auto;
-            margin:10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-family: 'Poppins';
         }
 
         input[type=submit]{
@@ -220,27 +229,44 @@
         }
     }
 }
-
-// *** FAQ ***
-.faqheading{
-    color: #a63251;
-    font-size: 30px;
-    margin: 50px 0 40px 0;
+#bookingwrap {
+    width:100%;
+    height:auto;
+    background-color: #a63251;
+    color: white;
     text-align: center;
+    h1 {
+        color:white;
+        font-size: 45px;
+        padding:50px 0px;
+        text-align: center;
+
+        font-family: 'Big Shoulders Display';
+    }
 }
+#bookingform {
 
-.faqtext{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.faqbutton{
-    display: grid;
-    margin: auto;
-    width: 80%;
-    background-color: #f2a344;
-    margin-top: calc(2em + 2vw);
-    margin-bottom: calc(2em + 2vw);
-    padding-top: 15px;
-
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+    }
+    input[type=text], input[type=number], input[type=datetime-local], select{
+        width:80%;
+        height:40px;
+        margin-bottom: 10px;
+        border:none;
+        padding: 10px;
+        font-family: 'Poppins';
+    }
+    input[type=submit]{
+        width:60%;
+        height:40px;
+        margin:50px 0px 50px 0px;
+        background-color: #d97e7e;
+        border:none;
+        border-radius:10px 0px 0px 0px;
+        color:white;
+        text-transform: uppercase;
+    }
 }

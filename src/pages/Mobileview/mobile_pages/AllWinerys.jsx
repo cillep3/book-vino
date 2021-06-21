@@ -2,10 +2,8 @@ import { useState, useEffect } from 'react'
 import React from 'react'
 
 import Kort from "../../../components/Kort"
-import {Grid} from "@material-ui/core"
-
 import TextField from "@material-ui/core/TextField"
-import Container from "@material-ui/core/Container"
+
 import Register from "../../../helpers/register.json"
 import Liste from '../../../components/Listelement'
 
@@ -66,16 +64,21 @@ const AllWinerys = (props) => {
     }
 
     return (
+
+
+
         <>
+
+
             <div id="kortContainer">
-            <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
-                    <TextField 
+                <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
+                    <TextField
                         variant="outlined"
                         color="standard"
                         label="Choose Area"
                         size="small"
                     />
-            </div>
+                </div>
                 {
                     // Her kommer Winerydata ind når man trykker. 
                     AllWinerys &&
@@ -95,6 +98,7 @@ const AllWinerys = (props) => {
             <h1 id="allWineriesHeadline">Wineries</h1>
             <Liste />
         </>
+
 
     )
 }
