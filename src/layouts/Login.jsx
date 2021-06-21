@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 import '../App.scss'
 import Button from '@material-ui/core/Button'
 import Form from '@material-ui/core/TextField'
@@ -17,16 +17,33 @@ const theme = createMuiTheme({
     }
 })
 
+
 const Login = () => {
+    
+    let message = []
+    let checkEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    let email = document.getElementById('email')
+    
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        {
+           if(!email.value.match(checkEmail)){
+            message.push('Din email er ikke gyldig')
+        } 
+        }
+        
+    }
+    
     return (
         <ThemeProvider theme={theme}>
             <div id="loginContainer">
                 <img id="loginLogo" src={Register.images[8].src} />
                 <div id="loginInputs">
-                    <Form label="Username" variant="outlined" color="primary" display="block" />
+                    <div id="email"><Form label="Username" variant="outlined" color="primary" display="block" /></div>
                     <Form label="Password" variant="outlined" color="primary" display="block"/>
                 </div>
-                <Button href="/create" id="loginButton">Login</Button>
+                <Button href="/create" id="loginButton" onSubmit={handleSubmit}>Login</Button>
             </div>
         </ThemeProvider>
     )

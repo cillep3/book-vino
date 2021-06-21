@@ -5,6 +5,7 @@ import Kort from "../../../components/Kort"
 import TextField from "@material-ui/core/TextField"
 
 import Register from "../../../helpers/register.json"
+import Liste from '../../../components/Listelement'
 
 
 
@@ -64,49 +65,40 @@ const AllWinerys = (props) => {
 
     return (
 
-        
-        <div id="kortContainer">
-           
-           <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
-
-                <TextField 
-                    variant="outlined"
-                    color="standard"
-                    label="Choose Area"
-                    size="small"
-                    
-                    
-                />
-           
-           </div>
-         
 
 
-            {/* <div id="inputfelt">
-                <input className="inputdesign" type="text" placeholder="Choose Area" onChange={(e) => setbyNavne(e.target.value)} />
-                <img id="loupeicon"src = {Register.icons[0].src} />
-            </div> */}
+        <>
 
 
-
-
-            {
-                // Her kommer Winerydata ind når man trykker. 
-                AllWinerys &&
-                <div>
-                    <h1>{AllWinerys.name} </h1>
+            <div id="kortContainer">
+                <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
+                    <TextField
+                        variant="outlined"
+                        color="standard"
+                        label="Choose Area"
+                        size="small"
+                    />
                 </div>
-            }
+                {
+                    // Her kommer Winerydata ind når man trykker. 
+                    AllWinerys &&
+                    <div>
+                        <h1>{AllWinerys.name} </h1>
+                    </div>
+                }
+                {
+                    AllWinerys &&
+                    <div id="kort">
+                        <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
+                    </div>
 
-            {
-                AllWinerys &&
-                <div id="kort">
-                    <Kort koordinater={[AllWinerys.coord.lat, AllWinerys.coord.lon]} />
-                </div>
+                }
+            </div>
 
-            }
+            <h1 id="allWineriesHeadline">Wineries</h1>
+            <Liste />
+        </>
 
-        </div>
 
     )
 }
