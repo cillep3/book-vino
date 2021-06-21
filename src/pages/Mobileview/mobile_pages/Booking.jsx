@@ -11,9 +11,9 @@ const Booking = () => {
                 <input name="fName" type="text" placeholder="First name" required></input>
                 <input name="lName" type="text" placeholder="Last name" required></input>
                 <label for="email">E-mail</label>
-                <input name="email" type="text" placeholder="Your email" required></input>
+                <input name="email" type="text" required></input>
                 <label for="phone">Phone Number</label>
-                <input name="phone" type="number" placeholder="Phone number" required></input>
+                <input name="phone" type="number" required></input>
                 <label for="guests">Number of Guests</label>
                 <input name="guests" type="number" required></input>
                 <label for="arrival">Arrival Date</label>
