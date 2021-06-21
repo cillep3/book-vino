@@ -96,7 +96,7 @@ p{
 
     display:grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto 1fr;
 
     #loginLogo{
         grid-column: 1/-1;
@@ -123,6 +123,12 @@ p{
         }
     }
 
+    #emailError{
+        text-align: center;
+        color:white;
+        padding-bottom: 25px;
+    }
+
     #loginButton{
         background-color: #d97e7e;
         width:50%;
@@ -132,5 +138,3 @@ p{
         justify-self: center;
     }
 }
-
-
