@@ -47,6 +47,7 @@
         font-size: 16px;
         font-weight: 400;
         width: 80%;
+        font-family: 'Poppins';
     }
     p{
         margin: auto;
@@ -131,6 +132,7 @@
     h1, h2, h3, h4, p {
         margin: auto;
         width: 80%;
+        font-family: 'Poppins';
     }
     h1, h2, h3 {
         color:#a63251;
@@ -184,6 +186,7 @@
         display: block;
         text-align: initial;
         margin-left: 50px;
+        font-family: 'Poppins';
     }
     #createHeadline{
         color:white;
@@ -226,6 +229,7 @@
             border-radius:10px 0px 0px 0px;
             color:white;
             text-transform: uppercase;
+            font-family: 'Poppins';
         }
     }
 }
@@ -246,7 +250,6 @@
     }
 }
 #bookingform {
-
     label {
         display: block;
         text-align: initial;
