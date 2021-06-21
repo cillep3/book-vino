@@ -170,9 +170,13 @@
 // *** WINERIES ***
 #allWineriesHeadline{
     color:#a63251;
-    font-size: 30px;
-    padding:50px 0px;
+    font-size: 40px;
+    padding:50px 0 30px 0;
     text-align: center;
+}
+
+.listeallwineries{
+    margin-bottom: 100px;
 }
 
 // *** CREATE WINERY ***
@@ -274,6 +278,7 @@
         text-transform: uppercase;
     }
 }
+
 #optioncountry {
     font-weight: bolder;
 }

@@ -65,10 +65,7 @@ const AllWinerys = (props) => {
 
     return (
 
-
-
         <>
-
 
             <div id="kortContainer">
                 <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
@@ -96,7 +93,7 @@ const AllWinerys = (props) => {
             </div>
 
             <h1 id="allWineriesHeadline">Wineries</h1>
-            <Liste />
+            <div className="listeallwineries"><Liste /></div>
         </>
 
 
