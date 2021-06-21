@@ -10,6 +10,7 @@ const Booking = () => {
                 <label for="winery">Select Winery</label>
                 <select name="winery" required>
                     <option value="">-- Please choose a winery --</option>
+                    <option value="" id="optioncountry">ITALY</option>
                     <option value="">Bel Amino</option>
                     <option value="">Corte Archi</option>
                     <option value="">Le Marognole</option>
