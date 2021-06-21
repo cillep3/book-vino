@@ -2,10 +2,8 @@ import { useState, useEffect } from 'react'
 import React from 'react'
 
 import Kort from "../../../components/Kort"
-import {Grid} from "@material-ui/core"
-
 import TextField from "@material-ui/core/TextField"
-import Container from "@material-ui/core/Container"
+
 import Register from "../../../helpers/register.json"
 
 
@@ -76,6 +74,8 @@ const AllWinerys = (props) => {
                     color="standard"
                     label="Choose Area"
                     size="small"
+                    
+                    
                 />
            
            </div>
