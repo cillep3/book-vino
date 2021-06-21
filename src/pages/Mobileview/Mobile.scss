@@ -178,7 +178,17 @@
     width:100%;
     height:auto;
     background-color: #a63251;
+    color: white;
 
+    input[type=text], input[type=number], textarea {
+        padding: 10px;
+        font-family: 'Poppins';
+    }
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+    }
     #createHeadline{
         color:white;
         font-size: 45px;
@@ -198,7 +208,6 @@
             width:80%;
             height:40px;
             margin:10px;
-            border-radius:10px 0px 0px 0px;
             border:none;
         }
 

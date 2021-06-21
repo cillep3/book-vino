@@ -35,24 +35,34 @@ const CreateWinery = () => {
             <h1 id="createHeadline">Create winery</h1>
 
             <form id="createForm" onSubmit={handleSubmit}>
+                <label for="country">Country</label>
                 <input name="country" type="text" placeholder="Type in country" />
                 <br />
+                <label for="name">Winery name</label>
                 <input name="name" type="text" placeholder="Type in name of winery" />
                 <br />
+                <label for="location">Area</label>
                 <input name="location" type="number" placeholder="Type in area" />
                 <br />
+                <label for="description">Description</label>
                 <textarea name="description" type="text" placeholder="Type in description" cols="30" rows="10" />
                 <br />
+                <label for="price">Price</label>
                 <input name="price" type="number" placeholder="Type in price of wine tasting" />
                 <br />
+                <label for="adress">Address</label>
                 <input name="adress" type="text" placeholder="Type in address" />
                 <br />
+                <label for="phone">Phone no.</label>
                 <input name="phone" type="number" placeholder="Type in phone number" />
                 <br />
+                <label for="mail">Email</label>
                 <input name="mail" type="text" placeholder="Type in email" />
                 <br />
+                <label for="openinghrs">Opening hours</label>
                 <input name="openinghrs" type="text" placeholder="Type in opening hours" />
                 <br />
+                <label for="website">Website</label>
                 <input name="website" type="text" placeholder="Type in website url" />
                 <br />
                 {/* <input name="image" type="file" id="img" accept="image/*" placeholder="Vedhæft billede" />
