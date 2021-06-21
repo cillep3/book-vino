@@ -7,6 +7,16 @@ const Booking = () => {
         <div id="bookingwrap">
             <h1>Booking</h1>
             <form id="bookingform">
+                <label for="winery">Select Winery</label>
+                <select name="winery" required>
+                    <option value="">-- Please choose a winery --</option>
+                    <option value="">Bel Amino</option>
+                    <option value="">Corte Archi</option>
+                    <option value="">Le Marognole</option>
+                    <option value="">Marchesini Marcello</option>
+                    <option value="">Marco Reggio</option>
+                    <option value="">Sol de Montalto</option>
+                </select>
                 <label for="fName">Name</label>
                 <input name="fName" type="text" placeholder="First name" required></input>
                 <input name="lName" type="text" placeholder="Last name" required></input>
