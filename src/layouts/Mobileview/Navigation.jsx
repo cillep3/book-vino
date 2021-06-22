@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Mobileview/Navigation.scss'
+
 
 // import of material-ui
 import { makeStyles, withTheme } from '@material-ui/core/styles';
@@ -14,6 +14,7 @@ import Wineries from '@material-ui/icons/LocationOnRounded';
 
 const useStyles = makeStyles({
     root: {
+
         width: "100%",
         position: "fixed",
         bottom: 0,

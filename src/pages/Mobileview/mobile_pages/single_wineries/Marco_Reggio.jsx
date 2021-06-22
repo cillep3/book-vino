@@ -39,6 +39,7 @@ const Marco_Reggio = (props) => {
         }
 
     }, [byNavne])
+    
 
     return (
         <div className="singlewine">

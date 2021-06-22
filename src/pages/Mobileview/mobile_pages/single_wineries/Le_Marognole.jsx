@@ -50,7 +50,7 @@ const Le_Marognole = (props) => {
             <div className="firstSection">
                 <h1>Le Marognole</h1>
                 <img src={Register.winery[3].stars} className="starimg" alt="" />
-                <p>For only 15 euros per person you will get an amazing wine tasting in the heart of Valpolicella, which includes Le Marognoles amazing Amarone wine. If you buy as a couple for more than 150 Euro wine with home (and beware, because it’s hard to stop when you’ve first tasted the wine), you’ll get a 50 discount on the wine tasting</p>
+                <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>
                 <h3>Price 15€</h3>
                 <button>BOOK NOW</button>
             </div>

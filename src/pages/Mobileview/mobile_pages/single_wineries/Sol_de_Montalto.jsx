@@ -14,7 +14,7 @@ import { getAllWinerysByZip } from '../../../../helpers/apikaldleaflet'
 
 const Sol_de_Montalto = (props) => {
 
-    const [byNavne, setbyNavne] = useState("Marano di Valpolicella") // Her er zipcode skiftet ud med "bynavn"
+    const [byNavne, setbyNavne] = useState("Rivoli Veronese") // Her er zipcode skiftet ud med "bynavn"
     const [AllWinerys, setAllWinerys] = useState() // Vindata
     const [error, setError] = useState() // FEJLBESKEDER
 
@@ -51,7 +51,7 @@ const Sol_de_Montalto = (props) => {
                 <h1>Sol de Montalto</h1>
                 <img src={Register.winery[2].stars} className="starimg" alt="" />
                 <h2>Our Wine Tasting</h2>
-                <p>Imagine sitting in a quiet and enchanting place, surrounded by vineyards, with a glass of wine in your hands and some cold cuts and cheeses to pair. It’s not a dream and it’s just few kilometres from Lake Garda.</p>
+                <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines..</p>
                 <h3>Price 195€</h3>
                 <button>BOOK NOW</button>
             </div>
@@ -87,7 +87,7 @@ const Sol_de_Montalto = (props) => {
                     </div>
                 }
             </div>
-            
+
         </div>
 
     )
