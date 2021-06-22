@@ -51,6 +51,8 @@ export default function SimpleBottomNavigation() {
 
             <BottomNavigationAction component={Link} to={'/login'} value={'/login'} label={'Login'} icon={<Login />} />
 
+            <BottomNavigationAction component={Link} to={'/slider'} value={'/slider'} label={'Login'} icon={<Login />} />
+
 
         </BottomNavigation>
     );

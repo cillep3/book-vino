@@ -1,0 +1,57 @@
+import {useState, useEffect} from 'react'
+import Register from '../helpers/register.json'
+
+const Slider = () => {
+
+    // States til at rumme data
+    const [slider, setSlider] = useState();
+    const [fejl, setFejl] = useState();
+
+
+    useEffect(() => {
+        
+        
+        return () => {
+           
+        }
+    }, [])
+
+    
+
+    return (
+        <>
+            {/* Der er data klar */}
+            {
+                slider &&
+                <>
+                {
+                    Register.reggio.map((data, index)  => 
+                        <div className="slideshow-container" key={slider._id}>
+                            <div className="slideshow_mySlides">
+                                <img className="slideshow_image" src={data.src} />
+                            </div>
+                            {/* Arrows */}
+                            <a class="slideshow_prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="slideshow_next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    )
+                }
+                {/* Dots */}
+                <div style="text-align:center">
+                    <span class="slideshow_dot" onclick="currentSlide(1)"></span>
+                    <span class="slideshow_dot" onclick="currentSlide(2)"></span>
+                    <span class="slideshow_dot" onclick="currentSlide(3)"></span>
+                </div>
+                </>
+            }
+
+            {/* Der er opstået en fejl - giv besked til brugeren */}
+            {
+                fejl &&
+                <h3>{fejl}</h3>
+            }
+        </>
+    )
+}
+
+export default Slider

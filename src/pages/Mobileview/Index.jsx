@@ -17,7 +17,7 @@ import ScrollToTop from '../../components/ToTop'
 import Login from '../../layouts/Login'
 import Create from './mobile_pages/CreateWinery'
 import Faq from './mobile_pages/Faq'
-
+import Slider from '../../components/Slider'
 import Booking from '../Mobileview/mobile_pages/Booking'
 
 // Import of single wineries components
@@ -81,6 +81,9 @@ const Index = () => {
                     </Route>
                     <Route path="/booking">
                         <Booking />
+                    </Route>
+                    <Route path="/slider">
+                        <Slider />
                     </Route>
 
                 </section>

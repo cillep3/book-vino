@@ -86,7 +86,7 @@ const CreateWinery = () => {
                         <p>Email: {winery.created.mail} </p>
                         <p>Opening hours: {winery.created.openinghrs} </p>
                         <p>Website: {winery.created.website} </p>
-                        <img className="pictures" src={"http://localhost:5001/pictures/" + winery.created.pictures} width="200px"/>
+                        <img className="pictures" src={"http://localhost:5001/images/" + winery.created.pictures} width="200px"/>
                     </div>
                 </div>
             }
