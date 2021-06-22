@@ -41,6 +41,7 @@ const Footer = () => {
             <Link to="/allwinerys"><h5>Wineries</h5></Link>
             <div className="social"><FaFacebookSquare /><FaInstagramSquare /><FaYoutubeSquare /></div>
             <h6>Copyright © bookvino.com 2020 All Rights Reserved<br></br>CVR: 37992240</h6>
+            <Link to="/admin"><h6>BookVino Admin</h6></Link>
 
         </div >
     )

@@ -85,6 +85,10 @@ const Index = () => {
                     <Route path="/slider">
                         <Slider />
                     </Route>
+                    <Route path="/admin">
+                        <Admin />
+                    </Route>
+
 
                 </section>
 
