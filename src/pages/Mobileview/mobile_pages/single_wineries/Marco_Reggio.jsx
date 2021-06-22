@@ -14,8 +14,6 @@ import { getAllWinerysByZip } from '../../../../helpers/apikaldleaflet'
 
 const Marco_Reggio = (props) => {
 
-    <Slider sliderdata={Register.reggio} />
-
     const [byNavne, setbyNavne] = useState("Marano di Valpolicella") // Her er zipcode skiftet ud med "bynavn"
     const [AllWinerys, setAllWinerys] = useState() // Vindata
     const [error, setError] = useState() // FEJLBESKEDER
@@ -47,7 +45,7 @@ const Marco_Reggio = (props) => {
     return (
         <div className="singlewine">
 
-            <img src={Register.winery[1].image} className="topimg" alt="" />
+        <Slider sliderdata={Register.reggio} className="topimg" />  
 
             <div className="firstSection">
                 <h1>Marco Reggio</h1>
