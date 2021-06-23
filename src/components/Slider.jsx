@@ -3,20 +3,24 @@ import { useState, useEffect } from 'react'
 import { slideShowStart, plusSlides, currentSlide, stopTimer } from '../helpers/slider'
 import './Slider.scss';
 
+// Vi implementerer props, som rummer de data, vi skal bruge i slideren
 const Slider = (props) => {
 
-    // States til at rumme data
+    // Vi kalder på vores props i const slider vha sliderdata, somv vi har navngivet i <Slider /> i de respektive komponenter, hvor vi skal bruge slideren. Vi kommer props i en useState, da vi vha useEffect måler på, om useState indeholder data
     const [slider, setSlider] = useState(props.sliderdata);
     const [fejl, setFejl] = useState();
 
-
+    // Hvis slider indeholder data, skal slideShowStart() gå igang. Ellers skal den melde fejl
     useEffect(() => {
         if (slider) {
             slideShowStart()
+        } else {
+            setFejl("Der er sket en fejl")
         }
         
+        // stopTimer() er nødvendig for, at vores side ikke crashe. Hvis den ikke var der, ville hele siden crashe, når brugeren klikker væk fra komponentet med slideren. Det skyldes, at slider-funktionen kører videre i baggrunden, og sker det at man klikker ind på en ny side, kan den ikke finde funktionen. stopTimer() gør, at slider-funktionen stopper, når brugeren klikker væk
         return () => {
-            stopTimer()
+            stopTimer() 
         }
     }, [])
 
@@ -37,6 +41,7 @@ const Slider = (props) => {
                                 </div>
                             ))
                         }
+                        {/* Next and pre icons */}
                         <a className="slideshow_prev" onClick={() => plusSlides(-1)}>&#10094;</a>
                         <a className="slideshow_next" onClick={() => plusSlides(1)}>&#10095;</a>
                     </div>
@@ -50,6 +55,12 @@ const Slider = (props) => {
                         }
                     </div>
                 </>
+            }
+
+            {/* Vi venter på data (endnu ingen data - og heller ingen fejl) */}
+            {
+                !slider && !fejl &&
+                <h3>Loader ....</h3>
             }
 
             {/* Der er opstået en fejl - giv besked til brugeren */}

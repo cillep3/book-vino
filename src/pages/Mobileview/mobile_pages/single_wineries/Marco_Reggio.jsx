@@ -45,6 +45,7 @@ const Marco_Reggio = (props) => {
     return (
         <div className="singlewine">
 
+        {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'reggio'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
         <Slider sliderdata={Register.reggio} className="topimg" />  
 
             <div className="firstSection">
