@@ -252,5 +252,19 @@
         {
             "src":"assets/img/sol-de-montalto-slider4.png"
         }
+    ],
+    "le_marognole":[
+        {
+            "src":"assets/img/le-marognole-slider1.png"
+        },
+        {
+            "src":"assets/img/le-marognole-slider2.png"
+        },
+        {
+            "src":"assets/img/le-marognole-slider3.png"
+        },
+        {
+            "src":"assets/img/le-marognole-slider4.png"
+        }
     ]
 }
