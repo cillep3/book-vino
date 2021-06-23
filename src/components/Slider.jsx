@@ -46,10 +46,10 @@ const Slider = (props) => {
                         <a className="slideshow_next" onClick={() => plusSlides(1)}>&#10095;</a>
 
                         {/* Dots */}
-                        <div>
+                        <div id="dots">
                             {
                                 slider.map((data, index) => (
-                                    <div id="dots"><span key={index} className="slideshow_dot" onClick={() => currentSlide(index + 1)}></span></div>
+                                    <span key={index} className="slideshow_dot" onClick={() => currentSlide(index + 1)}></span>
                                 ))
                             }
                         </div>
