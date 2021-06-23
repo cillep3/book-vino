@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import validator from 'validator'
 import '../App.scss'
 import Button from '@material-ui/core/Button'
 import Form from '@material-ui/core/TextField'
@@ -19,20 +20,19 @@ const theme = createMuiTheme({
 
 
 const Login = () => {
-    
-    let message = []
-    let checkEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-    let email = document.getElementById('email')
-    
-    const handleSubmit = (e) => {
-        e.preventDefault()
 
-        {
-           if(!email.value.match(checkEmail)){
-            message.push('Din email er ikke gyldig')
-        } 
+    const [emailError, setEmailError] = useState()
+    const [disabled, setDisabled] = useState(true)
+    const validateEmail = (e) => {
+        let email = e.target.value
+
+        if(validator.isEmail(email)){
+            setEmailError()
+            setDisabled(false)
+        } else {
+            setEmailError('Please enter a valid email')
+            setDisabled(true)
         }
-        
     }
     
     return (
@@ -40,10 +40,11 @@ const Login = () => {
             <div id="loginContainer">
                 <img id="loginLogo" src={Register.images[8].src} />
                 <div id="loginInputs">
-                    <div id="email"><Form label="Username" variant="outlined" color="primary" display="block" /></div>
-                    <Form label="Password" variant="outlined" color="primary" display="block"/>
+                    <div id="email" onChange={(e) => validateEmail(e)}><Form label="info@info.com" variant="outlined" color="primary" display="block" margin="dense"/></div>
+                    <Form label="Password" variant="outlined" color="primary" display="block" margin="dense" />
                 </div>
-                <Button href="/create" id="loginButton" onSubmit={handleSubmit}>Login</Button>
+                <p id="emailError">{emailError}</p>
+                <Button href="/create" id="loginButton" disabled={disabled}>Login</Button>
             </div>
         </ThemeProvider>
     )

@@ -14,7 +14,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+h1, h2, h3, h4, h5,h6 {
+    font-family: 'Big Shoulders Display';
+}
+
+p{
     font-family: 'Poppins';
     
 }
@@ -26,6 +30,7 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 70px;
+    
 
     button {
         width: 70%;
@@ -67,6 +72,7 @@ body{
         color: white;
         text-decoration: none;
     }
+    
 }
 
 .footlogo img{
@@ -88,7 +94,7 @@ body{
 
     display:grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto 1fr;
 
     #loginLogo{
         grid-column: 1/-1;
@@ -115,6 +121,12 @@ body{
         }
     }
 
+    #emailError{
+        text-align: center;
+        color:white;
+        padding-bottom: 25px;
+    }
+
     #loginButton{
         background-color: #d97e7e;
         width:50%;
@@ -122,10 +134,5 @@ body{
         color:white;
         text-align: center;
         justify-self: center;
-    }
-}
-#createContainer {
-    input[type=text], input[type=number] {
-        padding: 10px;
     }
 }

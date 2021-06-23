@@ -47,6 +47,7 @@
         font-size: 16px;
         font-weight: 400;
         width: 80%;
+        font-family: 'Poppins';
     }
     p{
         margin: auto;
@@ -121,56 +122,122 @@
 // *** SINGLE WINERIES ***
 .singlewine {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 1.3fr 0.5fr 0.5fr 0.5fr 1fr;
+    width: 100%;
+    height: auto;
+
     .topimg {
+        grid-column: 1/-1;
+        grid-auto-rows: 1/2;
         width: 100%;
+        margin-bottom: 50px;
     }
-    .starimg {
-        margin: auto;
-        margin-bottom: calc(2em + 2vw);
-    }
-    h1, h2, h3, h4, p {
-        margin: auto;
-        width: 80%;
-    }
-    h1, h2, h3 {
+    .firstSection{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        h1{
+        text-align: center;
+        font-size: 50px;
         color:#a63251;
-    }
-    h1 {
-        margin-top: calc(1em + 1vw);
-        margin-bottom: calc(0.5em + 0.5vw);
-        font-size: 4em;
-        font-weight: 400;
-        font-family: 'Big Shoulders Display';
-    }
-    h2 {
-        margin-top: calc(1em + 1vw);
-        margin-bottom: calc(0.3em + 0.3vw);
-        font-size: 3em;
-        font-weight: 400;
-        font-family: 'Big Shoulders Display';
-    }
-    h3 {
-        font-size: 2em;
-    }
-        h4 {            
-            font-size: 16px;
-            font-weight: 400;
-            margin-bottom: calc(1.5em + 1.5vw);
         }
+        .starimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            width: 30%;
+        }
+        h2{
+        margin-left: 40px;
+        font-size: 30px;
+        margin-top: 30px;
+            
+            }
+        p{
+            margin: 20px 40px 20px 40px;
+            font-size: 16px;
+            }
+        h3{
+        color:#a63251;
+        font-size: 30px;
+        margin-left: 40px;
+        }    
+
         button {
-            margin: auto;
-            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
             background-color: #f2a344;
             margin-top: calc(1em + 1vw);
         }
+    }
+
+    .sectionTwo{
+        grid-column: 1/-1;
+        grid-row: 3/4;
+        
+        h2{
+        margin-left: 40px;
+        font-size: 30px;
+        
+        }
+        p{
+            margin: 20px 40px 50px 40px;
+            font-size: 16px;
+        }
+    }
+    .sectionTree{
+        grid-column: 1/-1;
+        grid-row: 4/5;
+        h2{
+            margin-left: 40px;
+            font-size: 30px;
+            margin-bottom: 20px;
+            }
+            p{
+                margin: 0px 40px 0px 40px;
+                font-size: 16px;
+            }
+    }
+    .sectionFour{
+        grid-column: 1/-1;
+        grid-row: 5/6;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        h2{
+        margin: 0px 0 20px 40px;
+        font-size: 30px;
+        }
+        p{
+        margin: 0px 40px 0px 40px;
+        font-size: 16px;
+        }
+    }
+
+    #kortPages{
+        grid-column: 1/-1;
+        grid-row: 6/7;
+        z-index: 1;
+    }
+   
+        
 }
+
+
 
 // *** WINERIES ***
 #allWineriesHeadline{
     color:#a63251;
-    font-size: 30px;
-    padding:50px 0px;
+    font-size: 40px;
+    padding:50px 0 30px 0;
     text-align: center;
+    font-family: 'Big Shoulders Display';
+}
+
+.listeallwineries{
+    margin-bottom: 100px;
 }
 
 // *** CREATE WINERY ***
@@ -178,7 +245,14 @@
     width:100%;
     height:auto;
     background-color: #a63251;
+    color: white;
 
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+        font-family: 'Poppins';
+    }
     #createHeadline{
         color:white;
         font-size: 45px;
@@ -197,15 +271,40 @@
         input[type=text], input[type=number]{
             width:80%;
             height:40px;
-            margin:10px;
-            border-radius:10px 0px 0px 0px;
+            margin-bottom: 10px;
             border:none;
+            padding: 10px;
+            font-family: 'Poppins';
+        }
+
+        input[type=file]{
+            color:white;
+            width:50%;
+            justify-content: center;
+        }
+
+        .custom-file-input::-webkit-file-upload-button{
+            visibility: hidden;
+        }
+
+        .custom-file-input::before{
+            content:'Add an image';
+            display:block;
+            background:white; 
+            border:1px solid white;
+            color:black;
+            padding:10px;
+            text-align: center;
+            margin-top:50px;
+            font-family: 'Poppins';
         }
 
         textarea{
             width:80%;
             height:auto;
-            margin:10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-family: 'Poppins';
         }
 
         input[type=submit]{
@@ -217,6 +316,79 @@
             border-radius:10px 0px 0px 0px;
             color:white;
             text-transform: uppercase;
+            font-family: 'Poppins';
         }
     }
+}
+#bookingwrap {
+    width:100%;
+    height:auto;
+    background-color: #a63251;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+    h1 {
+        color:white;
+        font-size: 45px;
+        padding:50px 0px;
+        text-align: center;
+
+        font-family: 'Big Shoulders Display';
+    }
+}
+#bookingform {
+    label {
+        display: block;
+        text-align: initial;
+        margin-left: 50px;
+    }
+    input[type=text], input[type=number], input[type=datetime-local], select{
+        width:80%;
+        height:40px;
+        margin-bottom: 10px;
+        border:none;
+        padding: 10px;
+        font-family: 'Poppins';
+    }
+    input[type=submit]{
+        width:60%;
+        height:40px;
+        margin:50px 0px 50px 0px;
+        background-color: #f2a344;
+        border:none;
+        border-radius:0px 10px 10px 10px;
+        color:white;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'Poppins';
+    }
+}
+
+#optioncountry {
+    font-weight: bolder;
+}
+
+// *** faq ***
+.faqheading{
+text-align: center;
+font-size: 35px;
+margin-top: 40px;
+margin-bottom: 50px;
+color: #a63251;
+}
+
+.faqtext{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.faqbutton{
+display: grid;
+margin: auto;
+width: 80%;
+background-color: #f2a344;
+margin-top: calc(1em + 1vw);
+margin-bottom: 50px;
+margin-top: 50px;
+padding-top: 15px;
 }

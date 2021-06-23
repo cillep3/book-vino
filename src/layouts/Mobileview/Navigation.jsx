@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Mobileview/Navigation.scss'
+
 
 // import of material-ui
 import { makeStyles, withTheme } from '@material-ui/core/styles';
@@ -11,8 +11,10 @@ import AboutUs from '@material-ui/icons/FavoriteRounded';
 import Login from '@material-ui/icons/PersonRounded';
 import Wineries from '@material-ui/icons/LocationOnRounded';
 
+
 const useStyles = makeStyles({
     root: {
+
         width: "100%",
         position: "fixed",
         bottom: 0,
@@ -49,7 +51,6 @@ export default function SimpleBottomNavigation() {
             <BottomNavigationAction component={Link} to={'/aboutus'} value={'/aboutus'} label={'About Us'} icon={<AboutUs />} />
 
             <BottomNavigationAction component={Link} to={'/login'} value={'/login'} label={'Login'} icon={<Login />} />
-
 
         </BottomNavigation>
     );

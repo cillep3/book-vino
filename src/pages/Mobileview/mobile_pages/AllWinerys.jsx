@@ -50,25 +50,9 @@ const AllWinerys = (props) => {
 
     }, [byNavne])
 
-    const stortForbogstav = (teksten) => {
-
-        // Gør at Vintekst beksrivelsen altid er med stort forbogstav
-
-        return teksten.charAt(0).toUpperCase() + teksten.slice(1);
-    }
-
-    //unixtid er tindspunket i sekunder. Skal ganges med 1000 fordi JS arbejder med millisekunder
-    const beregningsTidspunkt = (unixtid) => {
-
-        return new Date(unixtid * 1000).toLocaleTimeString("da-dk", { hour: "numeric", minute: "2-digit" });
-    }
-
     return (
 
-
-
         <>
-
 
             <div id="kortContainer">
                 <div id="textField" onChange={(e) => setbyNavne(e.target.value)}>
@@ -96,7 +80,7 @@ const AllWinerys = (props) => {
             </div>
 
             <h1 id="allWineriesHeadline">Wineries</h1>
-            <Liste />
+            <div className="listeallwineries"><Liste /></div>
         </>
 
 
