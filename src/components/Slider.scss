@@ -9,22 +9,14 @@
 }
 
 .slideshow_mySlides {
-    grid-column: 2/3;
+    grid-column: 1/-1;
     grid-row: 1/-1;
     display: none;
-
-    text-align: center;
-    justify-self: center;
-    align-self: center;
 }
 
 .slideshow_image {
-    width: 400px;
-}
-
-.slideshow_text {
-    padding: 50px 100px 50px 100px;
-    font-size: 25px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .slideshow_prev {
@@ -53,14 +45,25 @@
 .slideshow_prev,
 .slideshow_next {
     cursor: pointer;
-    color: #494B55;
+    color:#a63251;
+    background-color: white;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
     font-weight: bold;
-    font-size: 18px;
-    border-radius: 0 3px 3px 0;
+    font-size: 30px;
+}
+
+#dots{
+    display:inline;
+    grid-column: 2/3;
+    grid-row: 1/-1;
 }
 
 /* The dots/bullets/indicators */
 .slideshow_dot {
+    
+
     cursor: pointer;
     height: 13px;
     width: 13px;

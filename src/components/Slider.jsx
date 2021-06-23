@@ -17,10 +17,10 @@ const Slider = (props) => {
         } else {
             setFejl("Der er sket en fejl")
         }
-        
+
         // stopTimer() er nødvendig for, at vores side ikke crashe. Hvis den ikke var der, ville hele siden crashe, når brugeren klikker væk fra komponentet med slideren. Det skyldes, at slider-funktionen kører videre i baggrunden, og sker det at man klikker ind på en ny side, kan den ikke finde funktionen. stopTimer() gør, at slider-funktionen stopper, når brugeren klikker væk
         return () => {
-            stopTimer() 
+            stopTimer()
         }
     }, [])
 
@@ -44,16 +44,18 @@ const Slider = (props) => {
                         {/* Next and pre icons */}
                         <a className="slideshow_prev" onClick={() => plusSlides(-1)}>&#10094;</a>
                         <a className="slideshow_next" onClick={() => plusSlides(1)}>&#10095;</a>
+
+                        {/* Dots */}
+                        <div>
+                            {
+                                slider.map((data, index) => (
+                                    <div id="dots"><span key={index} className="slideshow_dot" onClick={() => currentSlide(index + 1)}></span></div>
+                                ))
+                            }
+                        </div>
                     </div>
 
-                    {/* Dots */}
-                    <div style={{textAlign:"center"}}>
-                        {
-                            slider.map((data, index) => (
-                                <span key={index} className="slideshow_dot" onClick={ () => currentSlide(index + 1)}></span>
-                            ))
-                        }
-                    </div>
+
                 </>
             }
 
