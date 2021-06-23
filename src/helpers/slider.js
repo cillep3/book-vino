@@ -4,14 +4,17 @@ let timer;
 let slides, dots;
 let i; 
 
+// stopTimer() stopper funktionen
 export const stopTimer = () => {
     clearTimeout(timer)
 }
 
+// Starter showSlides() funktionen
 export const slideShowStart = () => {
     showSlides();
 }
 
+// Funktion der kalder på slideIndex og regulerer, om slideIndex skal plus eller minus med én, når brugeren klikker på vores prikker eller pile
 export const plusSlides = (position) => {
     clearTimeout(timer);
     slideIndex += position;
@@ -29,6 +32,7 @@ export const plusSlides = (position) => {
     timer = setTimeout(showSlides, 4000);
 }
 
+// Funktion der kalder på slideIndex og finder den korrekte slide, som brugeren skal befinde sig på
 export const currentSlide = (index) => {
     clearTimeout(timer);
     if (index > slides.length) { index = 1 }
@@ -47,7 +51,7 @@ export const currentSlide = (index) => {
     timer = setTimeout(showSlides, 4000);
 }
 
-// Motoren
+// Motoren til slider-funktionen
 function showSlides(n) {
 
     clearTimeout(timer);
