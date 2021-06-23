@@ -49,7 +49,7 @@ const Bel_Amino = (props) => {
 
         <div className="singlewine">
 
-            {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'reggio'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
+            {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'bel_amino'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
             <Slider sliderdata={Register.bel_amino} className="topimg" />  
 
             <div className="firstSection">

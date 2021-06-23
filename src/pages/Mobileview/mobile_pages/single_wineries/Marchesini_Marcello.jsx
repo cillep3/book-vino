@@ -6,6 +6,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
+import Slider from '../../../../components/Slider'
 
 /* ======= KORT IMPORT ====== */
 import Kort from "../../../../components/Kort"
@@ -45,7 +46,9 @@ const Marchesini_Marcello = (props) => {
     return (
         <div className="singlewine">
 
-            <img src={Register.winery[0].image} className="topimg" alt="" />
+            {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'marchesini_marcello'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
+            <Slider sliderdata={Register.marchesini_marcello} className="topimg" />  
+
             <div className="firstSection">
                 <h1>Marchesini Marcello</h1>
                 <img src={Register.winery[0].stars} className="starimg" alt="" />
