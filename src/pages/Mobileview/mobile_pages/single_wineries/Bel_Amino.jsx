@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import React from 'react'
 import Register from '../../../../helpers/register.json'
 import {FaMapMarkerAlt} from 'react-icons/fa';
@@ -5,10 +6,13 @@ import {FaMobileAlt} from 'react-icons/fa';
 import {FaRegEnvelope} from 'react-icons/fa';
 import {FaGlobe} from 'react-icons/fa';
 import {BsClock} from 'react-icons/bs';
-
+import Kort from "../../../../components/Kort"
 const Bel_Amino = () => {
     return (
+
+     <>
         <div className="singlewine">
+
             <img src={Register.winery[5].image} className="topimg" alt=""/>
             <h1>Bel Amino</h1>
             <img src={Register.winery[5].stars} className="starimg" alt=""/>
@@ -29,7 +33,10 @@ const Bel_Amino = () => {
             <p>Be not offended when your ex drinks wine.</p><br></br>
             <p>Burgundy is the definition of a strong red.</p><br></br>
         </div>
-        
+
+        <Kort  koordinater={[40.1257, 12.1486]}/>
+</>
+                    
     )
 }
 
