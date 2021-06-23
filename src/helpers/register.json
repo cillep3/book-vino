@@ -183,7 +183,7 @@
         }
     ],
     "_COMMENT_4": "*** SLIDER ***",
-    "aorte-archi":[
+    "aorte_archi":[
         {
             "src":"assets/img/aorte-archi-slider1.png"
         },
@@ -211,7 +211,7 @@
             "src":"assets/img/bel-amino-slider4.png"
         }
     ],
-    "marchesini-marcello":[
+    "marchesini_marcello":[
         {
             "src":"assets/img/marchesini-marcello-slider-1.png"
         },
@@ -239,7 +239,7 @@
             "src":"assets/img/reggio-slider4.png"
         }
     ],
-    "sol-de-montalto":[
+    "sol_de_montalto":[
         {
             "src":"assets/img/sol-de-montalto-slider1.png"
         },
