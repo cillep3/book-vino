@@ -1,5 +1,6 @@
 import React from 'react'
 import './Listelement.scss'
+//import '../pages/Mobileview/Mobile.scss'
 import { Link } from 'react-router-dom'
 
 // Import of components

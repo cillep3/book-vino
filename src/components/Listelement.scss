@@ -125,6 +125,11 @@ button:hover{
 }
 
 @media screen and (max-width:900px) {
+    #listContainer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
     #borderBox{
         h1{
             font-size: 20px;
