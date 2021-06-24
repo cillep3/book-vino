@@ -58,7 +58,7 @@ const AdminWinery = () => {
             {
                 winery &&
                 <>
-                    <p><Link to={"/createWinery/"} > <AiOutlineSolution /></Link> Create new winery</p>
+                    <p><Link to={"/createWinery/"} > <AiOutlineSolution style={{color:"white"}}/></Link> Create new winery</p>
                     <h2>Antal wineries: {winery.length}</h2>
                     {
                         winery.map(w => (
@@ -66,11 +66,11 @@ const AdminWinery = () => {
                             <div key={w._id}>
                                 <p>
                                     <AiFillDelete onClick={() => handleSlet(w._id)} />
-                                    <Link to={"/editWineries/" + w._id} > <AiFillEdit /></Link>
+                                    <Link to={"/editWineries/" + w._id} ><AiFillEdit style={{color:"white"}}/></Link>
                                     {/* Når vi skriver link, så kommer vi over i fanen rettodo
                                     AiFillDelete og onclick gør at vi der kommer icon frem. */}
 
-                                    {w.titel} ... {w._id}
+                                     - {w.name}
                                 </p>
                             </div>
                         ))
