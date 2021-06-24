@@ -11,7 +11,8 @@ import CreateWinery from './desktop_pages/CreateWinery'
 import AdminWinery from "./desktop_pages/AdminWinery";
 import EditWineries from './desktop_pages/EditWineries';
 import Listelement from '../../components/Listelement';
-import Login from '../../layouts/Login'
+import Login from '../../layouts/Login';
+import About from "./desktop_pages/About";
 
 // Import of single wineries components
 import Corte from './desktop_pages/single_wineries/Corte_Archi'
@@ -59,6 +60,9 @@ const Index = () => {
                     </Route>
                     <Route path="/login">
                         <Login />
+                    </Route>
+                    <Route path="/about ">
+                        <About />
                     </Route>
                 </section>
                 <Footer />

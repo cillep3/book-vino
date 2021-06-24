@@ -19,12 +19,11 @@
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: white;
-    z-index: 10;
+    z-index: 5;
     opacity: 0.8;
 }
 
 input{
-    
     color: black;
 }
 
@@ -33,7 +32,6 @@ input{
     height: 550px;
     width: 100%;
     background-color: silver;
-    z-index: 1;
 }
 
 
@@ -41,7 +39,6 @@ input{
 #kortPages{
   
 #mapcontainer{
-
     height: 350px;
 
 }
