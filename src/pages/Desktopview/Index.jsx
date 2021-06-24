@@ -61,7 +61,7 @@ const Index = () => {
                         <Login />
                     </Route>
                 </section>
-                <Footer />
+
             </BrowserRouter>
         </div>
     )
