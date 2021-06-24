@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 const About = () => {
   return (
     <div className="about">
+      ttttttttt
       <img src={Register.images[0].src} />
       <h1>About BookVino</h1>
       <h4>
