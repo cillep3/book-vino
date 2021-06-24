@@ -1,49 +1,22 @@
-import { useEffect, useState } from "react";
-import { getAllWineries } from '../../../helpers/apikald';
+import {useEffect, useState} from 'react'
+import '../Desktop.scss'
+import Register from '../../../helpers/register.json'
+import Liste from '../../../components/Listelement'
+import Map from '../../../components/Kort'
+import TextField from "@material-ui/core/TextField"
+import { getAllWinerysByZip } from '../../../helpers/apikaldleaflet'
 
 const Winerys = () => {
-  const [winerys, setWinerys] = useState();
-  const [error, setError] = useState();
-
-  useEffect(() => {
-    getAllWineries()
-      .then((data) => {
-        console.log(data);
-        setWinerys(data);
-        setError();
-      })
-      .catch((err) => {
-        console.log(err);
-        setError("There is an error!");
-        setWinerys();
-      });
-  }, []);
-
   return (
-    <div className="allWinerys">
-      {winerys && (
-        <>
-          {winerys.map((w) => (
-            <div key={w._id}>
-              <h1>{w.country}</h1>
-              <h1>{w.name}</h1>
-              <img
-                className="pictures"
-                src={"http://localhost:5001/images/" + w.pictures}
-                alt=""
-              />
-            </div>
-          ))}
-        </>
-      )}
-      {!winerys && !error && (
-        <div>
-          <h1>Loader ...</h1>
-        </div>
-      )}
-      {error && <h1>{error}</h1>}
+    <div id="allwineriesContainer">
+      <section>
+        <h1>section</h1>
+      </section>
+      <figure>
+        <h1>figure</h1>
+      </figure>
     </div>
-  );
-};
+  )
+}
 
-export default Winerys;
+export default Winerys
