@@ -12,6 +12,7 @@ import AdminWinery from "./desktop_pages/AdminWinery";
 import EditWineries from './desktop_pages/EditWineries';
 import Listelement from '../../components/Listelement';
 import Login from '../../layouts/Login'
+import ScrollToTop from '../../components/ToTop'
 
 // Import of single wineries components
 import Corte from './desktop_pages/single_wineries/Corte_Archi'
@@ -25,6 +26,7 @@ const Index = () => {
         <div id="desktopContainer">
             <BrowserRouter>
                 <Navigation />
+                <ScrollToTop />
                 <section>
                     <Route exact path="/">
                         <Home />
