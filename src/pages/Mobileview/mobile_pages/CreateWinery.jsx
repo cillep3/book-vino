@@ -42,7 +42,7 @@ const CreateWinery = () => {
                 <input name="name" type="text" placeholder="Type in name of winery" />
                 <br />
                 <label for="location">Area</label>
-                <input name="location" type="number" placeholder="Type in area" />
+                <input name="location" type="number" placeholder="Type in zip code" />
                 <br />
                 <label for="description">Description</label>
                 <textarea name="description" type="text" placeholder="Type in description" cols="30" rows="10" />
