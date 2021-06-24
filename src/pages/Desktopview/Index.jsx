@@ -28,10 +28,9 @@ const Index = () => {
                 <section>
                     <Route exact path="/">
                         <Home />
-                        <Winerys />
                     </Route>
                     <Route path="/winery">
-                        <Route />
+                        <Winerys />
                     </Route>
                     <Route path="/adminWinery">
                         <AdminWinery />
