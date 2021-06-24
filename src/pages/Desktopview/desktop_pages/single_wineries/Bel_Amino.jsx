@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-
 import Register from '../../../../helpers/register.json'
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaMobileAlt } from 'react-icons/fa';
@@ -14,10 +13,9 @@ import { getAllWinerysByZip } from '../../../../helpers/apikaldleaflet'
 /* ======= KORT IMPORT SLUT ====== */
 
 
-const Corte_Archi = (props) => {
+const Bel_Amino = (props) => {
 
-
-    const [byNavne, setbyNavne] = useState("Lazise") // Her er zipcode skiftet ud med "bynavn"
+    const [byNavne, setbyNavne] = useState("Marano di Valpolicella") // Her er zipcode skiftet ud med "bynavn"
     const [AllWinerys, setAllWinerys] = useState() // Vindata
     const [error, setError] = useState() // FEJLBESKEDER
 
@@ -45,34 +43,36 @@ const Corte_Archi = (props) => {
     }, [byNavne])
 
 
-
     return (
+
+
+
         <div className="singlewine">
 
-            {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'corte_archi'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.corte_archi} className="topimg" />  
+            {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'bel_amino'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
+            <Slider sliderdata={Register.bel_amino} className="topimg" />  
 
             <div className="firstSection">
-                <h1>Corte Archi</h1>
-                <img src={Register.winery[4].stars} className="starimg" alt="" />
+                <h1>Bel Amino</h1>
+                <img src={Register.winery[5].stars} className="starimg" alt="" />
                 <h2>Our Wine Tasting</h2>
                 <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>
-                <h3>Price 125€</h3>
+                <h3>Price 215€</h3>
                 <button>BOOK NOW</button>
             </div>
 
             <div className="sectionTwo">
-                <h2>About Corte Archi</h2>
-                <p>Fernando and Silvia will welcome you cordially to show the cellar and, in the tasting room or on the portico surrounded by the Arches, they will accompany you through the tasting journey in the wonderful world of their wines.</p>
+                <h2>About Marchesini Marcello</h2>
+                <p>Wine is often served with dinner. It may be the oldest known type of wine, as it is the most straightforward to make with the skin contact method. In the unreliable summers of northern France, the acidity of under ripened grapes was often masked with chaptalization with unsatisfactory results, whereas now the less ripe grapes are made into popular sparkling wines.</p>
             </div>
 
             <div className="sectionTree">
                 <h2>Contact information</h2>
-                <p><FaMapMarkerAlt />Corte Archi, Via Paverno 21, 37020, Valgatara - Marano di Valpolicella, Italy, Via Paverno 21</p><br></br>
-                <p><FaMobileAlt /> +39 3358140026 / +39 45 7701237</p><br></br>
-                <p><FaRegEnvelope /> info@cortearchi.it / info@cortearchi.it</p><br></br>
-                <p><FaGlobe /> http://www.cortearchi.it</p><br></br>
-                <p><BsClock /> Monday to Saturday  10 am - 6pm</p>
+                <p><FaMapMarkerAlt />Via Valesana 35, 37017, Lazise, Italy</p><br></br>
+                <p><FaMobileAlt /> +39 045 7580731 / +39 340 9067014</p><br></br>
+                <p><FaRegEnvelope /> info@marcellomarchesini.it</p><br></br>
+                <p><FaGlobe /> info@marcellomarchesini.it</p><br></br>
+                <p><BsClock /> Monday to Saturday  9 am - 22 am</p>
             </div>
 
             <div className="sectionFour">
@@ -82,7 +82,6 @@ const Corte_Archi = (props) => {
                 <p>Be not offended when your ex drinks wine.</p><br></br>
                 <p>Burgundy is the definition of a strong red.</p><br></br>
             </div>
-
             <div id="kortPages">
 
                 {
@@ -93,12 +92,9 @@ const Corte_Archi = (props) => {
                 }
             </div>
 
-
         </div >
-
-
 
     )
 }
 
-export default Corte_Archi
+export default Bel_Amino
