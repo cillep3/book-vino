@@ -63,13 +63,10 @@ const Index = () => {
                     <Route path="/login">
                         <Login />
                     </Route>
-<<<<<<< Updated upstream
                     <Route path="/about">
                         <About />
                     </Route>
-=======
                     <Footer />
->>>>>>> Stashed changes
                 </section>
 
             </BrowserRouter>
