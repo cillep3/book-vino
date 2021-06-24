@@ -1,6 +1,6 @@
 import Register from "../../../helpers/register.json"
 import React from "react";
-
+import '../../Mobileview/Mobile.scss'
 import '../../Desktopview/Desktop.scss'
 import {Link} from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="about">
     
-      <img src={Register.images[0].src} />
+      <img src={Register.images[11].src} />
       <h1>About BookVino</h1>
       <h4>
         We help you find authentic wine experiences to bring you the best
