@@ -14,7 +14,7 @@ import Wineries from '@material-ui/icons/LocationOnRounded';
 
 const useStyles = makeStyles({
     root: {
-
+        zIndex: "2000",
         width: "100%",
         position: "fixed",
         bottom: 0,
