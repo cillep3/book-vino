@@ -5,7 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 // Import of components
 import Home from './desktop_pages/Home';
 import Navigation from '../../layouts/Desktopview/Navigation';
-import Footer from '../../layouts/Footer';
+import Footer from '../../layouts/Desktopview/Footer';
 import Winerys from './desktop_pages/Winerys';
 import CreateWinery from './desktop_pages/CreateWinery'
 import AdminWinery from "./desktop_pages/AdminWinery";
@@ -63,9 +63,13 @@ const Index = () => {
                     <Route path="/login">
                         <Login />
                     </Route>
+<<<<<<< Updated upstream
                     <Route path="/about">
                         <About />
                     </Route>
+=======
+                    <Footer />
+>>>>>>> Stashed changes
                 </section>
 
             </BrowserRouter>
