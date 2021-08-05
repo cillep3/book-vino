@@ -3,8 +3,9 @@
     margin:auto;
 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
+    grid-gap:25px;
 }
 
 figure{
@@ -122,6 +123,13 @@ button{
 
 button:hover{
     cursor:pointer;
+}
+
+@media screen and (max-width:1920px){
+    #listContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width:900px) {

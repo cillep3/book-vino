@@ -47,26 +47,32 @@ const Corte_Archi = (props) => {
 
 
     return (
-        <div className="singlewine">
+        <div className="singlewineDesk">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'corte_archi'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.corte_archi} className="topimg" />  
+            <Slider sliderdata={Register.corte_archi} className="topimg" /> 
 
-            <div className="firstSection">
+             <div className="singlewineHeadlineDesk">
                 <h1>Corte Archi</h1>
                 <img src={Register.winery[4].stars} className="starimg" alt="" />
+            </div> 
+
+            <div className="firstSectionDesk">
                 <h2>Our Wine Tasting</h2>
                 <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>
                 <h3>Price 125€</h3>
-                <button>BOOK NOW</button>
             </div>
 
-            <div className="sectionTwo">
+            <div id="singlewineryContactForm">
+                <h1>form</h1>
+            </div>
+
+            <div className="sectionTwoDesk">
                 <h2>About Corte Archi</h2>
                 <p>Fernando and Silvia will welcome you cordially to show the cellar and, in the tasting room or on the portico surrounded by the Arches, they will accompany you through the tasting journey in the wonderful world of their wines.</p>
             </div>
 
-            <div className="sectionTree">
+            <div className="sectionTreeDesk">
                 <h2>Contact information</h2>
                 <p><FaMapMarkerAlt />Corte Archi, Via Paverno 21, 37020, Valgatara - Marano di Valpolicella, Italy, Via Paverno 21</p><br></br>
                 <p><FaMobileAlt /> +39 3358140026 / +39 45 7701237</p><br></br>
@@ -75,7 +81,7 @@ const Corte_Archi = (props) => {
                 <p><BsClock /> Monday to Saturday  10 am - 6pm</p>
             </div>
 
-            <div className="sectionFour">
+            <div className="sectionFourDesk">
                 <h2>Near By</h2>
                 <p>Wine is often served with dinner.</p><br></br>
                 <p>How do you hold a wine glass?</p><br></br>

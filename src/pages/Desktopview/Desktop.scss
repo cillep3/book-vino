@@ -44,32 +44,113 @@
 
         h1 {
             grid-column: 1/-1;
-        grid-row: 1/2;
-        color: #fff;
-        font-size: 100px;
-        margin: auto;
+            grid-row: 1/2;
+            color: #fff;
+            font-size: 100px;
+            margin: auto;
         }
     }
       
-      .hero-container {
-          video {
-              grid-column: 1/-1;
-              grid-row: 1/2;
-        object-fit: cover;
-        width: 100%;
-        height: 85vh;
-   
-        
-        z-index: -1;
+    .hero-container {
+        video {
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            object-fit: cover;
+            width: 100%;
+            height: 85vh;
+            z-index: -1;
       }
 
     }
-.list{
-    grid-column: 1/-1;
-    grid-row: 2/-1;
-    width: 80%;
-    background-color: white;
     
+    .list{
+        grid-column: 1/-1;
+        grid-row: 2/-1;
+        width: 80%;
+        background-color: white;
+        justify-self: center;
+        align-self: center;
+        
+        #homeHeadlineDesktop{
+            color:#a63251;
+            font-size: 45px;
+            padding-top:45px;
+            padding-bottom:25px;
+        }
+
+        #homeButton{
+            background-color: #d97e7e;
+            width:50%;
+            margin:50px 0px 100px 0px;
+        }
+    }    
 }
-    
+
+// Singles wineries
+.singlewineDesk{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap:25px;
+
+    .slideshow-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+
+        .slideshow_image{
+            width:100%;
+            height:100vh;
+            object-fit: cover;
+        }
+    }
+
+    .singlewineHeadlineDesk{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        padding:25px;
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            color:#a63251;
+        }
+    }
+
+    // custom styling of all sections 
+    .firstSectionDesk, .sectionTwoDesk, .sectionTreeDesk, .sectionFourDesk, #singlewineryContactForm{
+        padding:0px 25px;
+    }
+
+    .firstSectionDesk{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #singlewineryContactForm{
+        grid-column: 2/3;
+        grid-row:3/6;
+    }
+
+    .sectionTwoDesk{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .sectionTreeDesk{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .sectionFourDesk{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    #kortPages{
+        grid-column: 1/-1;
+        grid-row: 7/8;
+    }
 }

@@ -1,5 +1,5 @@
 import '../../App.scss';
-import './Desktop.scss';
+import "../../pages/Desktopview/Desktop.scss"
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Import of components
@@ -21,6 +21,7 @@ import Marognole from './desktop_pages/single_wineries/Le_Marognole'
 import Marchesini from './desktop_pages/single_wineries/Marchesini_Marcello'
 import Marco from './desktop_pages/single_wineries/Marco_Reggio'
 import Montalto from './desktop_pages/single_wineries/Sol_de_Montalto'
+import Bel from './desktop_pages/single_wineries/Bel_Amino'
 
 const Index = () => {
     return (
@@ -59,6 +60,9 @@ const Index = () => {
                     </Route>
                     <Route path="/sol-de-montalto">
                         <Montalto />
+                    </Route>
+                    <Route path="/bel-amino">
+                        <Bel />
                     </Route>
                     <Route path="/login">
                         <Login />
