@@ -5,7 +5,8 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
-import Slider from '../../../../components/Slider'
+import Slider from '../../../../components/Slider';
+import Booking from '../../../../layouts/SinglewineryBooking';
 
 /* ======= KORT IMPORT ====== */
 import Kort from "../../../../components/Kort"
@@ -64,7 +65,7 @@ const Bel_Amino = (props) => {
             </div>
 
             <div id="singlewineryContactForm">
-                <h1>form</h1>
+                <Booking />
             </div>
 
             <div className="sectionTwoDesk">
