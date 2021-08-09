@@ -45,11 +45,11 @@ const About = () => {
           <h2>Enjoy your tasting</h2>
           <p>Now you receive your booking details in your mailboks. Enjoy your tasting!!</p>
         </figure>
-<<<<<<< HEAD
-        <Link to="/allwinerys"><button id="aboutBookingButtonDesk">SEE WINERIE LIST</button></Link>
-=======
+
+       
+
         <Link to="/allwinerys" id="aboutBookingButtonDesk"><button id="aboutBookingButtonDesk">SEE WINERIE LIST</button></Link>
->>>>>>> 823d774f02709ca1dcacdfc97d52750f380633ee
+
       </secion>
     </div>
   );
