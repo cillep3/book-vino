@@ -45,7 +45,7 @@ const Index = () => {
                     <Route path="/listelement">
                         <Liste />
                     </Route>
-                    <Route path="/aboutus">
+                    <Route path="/about">
                         <About />
                     </Route>
                     <Route path="/adminWinery">
