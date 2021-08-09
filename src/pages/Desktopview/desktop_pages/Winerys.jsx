@@ -46,7 +46,8 @@ const Winerys = (props) => {
   return (
     <>
       <div id="allwineriesContainer">
-        <section id="cardContainer">
+      <h1 id="allWineriesHeadline">Wineries</h1>
+        <section id="listeallwineries">
           <Liste />
         </section>
         <div id="kortContainer">

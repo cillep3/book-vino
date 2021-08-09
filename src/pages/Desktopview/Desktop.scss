@@ -9,14 +9,19 @@
 
     display:grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto 1fr;
+
+    #allWineriesHeadline{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
     
     
-    #cardContainer{
+    #listeallwineries{
         width:100%;
         height:auto;
         grid-column: 1/2;
-        grid-row: 1/-1;
+        grid-row: 2/-1;
         padding:25px 25px 0px 25px;
     }
 
@@ -24,7 +29,7 @@
         width:100%;
         height:auto;
         grid-column: 2/3;
-        grid-row: 1/-1;
+        grid-row: 2/-1;
         padding:25px 25px 0px 0px;
     }
 }
@@ -304,6 +309,31 @@
             grid-row: 3/4;
             margin: 25px 0px;
         }
+    }
+}
+
+@media screen and (max-width:900px){
+    #allwineriesContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+
+        #kortContainer{
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            padding:0px;
+        }
+
+        #allWineriesHeadline{
+            grid-column: 1/-1;
+            grid-row:2/3;
+        }
+
+        #listeallwineries{
+            grid-column: 1/-1;
+            grid-row:3/4;
+            padding:0px;
+        }
+
     }
 }
 
