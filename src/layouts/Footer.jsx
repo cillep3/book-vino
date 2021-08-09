@@ -13,11 +13,6 @@ import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { FaYoutubeSquare } from 'react-icons/fa';
 
-
-
-
-
-
 const Footer = () => {
     return (
         <div className="footer">
@@ -32,7 +27,6 @@ const Footer = () => {
             </div>
             <div id="contact">
                 <div className="iconfa"><FaMobileAlt /></div>
-
                 <p>+45 29875722</p>
             </div>
             <Link to="/booking"><button>BOOK NOW</button></Link>
