@@ -14,7 +14,6 @@ import Listelement from '../../components/Listelement';
 import Login from '../../layouts/Login'
 import ScrollToTop from '../../components/ToTop'
 import About from "./desktop_pages/About";
-import Booking from "../../layouts/SinglewineryBooking"
 
 // Import of single wineries components
 import Corte from './desktop_pages/single_wineries/Corte_Archi'

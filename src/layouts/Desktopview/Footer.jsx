@@ -1,6 +1,7 @@
 import React from 'react'
 import Register from '../../helpers/register.json'
 import {Link} from 'react-router-dom'
+import '../../App.scss'
 
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
