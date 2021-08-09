@@ -8,7 +8,7 @@
     height:auto;
 
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     
     
@@ -258,6 +258,7 @@
         padding:0px 50px 0px 0px;
     }
 
+<<<<<<< HEAD
     #aboutBookingprocessDesk{
         grid-column: 1/-1;
         grid-row: 4/5;
@@ -300,3 +301,21 @@
         }
     }
 }
+=======
+        h2, p{
+            text-align: center;
+            padding-top:25px;
+        }
+
+        h2, p{
+            text-align: center;
+            padding-top:25px;
+        }
+
+        #aboutBookingButtonDesk{
+            grid-column:2/3;
+            grid-row: 3/4;
+            margin: 25px 0px;
+        }
+    }
+>>>>>>> 823d774f02709ca1dcacdfc97d52750f380633ee
