@@ -3,9 +3,8 @@
     margin:auto;
 
     display:grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap:25px;
 }
 
 figure{
@@ -125,19 +124,7 @@ button:hover{
     cursor:pointer;
 }
 
-@media screen and (max-width:1920px){
-    #listContainer{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-
 @media screen and (max-width:900px) {
-    #listContainer{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-
     #borderBox{
         h1{
             font-size: 20px;

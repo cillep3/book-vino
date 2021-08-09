@@ -5,8 +5,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
-import Slider from '../../../../components/Slider';
-import Booking from '../../../../layouts/SinglewineryBooking';
+import Slider from '../../../../components/Slider'
 
 /* ======= KORT IMPORT ====== */
 import Kort from "../../../../components/Kort"
@@ -48,32 +47,26 @@ const Bel_Amino = (props) => {
 
 
 
-        <div className="singlewineDesk">
+        <div className="singlewine">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'bel_amino'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.bel_amino} className="topimg" />
+            <Slider sliderdata={Register.bel_amino} className="topimg" />  
 
-            <div className="singlewineHeadlineDesk">
+            <div className="firstSection">
                 <h1>Bel Amino</h1>
                 <img src={Register.winery[5].stars} className="starimg" alt="" />
-            </div>
-
-            <div className="firstSectionDesk">
                 <h2>Our Wine Tasting</h2>
                 <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>
                 <h3>Price 215€</h3>
+                <button>BOOK NOW</button>
             </div>
 
-            <div id="singlewineryContactForm">
-                <Booking />
-            </div>
-
-            <div className="sectionTwoDesk">
+            <div className="sectionTwo">
                 <h2>About Marchesini Marcello</h2>
                 <p>Wine is often served with dinner. It may be the oldest known type of wine, as it is the most straightforward to make with the skin contact method. In the unreliable summers of northern France, the acidity of under ripened grapes was often masked with chaptalization with unsatisfactory results, whereas now the less ripe grapes are made into popular sparkling wines.</p>
             </div>
 
-            <div className="sectionTreeDesk">
+            <div className="sectionTree">
                 <h2>Contact information</h2>
                 <p><FaMapMarkerAlt />Via Valesana 35, 37017, Lazise, Italy</p><br></br>
                 <p><FaMobileAlt /> +39 045 7580731 / +39 340 9067014</p><br></br>
@@ -82,7 +75,7 @@ const Bel_Amino = (props) => {
                 <p><BsClock /> Monday to Saturday  9 am - 22 am</p>
             </div>
 
-            <div className="sectionFourDesk">
+            <div className="sectionFour">
                 <h2>Near By</h2>
                 <p>Wine is often served with dinner.</p><br></br>
                 <p>How do you hold a wine glass?</p><br></br>
