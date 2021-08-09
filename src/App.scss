@@ -73,18 +73,18 @@ p{
         text-decoration: none;
     }
     
+    .footlogo img{
+        width: 30%;
+        margin-top: calc(2.5em + 2.5vw);
+        margin-bottom: calc(2em + 2vw);
+    }
+    .social {
+        font-size: 2.8em;
+        margin-top: calc(0.7em + 0.7vw);
+        margin-bottom: calc(0.7em + 0.7vw);
+    }
 }
 
-.footlogo img{
-    width: 30%;
-    margin-top: calc(2.5em + 2.5vw);
-    margin-bottom: calc(2em + 2vw);
-}
-.social {
-    font-size: 2.8em;
-    margin-top: calc(0.7em + 0.7vw);
-    margin-bottom: calc(0.7em + 0.7vw);
-}
 
 // *** LOGIN ***
 #loginContainer{
@@ -144,6 +144,7 @@ p{
     color:white;
     padding:20px;
 }
+
 .deskfooter {
     background-color: #424242;
     height: auto;
