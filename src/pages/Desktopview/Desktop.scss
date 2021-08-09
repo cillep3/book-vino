@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 // All wineries
 #allwineriesContainer{
     width:100%;
@@ -9,15 +10,16 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-
-    section{
+    
+    
+    #cardContainer{
         width:100%;
         height:auto;
         grid-column: 1/2;
         grid-row: 1/-1;
     }
 
-    figure{
+    #mapContainer{
         width:100%;
         height:auto;
         grid-column: 2/3;
@@ -25,46 +27,276 @@
     }
 }
 
-// START ABOUT //
-
-//WRAPPER
-
-#about{
+/// *** HOME ***
+#homeDesktop{
+    text-align:center; 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-//
-
-.section0{
-    grid-column: 1/-1;
-    grid-row: 1/-1;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-img{
-    grid-column: 1/-1;
-    grid-row: 1/-1;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    
+    .hero-container {
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 85vh 1fr 1fr;
+
+        h1 {
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            color: #fff;
+            font-size: 100px;
+            margin: auto;
+        }
+    }
+      
+    .hero-container {
+        video {
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            object-fit: cover;
+            width: 100%;
+            height: 85vh;
+            z-index: -1;
+      }
+
+    }
+    
+    .list{
+        grid-column: 1/-1;
+        grid-row: 2/-1;
+        width: 80%;
+        background-color: white;
+        justify-self: center;
+        align-self: center;
+        
+        #homeHeadlineDesktop{
+            color:#a63251;
+            font-size: 45px;
+            padding-top:45px;
+            padding-bottom:25px;
+        }
+
+        #homeButton{
+            background-color: #d97e7e;
+            width:50%;
+            margin:50px 0px 100px 0px;
+        }
+    }    
 }
 
-.imgTxt{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: center;
-    z-index: 1;
-    justify-self: center;
-    align-self: center;
-    color: white;
-    opacity: 0.8;
-    font-size: 70px;
+// Singles wineries
+.singlewineDesk{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap:25px;
+
+    .slideshow-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+
+        .slideshow_image{
+            width:100%;
+            height:100vh;
+            object-fit: cover;
+        }
+    }
+
+    .singlewineHeadlineDesk{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        padding:25px;
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            color:#a63251;
+        }
+    }
+
+    // custom styling of all sections 
+    .firstSectionDesk, .sectionTwoDesk, .sectionTreeDesk, .sectionFourDesk, #singlewineryContactForm{
+        padding:0px 25px;
+    }
+
+    .firstSectionDesk{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #singlewineryContactForm{
+        grid-column: 2/3;
+        grid-row:3/6;
+    }
+
+    .sectionTwoDesk{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .sectionTreeDesk{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .sectionFourDesk{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    #kortPages{
+        grid-column: 1/-1;
+        grid-row: 7/8;
+    }
 }
 
+// Single wineries booking formular
+#bookingContainer{
+    width:100%;
+    background-color:#a63251;
+    color:white;
+    padding:50px;
+    
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto;
+
+    h1{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 45px;
+        padding:25px;
+    }
+
+    #bookingformDesk{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        
+        label{
+            display:block;
+            font-family: Poppins;
+        }
+    
+        input[type=text], input[type=number], input[type=email], input[type=date], input[type=submit]{
+            width:100%;
+            height:30px;
+            padding:10px;
+            font-family: Poppins;
+        }
+
+        input[type=submit]{
+            height:50px;
+            background-color: #f2a344;
+            border:none;
+            border-radius:0px 10px 10px 10px;
+            color:white;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-top:25px;
+        }
+    }
+
 }
 
+// About 
+.aboutDesk{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap:25px;
 
+    #aboutHeroDesk{
+        grid-column: 1/-1;
+        grid-row: 1/2;
 
+        img{
+            width:100%;
+            height:100vh;
+            object-fit: cover;
+        }
+    }
+
+    #aboutHeadlineDesk{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color:white;
+        text-transform: uppercase;
+        font-size: 100px;
+    }
+
+    #aboutTitleDesk{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color:#a63251;
+        font-size: 45px;
+        padding:50px;
+    }
+
+    #aboutOwnersDesk{
+        grid-column: 1/2;
+        grid-row:3/4;
+        width:100%;
+        object-fit: cover;
+        padding:0px 0px 0px 50px;
+    }
+
+    #aboutAboutDesk{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding:0px 50px 0px 0px;
+    }
+
+    #aboutBookingprocessDesk{
+        grid-column: 1/-1;
+        grid-row: 4/5;
+
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+
+        #aboutBookingTitleDesk{
+            grid-column: 1/-1;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+            color:#a63251;
+            font-size: 45px;
+            padding:50px;
+        }
+
+        #aboutBookingOption1Desk{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        #aboutBookingOption2Desk{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        #aboutBookingOption3Desk{
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+
+        #aboutBookingButtonDesk{
+            grid-column:1/-1;
+            grid-row: 3/4;
+            justify-content: center;
+            align-content: center;
+        }
+    }
 }
