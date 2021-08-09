@@ -1,5 +1,6 @@
 import Register from "../../../helpers/register.json"
 import React from "react";
+import '../../Mobileview/Mobile.scss'
 import '../../Desktopview/Desktop.scss'
 import { Link } from 'react-router-dom';
 
