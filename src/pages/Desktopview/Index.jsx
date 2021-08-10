@@ -70,6 +70,9 @@ const Index = () => {
                     <Route path="/about">
                         <About />
                     </Route>
+                    <Route path="/create">
+                        <CreateWinery />
+                    </Route>
                     <Footer />
                 </section>
 
