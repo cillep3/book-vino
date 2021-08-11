@@ -307,6 +307,83 @@
         }
     }
 }
+#createContainerDesk {
+    width:100%;
+    height:auto;
+    background-color: #a63251;
+    color: white;
+    display: grid;
+
+    label {
+        display: block;
+        font-family: 'Poppins';
+    }
+    #createHeadlineDesk{
+        color:white;
+        font-size: 45px;
+        padding:50px 0px;
+        text-align: center;
+
+        font-family: 'Big Shoulders Display';
+    }
+    #createFormDesk{
+        width:50%;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+
+        input[type=text], input[type=number]{
+            width:80%;
+            height:40px;
+            margin-bottom: 10px;
+            border:none;
+            padding: 10px;
+            font-family: 'Poppins';
+        }
+
+        input[type=file]{
+            color:white;
+            width:50%;
+            justify-content: center;
+        }
+
+        .custom-file-input::-webkit-file-upload-button{
+            visibility: hidden;
+        }
+
+        .custom-file-input::before{
+            content:'Add an image';
+            display:block;
+            background:white; 
+            border:1px solid white;
+            color:black;
+            padding:10px;
+            text-align: center;
+            margin-top:50px;
+            font-family: 'Poppins';
+        }
+
+        textarea{
+            width:80%;
+            height:auto;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-family: 'Poppins';
+        }
+
+        input[type=submit]{
+            width:60%;
+            height:40px;
+            margin:50px 0px 100px 0px;
+            background-color: #d97e7e;
+            border:none;
+            border-radius:10px 0px 0px 0px;
+            color:white;
+            text-transform: uppercase;
+            font-family: 'Poppins';
+        }
+    }
+}
 
 
 @media screen and (max-width:900px){
