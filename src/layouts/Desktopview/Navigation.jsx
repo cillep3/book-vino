@@ -1,17 +1,54 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
+import '../Desktopview/Navigation.scss'
+import logo from '../../assets/logo-mork.png'
+import { IoPersonCircleSharp } from 'react-icons/io5';
+
+
+
 
 const Navigation = () => {
     return (
-        <nav>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/adminWinery">Admin</NavLink>
-            <NavLink to="/editWineries">Edit</NavLink>
-            <NavLink to="/listelement">Listelement</NavLink>
-            <NavLink to="/winery">Winery</NavLink>
-            <NavLink to="/about">About</NavLink>
+        <>
+            <div className="navbar">
+                <div className="navbar-top">
 
-        </nav >
+                    <div className="logo">
+                        <img src={logo}></img>
+                    </div>
+
+                </div>
+
+                <ul>
+
+                    <li className="nav-item-home">
+                        <Link to='/' style={{ textDecoration: "none" }} className="nav-links">
+                            HOME
+                        </Link>
+                    </li>
+
+                    <li className="nav-item-winery">
+                        <Link to='/winery' style={{ textDecoration: "none" }} className="nav-links">
+                            WINERIES
+                        </Link>
+                    </li>
+
+                    <li className="nav-item-about">
+                        <Link to='/about' style={{ textDecoration: "none" }} className="nav-links">
+                            ABOUT
+                        </Link>
+                    </li>
+
+                </ul>
+
+                <div className="icon">
+                    <Link to="/login">
+                        <IoPersonCircleSharp color='#ffffff' fontSize='50px' />
+                    </Link >
+                </div>
+
+            </div>
+        </>
     )
 }
 

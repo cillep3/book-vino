@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 0.5fr 0.5fr;
+    grid-template-rows: 150px 100px;
+    background: #a63251;
+    border-bottom: 2px solid white;
+
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+   
+    top: 0;
+    z-index: 999;
+
+    .navbar-top{
+        grid-column: 1/-1;
+            grid-row: 1/2;
+            background-color: white;
+
+            display: grid;
+            grid-template-columns: 1fr 0.5fr 1fr;
+            grid-template-rows: 150px;
+
+        .logo{
+            grid-column: 2/3;
+            grid-row: 1/-1;
+            
+            height: 150px;
+            justify-self: center;
+            align-self: center;
+
+        
+            img{
+                width: 80%;
+                margin-top: 10px;
+               }
+          }
+    }
+ 
+
+      ul {
+        grid-column: 2/3;
+        grid-row: 2/-1;
+        list-style-type: none;
+        
+
+
+        li{
+            display: inline;
+            text-align: center;
+            font-family: 'Big Shoulders Display';
+            font-size: 25px;
+            text-decoration: none;
+            margin-right: 25px;
+
+
+        }
+
+        .nav-links {
+            color: white;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+        }
+
+
+        .nav-item-home:hover, .nav-item-winery:hover, .nav-item-about:hover {
+            background-color: #6b2135;
+            padding-top: 45px;
+            padding-bottom: 20px;
+            border-radius: 5px 5px 30px 30px;
+            
+          }
+    }
+
+      .icon{
+        grid-column: 5/-1;
+        grid-row: 2/-1;
+        padding-right: 50px;
+      }
+
+      .icon:hover{
+          opacity: 0.5;
+    }
+  }
+
