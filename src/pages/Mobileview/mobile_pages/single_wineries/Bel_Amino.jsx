@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import {Link} from 'react-router-dom'
 import Register from '../../../../helpers/register.json'
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaMobileAlt } from 'react-icons/fa';
@@ -58,7 +59,7 @@ const Bel_Amino = (props) => {
                 <h2>Our Wine Tasting</h2>
                 <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>
                 <h3>Price 215€</h3>
-                <button>BOOK NOW</button>
+                <Link to="/booking"><button>BOOK NOW</button></Link>
             </div>
 
             <div className="sectionTwo">

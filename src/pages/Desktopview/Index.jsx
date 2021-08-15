@@ -33,7 +33,7 @@ const Index = () => {
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/winery">
+                    <Route path="/allWinerys">
                         <Winerys />
                     </Route>
                     <Route path="/adminWinery">
@@ -69,6 +69,9 @@ const Index = () => {
                     </Route>
                     <Route path="/about">
                         <About />
+                    </Route>
+                    <Route path="/create">
+                        <CreateWinery />
                     </Route>
                     <Footer />
                 </section>
