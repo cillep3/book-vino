@@ -16,9 +16,9 @@ const Footer = () => {
     return (
         <div className="deskfooter">
             <div id = "deskLeft">
-                <h5>FAQ</h5>
-                <h5>About BookVino</h5>
-                <h5>Wineries</h5>
+                <Link to="/faq"><h5>FAQ</h5></Link>
+                <Link to="/about"><h5>About BookVino</h5></Link>
+                <Link to="/allWinerys"><h5>Wineries</h5></Link>
             </div>
             
             <div className="deskfootlogo"><Link to="/"><img src={Register.images[8].src} /></Link></div>
