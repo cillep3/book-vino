@@ -155,8 +155,21 @@ p{
         grid-row: 1/-1;
         justify-self: center;
         align-self: center;
-        font-size: 25px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
         line-height: 40px;
+    }
+    #deskLeft a:visited, a:link {
+        text-decoration: none;
+        color: white;
+    }
+    #deskLeft a:hover {
+        color: #a63251;
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: 500;
     }
 
     h6 {
@@ -188,9 +201,14 @@ p{
         grid-column: 3/4;
         grid-row: 1/-1;
         margin: auto;
+        text-align: center;
         
         p{
             line-height: 40px;   
         }
+
+        
+    
+      
     }
 }
