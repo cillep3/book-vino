@@ -565,12 +565,19 @@ grid-template-rows: 1fr;
         font-size: 20px;
         font-weight: 500;
     }
-
+    a {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: auto;
+        color: white;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
     h6 {
         grid-column: 2/3;
         grid-row: 3/4;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 12px;
         text-align: center;
     }
