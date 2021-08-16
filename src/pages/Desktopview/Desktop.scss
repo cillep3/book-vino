@@ -420,6 +420,48 @@
     }
 }
 
+// ========= FAQ ======
+
+// *** faq ***
+
+.faq_wrapper{
+margin-top: 50px;
+margin-bottom: 50px;
+display: grid;
+grid-template-columns: 0.7fr 1fr 0.7fr;
+grid-template-rows: 1fr;
+
+
+#faq_content{
+    grid-column: 2/3;
+    grid-row: 1/-1;
+}
+
+.faqheading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #a63251;
+    }
+    
+    .faqtext{
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .faqbutton{
+    display: grid;
+    margin: auto;
+    width: 80%;
+    background-color: #f2a344;
+    margin-top: calc(1em + 1vw);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 15px;
+    }
+}  
+
 // iPad view 
 @media screen and (max-width:900px){
     #allwineriesContainer{
