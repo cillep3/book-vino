@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 // Import of components
 import Navigation from "../../layouts/Mobileview/Navigation"
-import Footer from "../../layouts/Footer"
+import Footer from "../../layouts/Mobileview/Footer"
 import AllWinerys from "../../pages/Mobileview/mobile_pages/AllWinerys"
 import Liste from '../../components/Listelement'
 import About from '../Mobileview/mobile_pages/About'

@@ -1,6 +1,6 @@
 import React from 'react'
-import '../App.scss'
-import Register from '../helpers/register.json'
+import '../../pages/Mobileview/Mobile.scss'
+import Register from '../../helpers/register.json'
 import { Link } from 'react-router-dom';
 
 import { FaMapMarkerAlt } from 'react-icons/fa';
