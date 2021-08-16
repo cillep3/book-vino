@@ -6,6 +6,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
+import {Link} from 'react-router-dom'
 import Slider from '../../../../components/Slider'
 import Booking from '../../../../layouts/SinglewineryBooking';
 
@@ -64,6 +65,7 @@ const Le_Marognole = (props) => {
             <div id="singlewineryContactForm">
                 <Booking />
             </div>
+            <Link to="/booking" id="bookButtonDesk"><button >BOOK NOW</button></Link>
 
             <div className="sectionTwoDesk">
                 <h2>About Le Marognole</h2>
