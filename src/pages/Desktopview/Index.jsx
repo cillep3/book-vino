@@ -14,6 +14,7 @@ import Listelement from '../../components/Listelement';
 import Login from '../../layouts/Login'
 import ScrollToTop from '../../components/ToTop'
 import About from "./desktop_pages/About";
+import Faq from './desktop_pages/Faq'
 
 // Import of single wineries components
 import Corte from './desktop_pages/single_wineries/Corte_Archi'
@@ -72,6 +73,9 @@ const Index = () => {
                     </Route>
                     <Route path="/create">
                         <CreateWinery />
+                    </Route>
+                    <Route path="/faq">
+                        <Faq />
                     </Route>
                     <Footer />
                 </section>
