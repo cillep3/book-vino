@@ -200,6 +200,20 @@
             "src": "assets/img/aorte-archi-slider4.png"
         }
     ],
+    "corte_archi_desk": [
+        {
+            "src": "assets/img/corte-archi-slider1-desktop.jpg"
+        },
+        {
+            "src": "assets/img/corte-archi-slider2-desktop.jpg"
+        },
+        {
+            "src": "assets/img/corte-archi-slider3-desktop.jpg"
+        },
+        {
+            "src": "assets/img/corte-archi-slider4-desktop.jpg"
+        }
+    ],
     "bel_amino": [
         {
             "src": "assets/img/bel-amino-slider1.png"
@@ -212,6 +226,20 @@
         },
         {
             "src": "assets/img/bel-amino-slider4.png"
+        }
+    ],
+    "bel_amino_desk": [
+        {
+            "src": "assets/img/bel-amino-slider1-desktop.jpg"
+        },
+        {
+            "src": "assets/img/bel-amino-slider2-desktop.jpg"
+        },
+        {
+            "src": "assets/img/bel-amino-slider3-desktop.jpg"
+        },
+        {
+            "src": "assets/img/bel-amino-slider4-desktop.jpg"
         }
     ],
     "marchesini_marcello": [
@@ -310,6 +338,20 @@
         },
         {
             "src": "assets/img/le-marognole-slider4.png"
+        }
+    ],
+    "le_marognole_desk": [
+        {
+            "src": "assets/img/le-marognole-slider1-desktop.jpg"
+        },
+        {
+            "src": "assets/img/le-marognole-slider2-desktop.jpg"
+        },
+        {
+            "src": "assets/img/le-marognole-slider3-desktop.jpg"
+        },
+        {
+            "src": "assets/img/le-marognole-slider4-desktop.jpg"
         }
     ]
 }

@@ -6,7 +6,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Slider from '../../../../components/Slider'
 import Booking from '../../../../layouts/SinglewineryBooking';
 
@@ -49,12 +49,12 @@ const Le_Marognole = (props) => {
         <div className="singlewineDesk">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'le_marognole'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.le_marognole} className="topimg" /> 
+            <Slider sliderdata={Register.le_marognole_desk} className="topimg" />
 
             <div className="singlewineHeadlineDesk">
                 <h1>Le Marognole</h1>
                 <img src={Register.winery[3].stars} className="starimg" alt="" />
-            </div> 
+            </div>
 
             <div className="firstSectionDesk">
                 <p>Our cellar has been producing wine since 1800, we are in Castelnuovo Calcea, a small village in the heart of Monferrato. Now in its fifth generation, it is led by Marco Reggio who, with the precious collaboration of his father Romaldo and his four children, leads and follows every step from the vineyard to the bottle. The hills made up of clay, sandstone and limestone sediments represent the ideal situation for quality viticulture, in particular for the production of Barbera, the flagship product of our company. The warm and breezy climate, especially in the summer season, allows optimal ripening, laying the foundations for the production of high quality wines.</p>

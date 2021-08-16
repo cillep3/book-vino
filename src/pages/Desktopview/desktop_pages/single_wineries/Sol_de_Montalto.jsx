@@ -5,7 +5,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Slider from '../../../../components/Slider';
 import Booking from '../../../../layouts/SinglewineryBooking';
 
@@ -50,10 +50,10 @@ const Sol_de_Montalto = (props) => {
         <div className="singlewineDesk">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'sol_de_montalto'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.sol_de_montalto} className="topimg" />  
+            <Slider sliderdata={Register.sol_de_montalto_desk} className="topimg" />
 
             <div className="singlewineHeadlineDesk">
-            <h1>Sol de Montalto</h1>
+                <h1>Sol de Montalto</h1>
                 <img src={Register.winery[2].stars} className="starimg" alt="" />
             </div>
 

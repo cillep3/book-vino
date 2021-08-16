@@ -5,7 +5,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Slider from '../../../../components/Slider';
 import Booking from '../../../../layouts/SinglewineryBooking';
 
@@ -52,7 +52,7 @@ const Bel_Amino = (props) => {
         <div className="singlewineDesk">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'bel_amino'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.bel_amino} className="topimg" />
+            <Slider sliderdata={Register.bel_amino_desk} className="topimg" />
 
             <div className="singlewineHeadlineDesk">
                 <h1>Bel Amino</h1>
