@@ -9,8 +9,7 @@
 }
 
 figure{
-    width:90%;
-    margin-left: 28px;
+    width:100%;
 }
 
 #listElement{
@@ -30,7 +29,7 @@ figure{
     #borderBox{
         grid-column:1/-1;
         grid-row:2/3;
-        height:110px;
+        height:110px; // custom height is essential to make styling similar despite text length 
 
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -62,7 +61,7 @@ figure{
 
     #icons{
         grid-column: 1/-1;
-        grid-row:3/-1;
+        grid-row:3/4;
 
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -78,10 +77,12 @@ figure{
                 width:60%;
                 justify-self: center;
                 align-self: center;
+                object-fit: cover;
             }
     
             #icon_text{
                 text-align: center;
+                font-size: 10px;
             }
         }
     }
@@ -110,7 +111,7 @@ figure{
 
 button{
     width:100%;
-    height:60px;
+    height:auto;
     margin-top:10px;
     border-radius: 0px 10px 10px 10px;
     text-transform: uppercase;
@@ -119,12 +120,14 @@ button{
     font-size:25px;
     background-color: #a63251;
     color:white;
+    padding:15px;
 }
 
 button:hover{
     cursor:pointer;
 }
 
+// Desktop view
 @media screen and (max-width:1920px){
     #listContainer{
         grid-template-columns: 1fr 1fr 1fr;
@@ -132,8 +135,10 @@ button:hover{
     }
 }
 
+// iPad view
 @media screen and (max-width:900px) {
     #listContainer{
+        width:80%; // leaves empthy space around the list container due to our custom styling 'margin:auto' 
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
@@ -150,6 +155,7 @@ button:hover{
     
 }
 
+// Mobile view
 @media screen and (max-width:600px) {
     #listContainer{
         grid-template-columns: 1fr;
