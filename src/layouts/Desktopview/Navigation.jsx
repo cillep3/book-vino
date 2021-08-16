@@ -39,6 +39,13 @@ const Navigation = () => {
                         </NavLink>
                     </li>
 
+                    <li className="nav-item-faq">
+                        <NavLink exact to='/faq' style={{ textDecoration: "none" }} className="nav-links" activeClassName="nav-links-active">
+                            FAQ
+                        </NavLink>
+                    </li>
+
+
                 </ul>
 
                 <div className="icon">
