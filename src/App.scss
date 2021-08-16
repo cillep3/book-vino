@@ -19,26 +19,30 @@ p{
     
 }
 
-
-// *** LOGIN ***
+// Login for desktop and mobile view
 #loginContainer{
     width:100%;
-    height:100vh;
+    height:auto;
     background-color: #6b2135;
-    display:grid; 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr auto 1fr;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto 1fr;
 
-    #loginLogo{
-        grid-column: 1/-1;
-        grid-row: 1/2;
+
+    #loginHeadline{
+        grid-column: 2/3;
+        grid-row:1/2;
         text-align: center;
-        justify-self: center;
-        align-self: center;
+        font-family: 'Big Shoulders Display';
+        color:white;
+        text-transform: uppercase;
+        font-size: 55px;
+        padding:50px;
+        
     }
 
     #loginInputs{
-        grid-column: 1/-1;
+        grid-column: 2/3;
         grid-row:2/3;
         text-align: center;
         justify-self: center;
@@ -48,24 +52,29 @@ p{
             background-color: white;
             border-radius:10px 0px 0px 0px;
             margin:10px;
+            padding:10px;
             display:block;
             height:20px;
+            width:300px;
         }
     }
 
     #emailError{
+        grid-column: 2/3;
+        grid-row: 3/4;
         text-align: center;
         color:white;
         padding-bottom: 25px;
     }
 
     #loginButton{
+        grid-column: 2/3;
+        grid-row: 4/5;
         background-color: #d97e7e;
-        width:50%;
+        width:320px; // width matches with input
         height:50px;
         color:white;
         text-align: center;
         justify-self: center;
     }
 }
-

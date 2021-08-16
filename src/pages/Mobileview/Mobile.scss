@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-/* nav {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    a{
-        color: white;
-    }
-}
-
- */
-
  // *** ABOUT US ***
 .hero{
     width: 100%;
@@ -229,8 +217,6 @@
         
 }
 
-
-
 // *** WINERIES ***
 #allWineriesHeadline{
     color:#a63251;
@@ -248,7 +234,7 @@
 #createContainer{
     width:100%;
     height:auto;
-    background-color: #a63251;
+    background-color: #6b2135;
     color: white;
 
     label {
@@ -340,6 +326,8 @@
         font-family: 'Big Shoulders Display';
     }
 }
+
+// WHAT IS THIS???
 #bookingform {
     label {
         display: block;

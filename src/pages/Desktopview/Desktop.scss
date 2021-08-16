@@ -342,10 +342,12 @@
         }
     }
 }
+
+// Create 
 #createContainerDesk {
     width:100%;
     height:auto;
-    background-color: #a63251;
+    background-color: #6b2135;
     color: white;
     display: grid;
 
@@ -363,7 +365,6 @@
     }
     #createFormDesk{
         width:50%;
-        text-align: center;
         justify-self: center;
         align-self: center;
 
