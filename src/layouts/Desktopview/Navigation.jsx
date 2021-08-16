@@ -22,21 +22,21 @@ const Navigation = () => {
                 <ul>
 
                     <li className="nav-item-home">
-                        <Link to='/' style={{ textDecoration: "none" }} className="nav-links">
+                        <NavLink exact to='/' style={{ textDecoration: "none" }} className="nav-links" activeClassName="nav-links-active">
                             HOME
-                        </Link>
+                        </NavLink>
                     </li>
 
                     <li className="nav-item-winery">
-                        <Link to='/allWinerys' style={{ textDecoration: "none" }} className="nav-links">
+                        <NavLink exact to='/allWinerys' style={{ textDecoration: "none" }} className="nav-links" activeClassName="nav-links-active">
                             WINERIES
-                        </Link>
+                        </NavLink>
                     </li>
 
                     <li className="nav-item-about">
-                        <Link to='/about' style={{ textDecoration: "none" }} className="nav-links">
+                        <NavLink exact to='/about' style={{ textDecoration: "none" }} className="nav-links" activeClassName="nav-links-active">
                             ABOUT
-                        </Link>
+                        </NavLink>
                     </li>
 
                 </ul>
