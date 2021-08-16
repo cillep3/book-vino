@@ -562,8 +562,10 @@ grid-template-rows: 1fr;
         color: #a63251;
     }
     h5 {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
+        letter-spacing: 1px;
+        font-family: 'Poppins';
     }
     a {
         grid-column: 2/3;
@@ -580,6 +582,7 @@ grid-template-rows: 1fr;
         margin-bottom: 30px;
         font-size: 12px;
         text-align: center;
+        font-family: 'Poppins';
     }
 
     .deskfootlogo {
@@ -605,7 +608,7 @@ grid-template-rows: 1fr;
         
         
         p{
-            line-height: 40px;   
+            line-height: 40px; 
         }
     }
 }
