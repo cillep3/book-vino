@@ -153,14 +153,16 @@ p{
     grid-template-rows: 0.5fr 1fr 1fr;
     color: white;
 
-    h5 {
+    #deskLeft{
         grid-column: 1/2;
         grid-row: 1/-1;
         justify-self: center;
         align-self: center;
         font-size: 20px;
         font-weight: 400;
+        line-height: 40px;
     }
+
     h6 {
         grid-column: 2/3;
         grid-row: 3/4;
@@ -169,21 +171,36 @@ p{
         font-size: 12px;
         text-align: center;
     }
+
     .deskfootlogo {
         grid-column: 2/3;
         grid-row: 2/3;
         margin: auto;
     }
+
     .desksocial {
         grid-column: 2/3;
         grid-row: 3/4;
         margin: auto;
         margin-bottom: calc(1.2em + 1.2vw);
         font-size: 40px;
+        justify-self: right;
+        align-self: center;
     }
-    #deskcontact {
+
+    #deskContact {
         grid-column: 3/4;
         grid-row: 1/-1;
         margin: auto;
+        
+        p{
+            line-height: 40px;
+            
+        }
+
+        
+
+      
     }
+
 }
