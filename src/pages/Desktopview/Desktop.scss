@@ -127,10 +127,8 @@
     }
 
     // custom styling of all sections 
-    .firstSectionDesk, .sectionTwoDesk, .sectionTreeDesk, .sectionFourDesk, #singlewineryContactForm{
-        padding:0px 25px;
-        margin-top:50px;
-        margin:0px 50px;
+    .firstSectionDesk, .sectionTwoDesk, .sectionTreeDesk, .sectionFourDesk, #singlewineryContactForm, #bookButtonDesk{
+        margin:25px 50px 0px 50px;
 
         h2{
             font-size: 30px;
@@ -449,7 +447,7 @@
 
     .singlewineDesk{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto; // 8 rows in total
+        grid-template-rows: auto auto auto auto auto auto auto; // 7 rows in total
 
         #singlewineryContactForm{
             display:none;
@@ -459,8 +457,6 @@
             display:block;
             grid-column: 1/-1;
             grid-row:4/5;
-            margin:50px 25px 0px 25px;
-            width:95%;
         }
 
         // removes default styling on link
@@ -482,7 +478,7 @@
         }
     
         #kortPages{
-            grid-row: 8/9;
+            grid-row: 7/8;
         }
 
     }
