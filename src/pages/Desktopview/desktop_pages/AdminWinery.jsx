@@ -58,7 +58,7 @@ const AdminWinery = () => {
 
 
 return (
-    <div>
+    <div id="adminContainer">
         <h1>Ret eller slet et winery</h1>
         {/* ---------- Data er klar og map'es ud */}
         {

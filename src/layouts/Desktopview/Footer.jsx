@@ -24,6 +24,7 @@ const Footer = () => {
             <div className="deskfootlogo"><Link to="/"><img src={Register.images[8].src} /></Link></div>
             <div className="desksocial"><FaFacebookSquare /><FaInstagramSquare /><FaYoutubeSquare /></div>
             <h6>Copyright © bookvino.com 2020 All Rights Reserved<br></br>CVR: 37992240</h6>
+            <Link to="/adminWinery"><h4>BookVino Admin</h4></Link>
 
             <div id = "deskContact">
 
