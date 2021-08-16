@@ -186,88 +186,116 @@
         }
     ],
     "_COMMENT_4": "*** SLIDER ***",
-    "corte_archi":[
+    "corte_archi": [
         {
-            "src":"assets/img/aorte-archi-slider1.png"
+            "src": "assets/img/aorte-archi-slider1.png"
         },
         {
-            "src":"assets/img/aorte-archi-slider2.png"
+            "src": "assets/img/aorte-archi-slider2.png"
         },
         {
-            "src":"assets/img/aorte-archi-slider3.png"
+            "src": "assets/img/aorte-archi-slider3.png"
         },
         {
-            "src":"assets/img/aorte-archi-slider4.png"
+            "src": "assets/img/aorte-archi-slider4.png"
         }
     ],
-    "bel_amino":[
+    "bel_amino": [
         {
-            "src":"assets/img/bel-amino-slider1.png"
+            "src": "assets/img/bel-amino-slider1.png"
         },
         {
-            "src":"assets/img/bel-amino-slider2.png"
+            "src": "assets/img/bel-amino-slider2.png"
         },
         {
-            "src":"assets/img/bel-amino-slider3.png"
+            "src": "assets/img/bel-amino-slider3.png"
         },
         {
-            "src":"assets/img/bel-amino-slider4.png"
+            "src": "assets/img/bel-amino-slider4.png"
         }
     ],
-    "marchesini_marcello":[
+    "marchesini_marcello": [
         {
-            "src":"assets/img/marchesini-marcello-slider-1.png"
+            "src": "assets/img/marchesini-marcello-slider-1.png"
         },
         {
-            "src":"assets/img/marchesini-marcello-slider-2.png"
+            "src": "assets/img/marchesini-marcello-slider-2.png"
         },
         {
-            "src":"assets/img/marchesini-marcello-slider3.png"
+            "src": "assets/img/marchesini-marcello-slider3.png"
         },
         {
-            "src":"assets/img/marchesini-marcello-slider-4.png"
+            "src": "assets/img/marchesini-marcello-slider-4.png"
         }
     ],
-    "reggio":[
+    "marchesini_marcello_desk": [
         {
-            "src":"assets/img/reggio-slider1.png"
+            "src": "assets/img/marchesini-marcello-slider-1-desktop.jpg"
         },
         {
-            "src":"assets/img/reggio-slider2.png"
+            "src": "assets/img/marchesini-marcello-slider-2-desktop.jpg"
         },
         {
-            "src":"assets/img/reggio-slider3.png"
+            "src": "assets/img/marchesini-marcello-slider-3-desktop.jpg"
         },
         {
-            "src":"assets/img/reggio-slider4.png"
+            "src": "assets/img/marchesini-marcello-slider-4-desktop.jpg"
         }
     ],
-    "sol_de_montalto":[
+    "reggio": [
         {
-            "src":"assets/img/sol-de-montalto-slider1.png"
+            "src": "assets/img/reggio-slider1.png"
         },
         {
-            "src":"assets/img/sol-de-montalto-slider2.png"
+            "src": "assets/img/reggio-slider2.png"
         },
         {
-            "src":"assets/img/sol-de-montalto-slider3.png"
+            "src": "assets/img/reggio-slider3.png"
         },
         {
-            "src":"assets/img/sol-de-montalto-slider4.png"
+            "src": "assets/img/reggio-slider4.png"
         }
     ],
-    "le_marognole":[
+    "reggio_desk": [
         {
-            "src":"assets/img/le-marognole-slider1.png"
+            "src": "assets/img/reggio-slider1-desktop.jpg"
         },
         {
-            "src":"assets/img/le-marognole-slider2.png"
+            "src": "assets/img/reggio-slider2-desktop.jpg"
         },
         {
-            "src":"assets/img/le-marognole-slider3.png"
+            "src": "assets/img/reggio-slider3-desktop.jpg"
         },
         {
-            "src":"assets/img/le-marognole-slider4.png"
+            "src": "assets/img/reggio-slider4-desktop.jpg"
+        }
+    ],
+    "sol_de_montalto": [
+        {
+            "src": "assets/img/sol-de-montalto-slider1.png"
+        },
+        {
+            "src": "assets/img/sol-de-montalto-slider2.png"
+        },
+        {
+            "src": "assets/img/sol-de-montalto-slider3.png"
+        },
+        {
+            "src": "assets/img/sol-de-montalto-slider4.png"
+        }
+    ],
+    "le_marognole": [
+        {
+            "src": "assets/img/le-marognole-slider1.png"
+        },
+        {
+            "src": "assets/img/le-marognole-slider2.png"
+        },
+        {
+            "src": "assets/img/le-marognole-slider3.png"
+        },
+        {
+            "src": "assets/img/le-marognole-slider4.png"
         }
     ]
 }

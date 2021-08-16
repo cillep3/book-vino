@@ -49,12 +49,12 @@ const Marchesini_Marcello = (props) => {
         <div className="singlewineDesk">
 
             {/* Vi kalder på slideren og overfører den respektive sides data til props. I dette tilfælde har vi kaldt data = sliderdata, som rummer 'marchesini_marcello'-data fra vores register.json. Sliderdata bliver kaldt på i slideren */}
-            <Slider sliderdata={Register.marchesini_marcello} className="topimg" /> 
+            <Slider sliderdata={Register.marchesini_marcello_desk} className="topimg" />
 
             <div className="singlewineHeadlineDesk">
                 <h1>Marchesini Marcello</h1>
                 <img src={Register.winery[0].stars} className="starimg" alt="" />
-            </div> 
+            </div>
 
             <div className="firstSectionDesk">
                 <h2>Our Wine Tasting</h2>
