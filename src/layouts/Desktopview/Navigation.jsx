@@ -28,7 +28,7 @@ const Navigation = () => {
                     </li>
 
                     <li className="nav-item-winery">
-                        <Link to='/winery' style={{ textDecoration: "none" }} className="nav-links">
+                        <Link to='/allWinerys' style={{ textDecoration: "none" }} className="nav-links">
                             WINERIES
                         </Link>
                     </li>
