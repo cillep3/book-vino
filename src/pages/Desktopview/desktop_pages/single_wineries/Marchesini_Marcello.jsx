@@ -6,6 +6,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 import { BsClock } from 'react-icons/bs';
+import {Link} from 'react-router-dom'
 import Slider from '../../../../components/Slider';
 import Booking from '../../../../layouts/SinglewineryBooking';
 
@@ -62,8 +63,9 @@ const Marchesini_Marcello = (props) => {
             </div>
 
             <div id="singlewineryContactForm">
-                <Booking />
+                <Booking id="bookingFormDesk"/>
             </div>
+            <Link to="/booking" ><button id="bookButtonDesk">BOOK NOW</button></Link>
 
             <div className="sectionTwoDesk">
                 <h2>About Marchesini Marcello</h2>

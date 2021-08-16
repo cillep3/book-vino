@@ -97,8 +97,7 @@
 .singlewineDesk{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-gap:25px;
+    grid-template-rows: auto auto auto auto auto;
 
     .slideshow-container{
         grid-column: 1/-1;
@@ -129,18 +128,49 @@
     // custom styling of all sections 
     .firstSectionDesk, .sectionTwoDesk, .sectionTreeDesk, .sectionFourDesk, #singlewineryContactForm{
         padding:0px 25px;
+        margin-top:50px;
+    }
+
+    // custom styling of text in specific sections
+    .firstSectionDesk, .sectionTwoDesk{
+        p{
+            padding:20px 0px;
+        }
+    }
+
+    .sectionTreeDesk, .sectionFourDesk{
+        p:first-of-type{
+            padding-top:20px;
+        }
     }
 
     .firstSectionDesk{
         grid-column: 1/2;
         grid-row: 3/4;
+
+        h2{
+            font-size: 30px;
+            margin-top: 30px;
+        }
+
+        h3{
+            color:#a63251;
+            font-size: 30px;
+            padding-top:25px;
+        }
     }
 
     #singlewineryContactForm{
         grid-column: 2/3;
         grid-row:3/6;
-    }
 
+    }
+    
+    #bookButtonDesk{
+        display:none;
+        background-color: #f2a344;
+    }
+    
     .sectionTwoDesk{
         grid-column: 1/2;
         grid-row: 4/5;
@@ -152,13 +182,14 @@
     }
 
     .sectionFourDesk{
-        grid-column: 1/2;
-        grid-row: 6/7;
+        grid-column: 2/3;
+        grid-row: 5/6;
     }
 
     #kortPages{
         grid-column: 1/-1;
-        grid-row: 7/8;
+        grid-row: 6/7;
+        margin-top:50px;
     }
 }
 
@@ -168,9 +199,10 @@
     background-color:#a63251;
     color:white;
     padding:50px;
+    margin-top:30px;
     
     display:grid;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
     grid-template-rows: auto auto;
 
     h1{
@@ -205,7 +237,7 @@
             color:white;
             text-transform: uppercase;
             cursor: pointer;
-            margin-top:25px;
+            margin:25px 0px;
         }
     }
 
@@ -385,7 +417,7 @@
     }
 }
 
-
+// iPad view 
 @media screen and (max-width:900px){
     #allwineriesContainer{
         grid-template-columns: 1fr;
@@ -406,6 +438,46 @@
             grid-column: 1/-1;
             grid-row:3/4;
             padding:0px;
+        }
+
+    }
+
+    .singlewineDesk{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto; // 8 rows in total
+
+        #singlewineryContactForm{
+            display:none;
+        }
+
+        #bookButtonDesk{
+            display:block;
+            grid-column: 1/-1;
+            grid-row:4/5;
+            margin:0px 25px;
+            width:95%;
+        }
+
+        // removes default styling on link
+        a:link {
+            text-decoration: none;
+        }
+
+        .sectionTwoDesk{
+            grid-row: 5/6;
+        }
+    
+        .sectionTreeDesk{
+            grid-row: 6/7;
+        }
+    
+        .sectionFourDesk{
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+    
+        #kortPages{
+            grid-row: 8/9;
         }
 
     }
