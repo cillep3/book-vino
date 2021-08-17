@@ -722,16 +722,36 @@
         }
     
     
-    #aboutBookingprocessDesk{
-        margin: 0 70px 0 70px;
-        grid-column: 1/-1;
-        grid-row: 7/8;
-    
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto;
+        #aboutBookingprocessDesk{
+            margin: 0 70px 0 70px;
+            grid-column: 1/-1;
+            grid-row: 7/8;
+        
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
+        }         
     }
-
-}
     
+    #allwineriesContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+
+        #kortContainer{
+            grid-column: 1/-1;
+            grid-row:1/2;
+            padding:0px;
+        }
+
+        #allWineriesHeadline{
+            grid-column: 1/-1;
+            grid-row:2/3;
+        }
+
+        #listeallwineries{
+            grid-column: 1/-1;
+            grid-row: 3/4;
+            padding:25px;
+        }
+    }
 }
