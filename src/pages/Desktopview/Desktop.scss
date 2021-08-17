@@ -368,10 +368,11 @@
 // === END ABOUT PAGE ======
 
 
+// Create 
 #createContainerDesk {
     width:100%;
     height:auto;
-    background-color: #a63251;
+    background-color: #6b2135;
     color: white;
     display: grid;
 
@@ -389,7 +390,6 @@
     }
     #createFormDesk{
         width:50%;
-        text-align: center;
         justify-self: center;
         align-self: center;
 
@@ -588,17 +588,27 @@ grid-template-rows: 1fr;
         color: #a63251;
     }
     h5 {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
+        letter-spacing: 1px;
+        font-family: 'Poppins';
     }
-
+    a {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: auto;
+        color: white;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
     h6 {
         grid-column: 2/3;
         grid-row: 3/4;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 12px;
         text-align: center;
+        font-family: 'Poppins';
     }
 
     .deskfootlogo {
@@ -624,7 +634,7 @@ grid-template-rows: 1fr;
         
         
         p{
-            line-height: 40px;   
+            line-height: 40px; 
         }
     }
 }
