@@ -1,10 +1,8 @@
 // Import of index-component
-import Index from "./pages/Index"
+import Index from "./pages/Index";
 
 function App() {
-  return (
-    <Index />
-  );
+  return <Index />;
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import Register from "../../../helpers/register.json";
 import React from "react";
-import '../../Mobileview/Mobile.scss'
-import {Link} from 'react-router-dom';
+import "../../Mobileview/Mobile.scss";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -21,21 +21,26 @@ const About = () => {
       </h4>
       <h1>Booking Process</h1>
       <div className="yellowcircle">
-      <img src={Register.images[1].src} />
+        <img src={Register.images[1].src} />
       </div>
       <h2>Go to webpage</h2>
       <p>Go to our webpage and find the winerie you want to visit.</p>
       <div className="yellowcircle">
-      <img src={Register.images[2].src} />
+        <img src={Register.images[2].src} />
       </div>
       <h2>Book wine tasting</h2>
       <p>Book your tasting directly through the wineries</p>
       <div className="yellowcircle">
-      <img src={Register.images[3].src} />
+        <img src={Register.images[3].src} />
       </div>
       <h2>Enjoy your tasting</h2>
-      <p>Now you receive your booking details in your mailboks. Enjoy your tasting!!</p>
-      <Link to="/allwinerys"><button>SEE WINERIE LIST</button></Link>
+      <p>
+        Now you receive your booking details in your mailboks. Enjoy your
+        tasting!!
+      </p>
+      <Link to="/allwinerys">
+        <button>SEE WINERIE LIST</button>
+      </Link>
     </div>
   );
 };
