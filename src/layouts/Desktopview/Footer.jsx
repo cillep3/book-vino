@@ -35,11 +35,11 @@ const Footer = () => {
 
             <div id="deskContact">
 
-                <p><FaEnvelope fontSize="25px" /> ck@bookvino.com</p>
+                <a href="mailto:ck@bookvino.com"><p><FaEnvelope fontSize="25px" /> ck@bookvino.com</p></a>
 
                 <p><FaMapMarkerAlt fontSize="25px" /> Engdalen 28, 8500 Grenaa</p>
 
-                <p><FaMobileAlt fontSize="25px" /> +45 29875722</p>
+                <a href="tel:+4529875722"><p><FaMobileAlt fontSize="25px" /> +45 29875722</p></a>
 
             </div>
 

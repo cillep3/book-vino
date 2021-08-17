@@ -18,16 +18,16 @@ const Footer = () => {
         <div className="footer">
             <div className="footlogo"><img src={Register.images[8].src} /></div>
             <div id="contact">
-                <div className="iconfa"><FaEnvelope /></div>
-                <p>ck@bookvino.com</p>
+                <a href="mailto:ck@bookvino.com"><div className="iconfa"><FaEnvelope /></div>
+                <p>ck@bookvino.com</p></a>
             </div>
             <div id="contact">
-                <div className="iconfa"><FaMapMarkerAlt /></div>
-                <p>Engdalen 28, 8500 Grenaa</p>
+                <a><div className="iconfa"><FaMapMarkerAlt /></div>
+                <p>Engdalen 28, 8500 Grenaa</p></a>
             </div>
             <div id="contact">
-                <div className="iconfa"><FaMobileAlt /></div>
-                <p>+45 29875722</p>
+                <a href="tel:+4529875722"><div className="iconfa"><FaMobileAlt /></div>
+                <p>+45 29875722</p></a>
             </div>
             <Link to="/booking"><button>BOOK NOW</button></Link>
             <Link to="/faq"><h5>FAQ</h5></Link>

@@ -590,14 +590,6 @@
         letter-spacing: 1px;
         font-family: 'Poppins';
     }
-    a {
-        grid-column: 2/3;
-        grid-row: 3/4;
-        margin: auto;
-        color: white;
-        margin-bottom: 10px;
-        font-size: 10px;
-    }
     h6 {
         grid-column: 2/3;
         grid-row: 3/4;
@@ -632,9 +624,10 @@
     .admin_link{
         grid-column: 2/3;
         grid-row: 5/6;
-
+        
         h4{
             font-size: 15px;
+            color: white;  
             text-align: center;
             margin-bottom: 20px;
         }
