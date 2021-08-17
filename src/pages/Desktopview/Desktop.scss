@@ -278,25 +278,41 @@
         align-self: center;
         text-align: center;
         color:#a63251;
-        font-size: 45px;
+        font-size: 50px;
         padding:50px;
     }
+
 
     #aboutOwnersDesk{
         grid-column: 1/2;
         grid-row:3/4;
-        width:100%;
-        object-fit: cover;
-        padding:0px 0px 0px 50px;
+        width:70%;
+    border-radius: 50%;
+        margin-left: 150px;
     }
+   
+
+    .big_text{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        
+        
+        
+        h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-right: 150px;
+        }
 
     #aboutAboutDesk{
         grid-column: 2/3;
         grid-row: 3/4;
-        padding:0px 50px 0px 0px;
+        margin-right: 150px;
     }
+}
 
     #aboutBookingprocessDesk{
+        margin: 0 70px 0 70px;
         grid-column: 1/-1;
         grid-row: 4/5;
 
@@ -312,7 +328,13 @@
             text-align: center;
             color:#a63251;
             font-size: 45px;
-            padding:50px;
+            padding-top:70px;
+            
+
+            p{
+                font-size: 25px;
+                color: #1e1e1e;
+            }
         }
 
         #aboutBookingOption1Desk{
@@ -338,10 +360,14 @@
         #aboutBookingButtonDesk{
             grid-column:2/3;
             grid-row: 3/4;
-            margin: 25px 0px;
+            margin: 25px 25px 100px 0px;
         }
     }
 }
+
+// === END ABOUT PAGE ======
+
+
 #createContainerDesk {
     width:100%;
     height:auto;
