@@ -38,7 +38,7 @@ const Login = () => {
     return (
         <ThemeProvider theme={theme}>
             <div id="loginContainer">
-                <h1 id="loginHeadline">Admin</h1>
+                <h1 id="loginHeadline">Login page</h1>
                 {/* <img id="loginLogo" src={Register.images[8].src} /> */}
                 <div id="loginInputs">
                     <div id="email" onChange={(e) => validateEmail(e)}><Form label="info@info.com" variant="outlined" color="primary" display="block" margin="dense"/></div>
