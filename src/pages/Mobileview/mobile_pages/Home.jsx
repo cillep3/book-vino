@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../Mobileview/Mobile.scss";
+import logo from "../../../assets/logo-mork.png";
+
 
 // import of components
 import Liste from "../../../components/Listelement";
@@ -12,6 +14,8 @@ const Home = () => {
       <div id="home">
         <div id="hero_box">
           <img id="home_hero" src={Register.images[4].src} alt="" />
+          <img className='logo' src={logo}></img>
+
           <h1>Wine tasting around the world</h1>
         </div>
 
