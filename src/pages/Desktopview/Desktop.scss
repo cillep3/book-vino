@@ -604,6 +604,10 @@
         grid-column: 2/3;
         grid-row: 2/3;
         margin: auto;
+        transition: all .5s ease-in-out;
+    }
+    .deskfootlogo:hover {
+        transform: rotate(10deg)
     }
  
     .desksocial {
